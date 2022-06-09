@@ -4,7 +4,7 @@ const HomeHeader = () => {
   return (
     <>
       <section>
-        <div className="header">
+        <div className="header container">
           <h2>Myanfobase</h2>
         </div>
       </section>
