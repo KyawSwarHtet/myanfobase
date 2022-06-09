@@ -42,7 +42,7 @@ body {
   text-transform: uppercase;
 }
 section {
-  padding: 3rem 0;
+  padding: 3rem 0 0 0;
 }
 section.nav-section {
   padding: 0rem !important;

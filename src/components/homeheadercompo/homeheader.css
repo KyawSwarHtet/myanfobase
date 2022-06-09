@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Bowlby+One&family=Ultra&display=swap");
+.header {
+  background-color: rgb(209, 213, 212);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.header-nav {
+  display: flex;
+}
+.header-nav li {
+  padding-left: 2rem;
+}
+.li-menu {
+  display: flex;
+}
+.li-menu p {
+  padding-left: 0.5rem;
+}
+.lang-logo {
+  width: 10%;
+}
+.lang-log {
+  display: flex;
+  margin-left: 40rem;
+}
+.sec-lang-log {
+  display: flex;
+}
+.sec-lang-log p {
+  margin-left: 0.5rem;
+}
+.home-banner {
+  background: url(/public/images/homeimgs/bagan1.jpg);
+  height: 40rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right center;
+}
+.home-banner-detail {
+  text-align: center;
+}
+.home-banner-detail h1 {
+  color: white;
+  font-family: "Bowlby One";
+  font-size: 70px;
+}
+.home-banner-detail h3 {
+  color: #6b3451;
+  font-family: "Bowlby One";
+  font-weight: 300;
+  margin-top: 1rem;
+}
+#searchinput {
+  margin-top: 1.5rem;
+  padding: 0.6rem 30rem 0.6rem 2rem;
+  border-radius: 50px;
+}
+.search-banner {
+  display: grid;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 1rem;
+}
+.search-button {
+  position: absolute;
+  margin-left: 45rem;
+  margin-top: 1.8rem;
+  font-size: 1.3rem;
+  background-color: transparent;
+}
+.banner-botton {
+  margin-top: 13rem;
+}
+.banner-botton h2 {
+  font-size: 2rem;
+  color: white;
+  font-family: "Ultra";
+  font-weight: 250;
+  margin-left: 64%;
+}
+.banner-botton p {
+  text-align: left;
+  margin-left: 65rem;
+  width: 30%;
+  color: white;
+}
+.header-bottom-line {
+  display: block;
+  margin-top: 1rem;
+  width: 100%;
+  border-top: black 3px solid;
+}
+/* .categories {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 1rem;
+  border-top: 2px solid black;
+}
+.total-cat {
+  display: flex;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  border-bottom: 2px solid #f18510;
+}
+.total-cat h5 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-size: 1rem;
+}
+.cat-arrow-btn {
+  background-color: transparent;
+  font-size: 2rem;
+  margin-top: -0.2rem;
+} */
+.popular-header {
+  display: grid;
+  grid-template-columns: 15% 85%;
+}
+.popular-title {
+  margin-left: 3rem;
+}
+.popular-now-line {
+  display: block;
+  width: 10rem;
+  border-top: #f18510 3px solid;
+}
+.popular-p {
+  display: flex;
+  margin-left: 20rem;
+}
+.popular-p p {
+  background-color: rgb(235, 234, 232);
+
+  padding: 5px 10px 0px 10px;
+}
+.popular-arrow {
+  margin-left: 6rem;
+}
+.popular-arrow-btn {
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+}
+.popular-body {
+  margin-top: 2rem;
+}
+.popular-bignew {
+  background: url(/public/images/homeimgs/Wear-Mask-2.jpg);
+  background-repeat: no-repeat;
+  height: 30rem;
+  padding-left: 2rem;
+  padding-top: 21rem;
+  margin-left: 2rem;
+  margin-right: 0.5rem;
+}
+.popular-bignew p {
+  color: aliceblue;
+  width: 50%;
+}
+.popular-health {
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  padding: 0.3rem;
+}
+.popular-secnew {
+  background: url(/public/images/homeimgs/popularland.jpg);
+  background-repeat: no-repeat;
+  height: 20rem;
+  margin-right: 2rem;
+  background-size: cover;
+  padding-top: 15rem;
+  padding-left: 2rem;
+}
+.popular-secnew p {
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  font-family: "Ultra";
+}
+.popular-thirdnew {
+  background: url(/public/images/homeimgs/fashion.jpg);
+  background-repeat: no-repeat;
+  height: 10rem;
+  margin-right: 0.5rem;
+  background-size: cover;
+  padding-top: 7rem;
+  padding-left: 1rem;
+}
+.popular-thirdnew p {
+  color: black;
+  font-size: 0.8rem;
+  font-family: "Ultra";
+}
+.popular-fouthnew {
+  background: url(/public/images/homeimgs/bg2.jpg);
+  background-repeat: no-repeat;
+  height: 10rem;
+  width: 100%;
+  background-size: cover;
+  padding-top: 7rem;
+  padding-left: 1rem;
+}
+.popular-fouthnew p {
+  color: white;
+  font-size: 0.8rem;
+  font-family: "Ultra";
+}
+.first-grid {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+.sec-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-right: 2rem;
+}
