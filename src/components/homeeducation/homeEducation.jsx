@@ -1,12 +1,21 @@
 import React from "react";
+import AdvertiseEducation from "./AdvertiseEducation";
 
-export default function homeEducation() {
+import "./homeeducation.css";
+
+import TrainingClass from "./trainingClass";
+
+export default function HomeEducation() {
   return (
-    <div>
-      <section id="homeeducation" className="container edusection">
+    <section>
+      <div className="container titleEducation">
         <h2>Technology Tranning Class</h2>
         <span className="headerline"></span>
-      </section>
-    </div>
+      </div>
+      <div id="homeeducation" className="container edusection">
+        <TrainingClass />
+        <AdvertiseEducation />
+      </div>
+    </section>
   );
 }

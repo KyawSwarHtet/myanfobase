@@ -15,12 +15,12 @@
   --favoriate-fill: #fa2b04;
   --trasition: all 0.3s ease-in-out;
   --card-fill: #088178;
-  --card-background: #ebe5f4;
+  --card-background: #0d0714;
   --color-black: #000;
   --color-white: #fff;
   --nav-color: #e5caf7;
 
-  --container-width-lg: 100%;
+  --container-width-lg: 94%;
   --container-width-md: 90%;
   --container-width-sm: 96%;
 }
@@ -63,6 +63,9 @@ h3 {
 }
 h4 {
   font-size: 1.3rem;
+}
+h5 {
+  font-size: 0.9rem;
 }
 .second-text {
   font-family: "Open Sans", sans-serif;

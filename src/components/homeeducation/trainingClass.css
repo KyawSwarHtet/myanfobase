@@ -1,0 +1,47 @@
+img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+/* .container {
+  width: var(--container-width-lg);
+  margin: 0 auto;
+} */
+
+.classTop {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+.classTop .classimg {
+  width: 100%;
+  height: 270px;
+  /* margin: auto; */
+
+  transition: all 1s;
+}
+.classTop .authTitle {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.classTop .authimg {
+  width: 25px;
+  height: 25px;
+}
+.classTop .authorimg {
+  border-radius: 50%;
+}
+.authTitle span {
+  font-size: 13px;
+  margin-left: 1rem;
+}
+
+.authTitle .authorname {
+  color: rgb(231, 25, 25);
+}
+
+article p::first-letter {
+  font-size: 22px;
+}
