@@ -80,6 +80,7 @@ export default function Homelifestyle() {
                   the readable content of a page when looking at its layout. The
                   point of using Lorem Ipsum is that it has a more
                 </p>
+                <h2>hgtfrgfdrdrgtg</h2>
               </div>
             </div>
           </div>
