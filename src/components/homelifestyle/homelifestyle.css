@@ -1,0 +1,217 @@
+.lifestyles h1 {
+  font-size: 15px;
+  border-bottom: #f18510 3px solid;
+
+  margin-right: 25rem;
+  margin-left: 2rem;
+}
+
+.lifestyles {
+  width: 100%;
+}
+
+.photo-ex1 {
+  width: 90%;
+  position: relative;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+.life-exbtn {
+  position: absolute;
+  left: 3rem;
+  top: 28rem;
+  background-color: black;
+  color: white;
+  padding: 0.1rem 0.3rem;
+}
+
+.paragraph h1 {
+  font-size: 1rem;
+  width: 90%;
+  margin-left: 2rem;
+}
+
+.paragraph h4 {
+  font-size: 13px;
+  margin-left: 2rem;
+}
+
+.paragraph p {
+  font-size: 10px;
+  width: 85%;
+  margin-left: 2rem;
+}
+
+#lifestyles-New {
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+.sunset-photo {
+  width: 95%;
+  margin-top: 2.6rem;
+}
+
+.honey-paragraph h1 {
+  font-size: 15px;
+  margin-top: 2.6rem;
+  margin-left: 0rem;
+}
+
+.honey-paragraph p {
+  font-size: 10px;
+  width: 80%;
+  margin-left: 0rem;
+}
+
+.food-photo {
+  width: 95%;
+  margin-top: 10px;
+}
+
+.food-paragraph h1 {
+  font-size: 15px;
+  margin-left: 0rem;
+  margin-top: 10px;
+}
+
+.food-paragraph p {
+  font-size: 10px;
+  width: 80%;
+}
+
+.camera-photo {
+  width: 95%;
+  margin-top: 10px;
+}
+
+.camera-paragraph h1 {
+  font-size: 15px;
+
+  margin-top: 10px;
+}
+
+.camera-paragraph p {
+  font-size: 10px;
+  width: 80%;
+}
+
+.beauty-photo {
+  width: 95%;
+  height: 150px;
+  margin-top: 1rem;
+}
+
+.sponsered-1 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.phone-photo {
+  width: 95%;
+  margin-top: 1rem;
+  height: 130px;
+}
+
+.foodies-photo {
+  width: 95%;
+  margin-top: 1rem;
+}
+
+.sponsered-2 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.sponsered-3 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.thaw-1 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.honey-1 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.honey-2 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.honey-3 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.content h1 {
+  font-size: 15px;
+  border-bottom: #f18510 3px solid;
+  margin-top: 2rem;
+  margin-right: 20rem;
+  margin-left: 0rem;
+}
+
+.sponsered-1 p {
+  font-size: 1rem;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}
+.sponsered-2 p {
+  margin-top: 1rem;
+}
+
+.sponsered-3 p {
+  margin-top: 1rem;
+}
+
+.sponsered-1 h6 {
+  margin-top: 3rem;
+  margin-left: 0rem;
+  font-size: 0.8rem;
+  color: red;
+}
+
+#icon-1 {
+  color: black;
+}
+
+.sponsered-2 h6 {
+  margin-top: 2rem;
+  margin-left: 0.6rem;
+  font-size: 0.8rem;
+  color: red;
+}
+
+#icon-2 {
+  color: black;
+}
+
+.sponsered-3 h6 {
+  margin-top: 3rem;
+  margin-left: 0.4rem;
+  font-size: 0.8rem;
+  color: red;
+}
+
+#icon-3 {
+  color: black;
+}
+
+.sponsered-2 h3 {
+  margin-top: -1.5rem;
+  margin-left: 8rem;
+  font-size: 0.8rem;
+  color: black;
+}
+
+.sponsered-3 h3 {
+  margin-top: -1.5rem;
+  margin-left: 8rem;
+  font-size: 0.8rem;
+  color: black;
+}
