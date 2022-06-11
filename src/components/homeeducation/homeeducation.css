@@ -1,3 +1,6 @@
+.educationHOme {
+  max-width: 98%;
+}
 .edusection {
   display: grid;
   grid-template-columns: 70% 30%;
