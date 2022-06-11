@@ -4,7 +4,7 @@ import "./advertiseeducation.css";
 export default function AdvertiseEducation() {
   return (
     <div className="Advwrapper">
-      <div className="advtitle">
+      <div className="advertisetitle">
         <h3>You Can Advertise Here!</h3>
         <span className="headerline"></span>
       </div>
