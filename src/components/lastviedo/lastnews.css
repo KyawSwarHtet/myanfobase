@@ -1,0 +1,148 @@
+.NewsSec {
+  width: 100%;
+}
+.lastnew {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: warp;
+  align-items: center;
+  /* display: flex;
+  justify-content: space-between; */
+}
+
+span.headerline {
+  display: block;
+  width: 200px;
+  height: 4px;
+  background-color: #f18510;
+  margin-bottom: 1rem;
+}
+.newspart {
+  width: 100%;
+}
+.news {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  padding: auto;
+  margin: 2rem 0;
+}
+.postbuttom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.postman {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+}
+.profileName {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0 25px 0 10px;
+}
+.postman img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.profileDate {
+  font-size: 12px;
+}
+.news_info {
+  width: 70%;
+}
+.news_img img {
+  width: 220px;
+  height: 150px;
+  border-radius: 10px;
+  position: relative;
+}
+/* .news_img p {
+  top: 35%;
+  left: 44%;
+} */
+.entertainment {
+  background: #d1a2e9;
+  margin-top: -45px;
+  margin-left: -25px;
+  color: white;
+  position: absolute;
+}
+.science {
+  background: #5d66a0;
+  position: absolute;
+  padding: 0 22px;
+  margin-top: -45px;
+  margin-left: -25px;
+  color: white;
+}
+.Newsdiv {
+  background: #2ea397;
+  position: absolute;
+  padding: 0 27px;
+  margin-top: -45px;
+  margin-left: -25px;
+  color: white;
+}
+.Technology {
+  background: #c07d5d;
+  position: absolute;
+  padding: 0 8px;
+  margin-top: -45px;
+  margin-left: -25px;
+  color: white;
+}
+.todaylist {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  gap: 1em;
+  align-items: center;
+}
+.CurrencyExchange {
+  border: 2px solid #090e6a;
+  background-color: #e0edfd;
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3em;
+  text-align: center;
+  border-radius: 20px;
+}
+.today {
+  font-size: 12px;
+  border: 1px solid #4f4f4f;
+  background-color: #7da2df;
+  padding: 5px 30px;
+  border-radius: 50px;
+  color: white;
+}
+.Goldprice {
+  border: 2px solid #090e6a;
+  background-color: #e0edfd;
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3em;
+  border-radius: 20px;
+}
+.FuelPrice {
+  border: 2px solid #090e6a;
+  background-color: #e0edfd;
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3em;
+  border-radius: 20px;
+}
+.btnlast {
+  margin-left: 40%;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #5d66a0;
+}

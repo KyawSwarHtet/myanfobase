@@ -1,0 +1,27 @@
+.Viedosec {
+  display: flex;
+  justify-content: space-between;
+}
+.NewViedo {
+  width: 50%;
+}
+.RecentViedo {
+  width: 40%;
+  padding: 10px 0px;
+}
+.RecentViedo h4 {
+  padding: 5px;
+  background: #ffe6cf;
+}
+.Video {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 20px 0;
+}
+.underline {
+  display: block;
+  width: 550px;
+  height: 4px;
+  background-color: #877867;
+  margin-bottom: 1rem;
+}
