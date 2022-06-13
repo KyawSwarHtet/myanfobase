@@ -11,11 +11,7 @@ export default function Home() {
       <Header />
       <HomeHeader />
       <HomeEducation />
-<<<<<<< HEAD
       <Homelifestyle />
-=======
-      <Categorieslider />
->>>>>>> master
       <Footer />
     </>
   );

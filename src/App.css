@@ -10,16 +10,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap");
 :root {
   --background-main: #fff;
-  --product-card: #ebe5f4;
-  --star-fill: #f57c0b;
-  --favoriate-fill: #fa2b04;
-  --trasition: all 0.3s ease-in-out;
-  --card-fill: #088178;
-  --card-background: #0d0714;
-  --color-black: #000;
-  --color-white: #fff;
-  --nav-color: #e5caf7;
-
+  --entertainment-bg: rgb(36, 104, 213);
+  --technology-bg: rgb(20, 218, 79);
+  --beauty-bg: rgb(223, 192, 20);
+  --history-bg: rgb(188, 11, 173);
+  --government-bg: rgb(36, 104, 213);
+  --science-bg: rgb(36, 104, 213);
+  --travel-bg: rgb(36, 104, 213);
+  --sports-bg: rgb(36, 104, 213);
+  --arts-bg: rgb(36, 104, 213);
+  --literature-bg: rgb(36, 104, 213);
+  --health-bg: rgb(36, 104, 213);
+  --lifestyle-bg: rgb(36, 104, 213);
   --container-width-lg: 94%;
   --container-width-md: 90%;
   --container-width-sm: 96%;

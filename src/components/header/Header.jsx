@@ -7,7 +7,7 @@ import "./header.css";
 export default function Header() {
   const [dropdown, setDropdown] = useState(false);
   return (
-    <>
+    <section>
       <div className="headercolor">
         <nav className="headerwrap ">
           <ul className="headerfirst">
@@ -66,6 +66,6 @@ export default function Header() {
         </nav>
       </div>
       {/* {dropdown && <Dropdown id="dropdownWrap" />} */}
-    </>
+    </section>
   );
 }
