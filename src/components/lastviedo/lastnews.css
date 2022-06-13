@@ -63,10 +63,13 @@ span.headerline {
   top: 35%;
   left: 44%;
 } */
+.news_img {
+  position: relative;
+}
 .entertainment {
   background: #d1a2e9;
-  margin-top: -45px;
-  margin-left: -25px;
+  bottom: 50px;
+  left: -20px;
   color: white;
   position: absolute;
 }
@@ -74,24 +77,24 @@ span.headerline {
   background: #5d66a0;
   position: absolute;
   padding: 0 22px;
-  margin-top: -45px;
-  margin-left: -25px;
+  bottom: 20px;
+  left: -20px;
   color: white;
 }
 .Newsdiv {
   background: #2ea397;
   position: absolute;
   padding: 0 27px;
-  margin-top: -45px;
-  margin-left: -25px;
+  bottom: 20px;
+  left: -20px;
   color: white;
 }
 .Technology {
   background: #c07d5d;
   position: absolute;
   padding: 0 8px;
-  margin-top: -45px;
-  margin-left: -25px;
+  bottom: 20px;
+  left: -20px;
   color: white;
 }
 .todaylist {
