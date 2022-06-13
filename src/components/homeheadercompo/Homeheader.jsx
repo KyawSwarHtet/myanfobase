@@ -32,7 +32,7 @@ const HomeHeader = () => {
       <span className="header-bottom-line"></span>
       <Slider />
 
-      <section className="popular-header">
+      <section className="popular-header container">
         <div className="popular-title">
           <h3>Popular Now</h3>
           <span className="popular-now-line"></span>
@@ -52,7 +52,7 @@ const HomeHeader = () => {
           </div>
         </div>
       </section>
-      <section className="popular-body">
+      <section className="popular-body container">
         <div className="first-grid">
           <div className="popular-bignew">
             <button className="popular-health">Health</button>

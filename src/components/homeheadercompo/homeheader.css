@@ -150,7 +150,7 @@
   height: 30rem;
   padding-left: 2rem;
   padding-top: 21rem;
-  margin-left: 2rem;
+
   margin-right: 0.5rem;
 }
 .popular-bignew p {
@@ -167,7 +167,7 @@
   background: url(/public/images/homeimgs/popularland.jpg);
   background-repeat: no-repeat;
   height: 20rem;
-  margin-right: 2rem;
+
   background-size: cover;
   padding-top: 15rem;
   padding-left: 2rem;
@@ -213,5 +213,4 @@
 .sec-grid {
   display: grid;
   grid-template-columns: 50% 50%;
-  margin-right: 2rem;
 }
