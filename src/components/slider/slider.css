@@ -42,11 +42,11 @@ body {
   object-fit: cover;
 } */
 
-.swiper {
+/* .swiper {
   width: 90%;
-  height: 60px;
+  height: 50px;
   margin: 0px;
-}
+} */
 /* .append-buttons {
   text-align: center;
   margin-top: 20px;
@@ -96,14 +96,26 @@ body {
   margin-right: 5%;
   border-top: #f18510 3px solid;
 }
-.swiper-button-next:after,
+/* .swiper-button-next:after,
 .swiper-button-prev:after {
   font-family: swiper-icons;
   font-size: var(--swiper-navigation-size);
   text-transform: none !important;
   letter-spacing: 0;
-
   font-variant: initial;
   line-height: 1;
-  margin-left: 2rem;
+  margin-right: 1rem;
+} */
+.main-cat {
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.cat-text {
+  width: 90%;
+  height: 50px;
+}
+.swiper-button-next .cat-text {
+  right: 0px;
+  left: auto;
 }
