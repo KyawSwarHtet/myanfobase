@@ -1,4 +1,6 @@
 import React, { useRef, useState } from "react";
+import { Link } from "react-router-dom";
+
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -12,7 +14,7 @@ import "./slider.css";
 // import required modules
 import { Pagination, Navigation } from "swiper";
 
-export default function App() {
+export default function Slider() {
   return (
     <>
       <Swiper
@@ -24,57 +26,92 @@ export default function App() {
         }}
         navigation={true}
         modules={[Pagination, Navigation]}
-        className="mySwiper"
+        className="cat-text"
       >
         <SwiperSlide>
-          <h5>Entertainment</h5>
+          <Link to="/entertainment" className="main-cat">
+            Entertainment
+          </Link>
         </SwiperSlide>
 
         <SwiperSlide>
-          <h5>Techology</h5>
+          <Link to="/entertainment" className="main-cat">
+            Techology
+          </Link>
         </SwiperSlide>
         <SwiperSlide>
-          <h5>History</h5>
+          <Link to="/entertainment" className="main-cat">
+            History
+          </Link>
         </SwiperSlide>
         <SwiperSlide>
-          <h5>Travel</h5>
+          <Link to="/entertainment" className="main-cat">
+            Travel
+          </Link>
         </SwiperSlide>
         <SwiperSlide>
-          <h5>Beauty</h5>
+          <Link to="/entertainment" className="main-cat">
+            Beauty
+          </Link>
         </SwiperSlide>
         <SwiperSlide>
-          <h5>Health</h5>
+          <Link to="/entertainment" className="main-cat">
+            Health
+          </Link>
+        </SwiperSlide>
+        <Link to="/entertainment" className="main-cat">
+          Techology
+        </Link>
+        <SwiperSlide>
+          <Link to="/entertainment" className="main-cat">
+            Government
+          </Link>
         </SwiperSlide>
         <SwiperSlide>
-          <h5>Government</h5>
+          <Link to="/entertainment" className="main-cat">
+            Techology
+          </Link>
         </SwiperSlide>
         <SwiperSlide>
-          <h5>Techology</h5>
-        </SwiperSlide>
-        <SwiperSlide>
-          <h5>Entertainment</h5>
+          <Link to="/entertainment" className="main-cat">
+            Entertainment
+          </Link>
         </SwiperSlide>
 
         <SwiperSlide>
-          <h5>Techology</h5>
+          <Link to="/entertainment" className="main-cat">
+            Techology
+          </Link>
         </SwiperSlide>
         <SwiperSlide>
-          <h5>History</h5>
+          <Link to="/entertainment" className="main-cat">
+            History
+          </Link>
         </SwiperSlide>
         <SwiperSlide>
-          <h5>Travel</h5>
+          <Link to="/entertainment" className="main-cat">
+            Travel
+          </Link>
         </SwiperSlide>
         <SwiperSlide>
-          <h5>Beauty</h5>
+          <Link to="/entertainment" className="main-cat">
+            Beauty
+          </Link>
         </SwiperSlide>
         <SwiperSlide>
-          <h5>Health</h5>
+          <Link to="/entertainment" className="main-cat">
+            Health
+          </Link>
         </SwiperSlide>
         <SwiperSlide>
-          <h5>Government</h5>
+          <Link to="/entertainment" className="main-cat">
+            Government
+          </Link>
         </SwiperSlide>
         <SwiperSlide>
-          <h5>Techology</h5>
+          <Link to="/entertainment" className="main-cat">
+            Techology
+          </Link>
         </SwiperSlide>
       </Swiper>
       <span className="swipper-bottom-line"></span>
