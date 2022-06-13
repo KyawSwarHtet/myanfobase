@@ -1,0 +1,21 @@
+.categoriessub {
+  width: 90%;
+  height: 60%;
+  color: black;
+  background-color: #387c9a;
+  /* width: fit-content; */
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+}
+.categoriessub .nav-item {
+  display: block;
+  margin-left: 3rem;
+  margin-top: 1rem;
+  padding: 0.3rem;
+  width: 40px;
+  align-self: auto;
+}
+/* element.style {
+  margin-bottom: 1.5rem;
+} */

@@ -7,81 +7,7 @@ import Popularslider from "../popularslider/Popularslider.jsx";
 const HomeHeader = () => {
   return (
     <>
-      <section className="header">
-        <div className="header-sec">
-          <ul className="header-nav">
-            <div className="logo">
-              <li>Myanfobase</li>
-            </div>
-
-            <li className="li-menu">
-              <Link to="/">
-                <i className="uil uil-home"></i>
-              </Link>
-              <p>Home</p>
-            </li>
-
-            <li className="li-menu">
-              <Link to="/search">
-                <i className="uil uil-search"></i>
-              </Link>
-              <p>Search</p>
-            </li>
-
-            <li className="li-menu">
-              <a href="#">
-                <i class="uil uil-align-justify"></i>
-              </a>
-              {/* <div className="browser-detail">
-                <ul>
-                  <li>
-                    <Link to="/entertainnment">Entertainment&Pop Culture</Link>
-                  </li>
-                  <li>
-                    <Link to="/techology">Techology</Link>
-                  </li>
-                  <li>
-                    <Link to="/history">History</Link>
-                  </li>
-                  <li>
-                    <Link to="/travel">Travel</Link>T
-                  </li>
-                  <li>
-                    <Link to="/beauty">Beauty</Link>
-                  </li>
-                  <li>
-                    <Link to="/lifestyle">Lifestyle&social issue</Link>
-                  </li>
-                  <li>
-                    <Link to="/Health">Health&Medical</Link>
-                  </li>
-                  <li>
-                    <Link to="/government">Government</Link>
-                  </li>
-                </ul>
-              </div> */}
-              <p>Browser</p>
-            </li>
-            <ul className="lang-log">
-              <li className="sec-lang-log">
-                <img
-                  className="lang-logo"
-                  src="images/homeimgs/lang.jpg"
-                  alt=""
-                />
-                <p>Langu</p>
-              </li>
-              <li className="sec-lang-log">
-                <Link to="/login">
-                  <i class="uil uil-user"></i>
-                </Link>
-                <p>Login</p>
-              </li>
-            </ul>
-          </ul>
-        </div>
-      </section>
-      <section className="home-banner">
+      <div className="home-banner">
         <div className="home-banner-detail">
           <h1>MyanfobasE</h1>
           <h3>MYANMAR INFORMATION BASE</h3>
@@ -103,7 +29,7 @@ const HomeHeader = () => {
             </p>
           </div>
         </div>
-      </section>
+      </div>
       <span className="header-bottom-line"></span>
       <Slider />
 

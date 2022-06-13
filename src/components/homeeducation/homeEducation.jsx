@@ -12,9 +12,11 @@ export default function HomeEducation() {
         <h2>Technology Tranning Class</h2>
         <span className="headerline"></span>
       </div>
-      <div id="homeeducation" className="container edusection">
-        <TrainingClass />
-        <AdvertiseEducation />
+      <div className="educationHOme">
+        <div id="homeeducation" className="container edusection">
+          <TrainingClass />
+          <AdvertiseEducation />
+        </div>
       </div>
     </section>
   );
