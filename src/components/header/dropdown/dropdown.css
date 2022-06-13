@@ -1,21 +1,28 @@
 .categoriessub {
-  width: 90%;
-  height: 60%;
+  position: absolute;
+  left: -70px;
+  width: 700px;
+  height: 250px;
   color: black;
   background-color: #387c9a;
   /* width: fit-content; */
+  justify-items: center;
   display: grid;
 
   grid-template-columns: repeat(3, 1fr);
 }
+.categoriessub.clicked {
+  display: none;
+}
 .categoriessub .nav-item {
   display: block;
-  margin-left: 3rem;
+  /* margin-left: 3rem; */
   margin-top: 1rem;
   padding: 0.3rem;
-  width: 40px;
+
   align-self: auto;
 }
-/* element.style {
-  margin-bottom: 1.5rem;
-} */
+ul .catgitems h5:hover {
+  color: red;
+  font-size: 17px;
+}

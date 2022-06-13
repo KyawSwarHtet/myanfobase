@@ -10,12 +10,14 @@ export default function Homelifestyle() {
           </div>
 
           <div className="photo-exercise">
-            <img
-              className="photo-ex1"
-              src="images/homeimgs/lifestyle.jpeg"
-              alt=""
-            />
-            <button className="life-exbtn">Exercise</button>
+            <div className="lifefirstphoto">
+              <img
+                className="photo-ex1"
+                src="images/homeimgs/lifestyle.jpeg"
+                alt=""
+              />
+              <button className="life-exbtn">Exercise</button>
+            </div>
             <div className="paragraph">
               <h1>
                 Where does it come from effective from everyday regular
