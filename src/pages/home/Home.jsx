@@ -1,3 +1,4 @@
+import Categorieslider from "../../components/categories/Categorieslider";
 import Footer from "../../components/footer/Footer";
 import Header from "../../components/header/Header";
 import HomeEducation from "../../components/homeeducation/homeEducation";
@@ -10,7 +11,11 @@ export default function Home() {
       <Header />
       <HomeHeader />
       <HomeEducation />
+<<<<<<< HEAD
       <Homelifestyle />
+=======
+      <Categorieslider />
+>>>>>>> master
       <Footer />
     </>
   );

@@ -126,23 +126,16 @@
 }
 .popular-p {
   display: flex;
-  margin-left: 20rem;
+  margin-left: 27rem;
 }
 .popular-p p {
   background-color: rgb(235, 234, 232);
 
   padding: 5px 10px 0px 10px;
 }
-.popular-arrow {
-  margin-left: 6rem;
-}
-.popular-arrow-btn {
-  margin-left: 1rem;
-  margin-top: 0.5rem;
-  font-size: 1.2rem;
-}
+
 .popular-body {
-  margin-top: 2rem;
+  margin-top: 0rem;
 }
 .popular-bignew {
   background: url(/public/images/homeimgs/Wear-Mask-2.jpg);
@@ -150,7 +143,6 @@
   height: 30rem;
   padding-left: 2rem;
   padding-top: 21rem;
-
   margin-right: 0.5rem;
 }
 .popular-bignew p {
@@ -167,7 +159,6 @@
   background: url(/public/images/homeimgs/popularland.jpg);
   background-repeat: no-repeat;
   height: 20rem;
-
   background-size: cover;
   padding-top: 15rem;
   padding-left: 2rem;

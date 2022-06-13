@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import Slider from "../slider/Slider.jsx";
 import "./homeheader.css";
 import "swiper/css/bundle";
+import Popularslider from "../popularslider/Popularslider.jsx";
 
 const HomeHeader = () => {
   return (
@@ -32,13 +33,35 @@ const HomeHeader = () => {
       <span className="header-bottom-line"></span>
       <Slider />
 
-      <section className="popular-header container">
+      {/* text slider */}
+      {/* <section className="categories">
+        <div className="total-cat">
+          <button className="cat-arrow-btn">
+            <i class="uil uil-arrow-left"></i>
+          </button>
+          <h5>Entertainment&Pop Culture</h5>
+          <h5>Techology</h5>
+          <h5>History</h5>
+          <h5>Travel</h5>
+          <h5>Beauty</h5>
+          <h5>Lifestyle&social issue</h5>
+          <h5>Health&Medical</h5>
+          <h5>Government</h5>
+
+          <button className="cat-arrow-btn">
+            <i class="uil uil-arrow-right"></i>
+          </button>
+        </div>
+      </section> */}
+
+      <section className="popular-header">
         <div className="popular-title">
           <h3>Popular Now</h3>
           <span className="popular-now-line"></span>
         </div>
         <div className="popular-p">
-          <p>
+          <Popularslider />
+          {/* <p>
             "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
             consectetur, adipisci velit..."
           </p>
@@ -49,7 +72,7 @@ const HomeHeader = () => {
             <button className="popular-arrow-btn">
               <i class="uil uil-arrow-right"></i>
             </button>
-          </div>
+          </div> */}
         </div>
       </section>
       <section className="popular-body container">
