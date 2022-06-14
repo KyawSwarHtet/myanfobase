@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Dropdown from "./dropdown/Dropdown";
+import Language from "./dropdown/Language";
 
 import "./header.css";
 
@@ -53,8 +54,9 @@ export default function Header() {
               </Link>
             </li>
             <li className="language">
-              <img src="./images/homeimgs/englang.jpg" alt="" />
-              <span>Eng</span>
+              {/* <img src="./images/homeimgs/englang.jpg" alt="" />
+              <span>Eng</span> */}
+              <Language label="choose an language" />
             </li>
             <li>
               <Link to="/signup" className="login">
