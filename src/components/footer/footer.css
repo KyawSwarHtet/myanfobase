@@ -8,13 +8,18 @@ ul li {
 .FooterDiv {
   margin: 4rem 4rem;
 }
-.footertitle {
+/* .footertitle {
   padding: 2rem 0 1.5rem 0;
+} */
+.spiderImg img {
+  width: 150px;
+  height: 150px;
 }
 
 .footerWapper {
   display: grid;
   grid-template-columns: 1.3fr 1fr 1fr 1fr;
+  padding: 2rem;
 }
 .footerWapper a {
   color: azure;
@@ -75,4 +80,9 @@ ul li {
   padding: 4px 15px;
   font-size: 20px;
   background: #95b1b8;
+}
+.CategoryInfo,
+.AboutInfo,
+.TagInfo {
+  padding-top: 2rem;
 }

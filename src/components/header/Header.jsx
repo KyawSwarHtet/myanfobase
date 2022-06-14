@@ -7,13 +7,13 @@ import "./header.css";
 export default function Header() {
   const [dropdown, setDropdown] = useState(false);
   return (
-    <section>
+    <section className="headerPadding">
       <div className="headercolor">
         <nav className="headerwrap ">
           <ul className="headerfirst">
             <li>
               <Link to="/" className="nav-logo">
-                <h5>Myanfobase</h5>
+                <img src="./images/homeimgs/logo2.png" alt="" />
               </Link>
             </li>
             <li>

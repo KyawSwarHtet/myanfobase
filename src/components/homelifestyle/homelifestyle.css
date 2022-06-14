@@ -5,44 +5,69 @@
   margin-right: 25rem;
   margin-left: 2rem;
 }
-
+.postman1 {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+}
+.profileName1 {
+  font-size: 15px;
+  font-weight: 500;
+  color: red;
+  margin: 0 25px 0 10px;
+}
+.postman1 img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
 .lifestyles {
   width: 100%;
 }
-
+.Lifeline {
+  display: block;
+  width: 180px;
+  height: 2px;
+  background-color: #f18510;
+  margin-bottom: 1rem;
+}
+.Lifeline1 {
+  display: block;
+  width: 190px;
+  height: 2px;
+  background-color: #f18510;
+  margin-bottom: 1rem;
+}
 .photo-ex1 {
   width: 90%;
-
-  margin-top: 1rem;
-  margin-left: 2rem;
+}
+.exercise-photo {
+  position: relative;
 }
 .lifefirstphoto {
   position: relative;
 }
 .life-exbtn {
   position: absolute;
-  left: 46px;
-  bottom: 25px;
+  left: 2rem;
+  bottom: 30px;
   background-color: black;
   color: white;
   padding: 0.1rem 0.3rem;
 }
 
-.paragraph h1 {
-  font-size: 1rem;
+.paragraph h2 {
+  font-size: 1.5rem;
   width: 90%;
-  margin-left: 2rem;
 }
 
 .paragraph h4 {
   font-size: 13px;
-  margin-left: 2rem;
 }
 
 .paragraph p {
-  font-size: 10px;
+  font-size: 12px;
   width: 85%;
-  margin-left: 2rem;
 }
 
 #lifestyles-New {
@@ -52,50 +77,48 @@
 
 .sunset-photo {
   width: 95%;
-  margin-top: 2.6rem;
+  height: 150px;
 }
-
+.honey {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
 .honey-paragraph h1 {
   font-size: 15px;
-  margin-top: 2.6rem;
-  margin-left: 0rem;
 }
 
 .honey-paragraph p {
-  font-size: 10px;
+  font-size: 12px;
   width: 80%;
   margin-left: 0rem;
 }
 
 .food-photo {
   width: 95%;
-  margin-top: 10px;
+  height: 150px;
 }
 
 .food-paragraph h1 {
   font-size: 15px;
-  margin-left: 0rem;
-  margin-top: 10px;
 }
 
 .food-paragraph p {
-  font-size: 10px;
+  font-size: 12px;
   width: 80%;
 }
 
 .camera-photo {
   width: 95%;
-  margin-top: 10px;
+  height: 150px;
 }
 
 .camera-paragraph h1 {
   font-size: 15px;
-
-  margin-top: 10px;
 }
 
 .camera-paragraph p {
-  font-size: 10px;
+  font-size: 12px;
   width: 80%;
 }
 
