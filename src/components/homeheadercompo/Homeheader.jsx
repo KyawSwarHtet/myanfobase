@@ -58,7 +58,7 @@ const HomeHeader = () => {
 
       <section className="popular-header">
         <div className="popular-title">
-          <h3>Popular Now</h3>
+          <h2>Popular Now</h2>
           <span className="popular-now-line"></span>
         </div>
         <div className="popular-p">

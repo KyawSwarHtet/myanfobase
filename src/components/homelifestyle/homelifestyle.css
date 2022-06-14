@@ -5,13 +5,28 @@
   margin-right: 25rem;
   margin-left: 2rem;
 }
-
+.postman1 {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+}
+.profileName1 {
+  font-size: 15px;
+  font-weight: 500;
+  color: red;
+  margin: 0 25px 0 10px;
+}
+.postman1 img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
 .lifestyles {
   width: 100%;
 }
 .Lifeline {
   display: block;
-  width: 230px;
+  width: 180px;
   height: 2px;
   background-color: #f18510;
   margin-bottom: 1rem;
@@ -41,8 +56,8 @@
   padding: 0.1rem 0.3rem;
 }
 
-.paragraph h1 {
-  font-size: 1rem;
+.paragraph h2 {
+  font-size: 1.5rem;
   width: 90%;
 }
 
@@ -51,7 +66,7 @@
 }
 
 .paragraph p {
-  font-size: 10px;
+  font-size: 12px;
   width: 85%;
 }
 
@@ -62,6 +77,7 @@
 
 .sunset-photo {
   width: 95%;
+  height: 150px;
 }
 .honey {
   display: flex;
@@ -73,13 +89,14 @@
 }
 
 .honey-paragraph p {
-  font-size: 10px;
+  font-size: 12px;
   width: 80%;
   margin-left: 0rem;
 }
 
 .food-photo {
   width: 95%;
+  height: 150px;
 }
 
 .food-paragraph h1 {
@@ -87,12 +104,13 @@
 }
 
 .food-paragraph p {
-  font-size: 10px;
+  font-size: 12px;
   width: 80%;
 }
 
 .camera-photo {
   width: 95%;
+  height: 150px;
 }
 
 .camera-paragraph h1 {
@@ -100,7 +118,7 @@
 }
 
 .camera-paragraph p {
-  font-size: 10px;
+  font-size: 12px;
   width: 80%;
 }
 

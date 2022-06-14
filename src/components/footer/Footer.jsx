@@ -5,13 +5,13 @@ export default function Footer() {
   return (
     <div className="FooterColor">
       <div className="FooterDiv">
-        <div className="footertitle">
-          <div className="spiderImg">
-            <img src="./images/homeimgs/logo2.png" alt="" />
-          </div>
-        </div>
         <div className="footerWapper">
           <div className="AddressInfo lineheight">
+            <div className="footertitle">
+              <div className="spiderImg">
+                <img src="./images/homeimgs/logo2.png" alt="" />
+              </div>
+            </div>
             <h4>Address and Contact</h4>
             <div className="fotaddress">
               <i class="uil uil-home"></i>

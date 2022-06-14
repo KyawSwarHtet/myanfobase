@@ -8,7 +8,7 @@ const Vedionew = () => {
         <div className="NewViedo">
           <ReactPlayer
             width="800px"
-            height="500px"
+            height="550px"
             url="https://youtu.be/7sDY4m8KNLc"
           />
         </div>
@@ -58,6 +58,7 @@ const Vedionew = () => {
               <span>12:38</span>
             </div>
           </div>
+          <button className="btn btnViedo">Show More</button>
         </div>
       </div>
     </section>

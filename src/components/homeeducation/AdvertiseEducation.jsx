@@ -5,7 +5,7 @@ export default function AdvertiseEducation() {
   return (
     <div className="Advwrapper">
       <div className="advertisetitle">
-        <h3>You Can Advertise Here!</h3>
+        <h4>You Can Advertise Here!</h4>
         <span className="headerline"></span>
       </div>
       <div className="advTop">

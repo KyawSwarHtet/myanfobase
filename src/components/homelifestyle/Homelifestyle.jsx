@@ -19,11 +19,15 @@ export default function Homelifestyle() {
                   <button className="life-exbtn">Exercise</button>
                 </div>
                 <div className="paragraph">
-                  <h1>
+                  <h2>
                     Where does it come from effective from everyday regular
                     Exercise?
-                  </h1>
-                  <h4>Author name 31.5.2022</h4>
+                  </h2>
+                  <div className="postman1">
+                    <img src="./images/homeimgs/viedo4.jpg" alt="" />
+                    <span className="profileName1">Paina Ta Kon</span>
+                    <span className="profileDate1">20.3.2022</span>
+                  </div>
                   <p>
                     It is a long established fact that a reader will be
                     distracted by the readable content of a page when looking at

@@ -120,14 +120,14 @@
 } */
 .popular-header {
   display: grid;
-  grid-template-columns: 15% 85%;
+  grid-template-columns: 20% 80%;
 }
 .popular-title {
   margin-left: 3rem;
 }
 .popular-now-line {
   display: block;
-  width: 160px;
+  width: 150px;
   height: 2px;
   background-color: #f18510;
   margin-bottom: 1rem;
