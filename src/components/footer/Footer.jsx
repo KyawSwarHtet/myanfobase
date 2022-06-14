@@ -6,8 +6,9 @@ export default function Footer() {
     <div className="FooterColor">
       <div className="FooterDiv">
         <div className="footertitle">
-          <div className="spiderImg"></div>
-          <h3>Myanfobase</h3>
+          <div className="spiderImg">
+            <img src="./images/homeimgs/logo2.png" alt="" />
+          </div>
         </div>
         <div className="footerWapper">
           <div className="AddressInfo lineheight">

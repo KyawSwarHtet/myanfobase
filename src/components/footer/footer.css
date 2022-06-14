@@ -8,10 +8,13 @@ ul li {
 .FooterDiv {
   margin: 4rem 4rem;
 }
-.footertitle {
+/* .footertitle {
   padding: 2rem 0 1.5rem 0;
+} */
+.spiderImg img {
+  width: 150px;
+  height: 150px;
 }
-
 .footerWapper {
   display: grid;
   grid-template-columns: 1.3fr 1fr 1fr 1fr;

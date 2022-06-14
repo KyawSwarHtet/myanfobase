@@ -6,7 +6,7 @@ import Todaylist from "./Todaylist";
 const LastNews = () => {
   return (
     <section className="container">
-      <h1>Lastest News</h1>
+      <h2>Lastest News</h2>
       <span className="headerline"></span>
       <div className="NewsSec">
         <div className="lastnew">

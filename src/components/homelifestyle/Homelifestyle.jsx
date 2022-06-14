@@ -3,12 +3,11 @@ import "./homelifestyle.css";
 export default function Homelifestyle() {
   return (
     <section className="container">
+      <h2>Lifestyle News</h2>
+      <span className="Lifeline"></span>
       <div id="lifestyles-New">
         <div className="thaw-1">
           <div>
-            <h1>Lifestyle News</h1>
-            <span className="Lifeline"></span>
-
             <div className="part-1">
               <div className="photo-exercise">
                 <div className="exercise-photo">
