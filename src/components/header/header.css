@@ -1,7 +1,12 @@
 a {
   color: white;
 }
-
+.headerPadding {
+  padding: 0;
+}
+.nav-logo img {
+  width: 100px;
+}
 .headercolor {
   width: 100%;
   background-color: #15568e;

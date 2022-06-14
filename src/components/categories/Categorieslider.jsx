@@ -18,7 +18,7 @@ export default function Categorieslider() {
     <>
       <section className="categories container">
         <div className="categories-header">
-          <h3>Popular Now</h3>
+          <h2>Categories</h2>
           <span className="cate-para-line"></span>
         </div>
         <Swiper

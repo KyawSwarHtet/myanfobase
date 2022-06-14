@@ -4,6 +4,12 @@
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+.homeheader {
+  padding-top: 5rem;
+}
+.home-banner-detail h1 {
+  padding-top: 2rem;
+}
 .header-nav {
   display: flex;
 }
@@ -114,15 +120,17 @@
 } */
 .popular-header {
   display: grid;
-  grid-template-columns: 15% 85%;
+  grid-template-columns: 20% 80%;
 }
 .popular-title {
   margin-left: 3rem;
 }
 .popular-now-line {
   display: block;
-  width: 10rem;
-  border-top: #f18510 3px solid;
+  width: 150px;
+  height: 2px;
+  background-color: #f18510;
+  margin-bottom: 1rem;
 }
 .popular-p {
   display: flex;

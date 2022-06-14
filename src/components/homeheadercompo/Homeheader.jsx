@@ -7,29 +7,31 @@ import Popularslider from "../popularslider/Popularslider.jsx";
 const HomeHeader = () => {
   return (
     <>
-      <div className="home-banner">
-        <div className="home-banner-detail">
-          <h1>MyanfobasE</h1>
-          <h3>MYANMAR INFORMATION BASE</h3>
-          <div className="search-banner">
-            <input
-              type="text"
-              placeholder="Search in here...."
-              id="searchinput"
-            />
-            <button className="search-button">
-              <i className="uil uil-search"></i>
-            </button>
-          </div>
-          <div className="banner-botton">
-            <h2>Welcome to our Page</h2>
-            <p>
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration in some form.
-            </p>
+      <section className="homeheader">
+        <div className="home-banner">
+          <div className="home-banner-detail">
+            <h1>MyanfobasE</h1>
+            <h3>MYANMAR INFORMATION BASE</h3>
+            <div className="search-banner">
+              <input
+                type="text"
+                placeholder="Search in here...."
+                id="searchinput"
+              />
+              <button className="search-button">
+                <i className="uil uil-search"></i>
+              </button>
+            </div>
+            <div className="banner-botton">
+              <h2>Welcome to our Page</h2>
+              <p>
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
       <span className="header-bottom-line"></span>
       <Slider />
 
@@ -56,7 +58,7 @@ const HomeHeader = () => {
 
       <section className="popular-header">
         <div className="popular-title">
-          <h3>Popular Now</h3>
+          <h2>Popular Now</h2>
           <span className="popular-now-line"></span>
         </div>
         <div className="popular-p">
