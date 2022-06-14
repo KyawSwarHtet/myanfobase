@@ -1,12 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Dropdown from "./dropdown/Dropdown";
 
 import "./header.css";
 
 export default function Header() {
+  const [dropdown, setDropdown] = useState(false);
   return (
-    <>
+    <section>
       <div className="headercolor">
         <nav className="headerwrap ">
           <ul className="headerfirst">
@@ -27,11 +28,16 @@ export default function Header() {
                 <span>Search</span>
               </Link>
             </li>
-            <li>
-              <Link to="/menu" className="flex hoverclor">
+            <li
+              className="homeMenu"
+              onMouseOver={() => setDropdown(true)}
+              onMouseLeave={() => setDropdown(false)}
+            >
+              <div className="flex hoverclor">
                 <i class="uil uil-list-ul"></i>
                 <span>Menu</span>
-              </Link>
+              </div>
+              {dropdown && <Dropdown className="dropdownWrap" />}
             </li>
             <li>
               <Link to="new" className="flex hoverclor">
@@ -59,9 +65,7 @@ export default function Header() {
           </ul>
         </nav>
       </div>
-      <div id="dropdownWrap">
-        <Dropdown />
-      </div>
-    </>
+      {/* {dropdown && <Dropdown id="dropdownWrap" />} */}
+    </section>
   );
 }

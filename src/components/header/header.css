@@ -13,13 +13,14 @@ a {
   align-items: center;
   justify-content: space-between;
   margin: 0 3rem;
-  padding: 1rem 0;
+  /* padding: 1rem 0; */
   color: white;
 }
 .headerfirst {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
   gap: 5rem;
 }
 .headersecond {
@@ -56,6 +57,7 @@ a {
 nav .flex {
   display: flex;
   align-items: center;
+  height: 5rem;
 }
 nav .hoverclor:hover {
   /* background-color: rgb(255, 174, 0); */
@@ -94,7 +96,6 @@ nav .hoverclor:hover {
 
   margin: auto;
 }
-#dropdownWrap {
-  margin-left: 20rem;
-  padding: 4.5rem 4.5rem 0 4.5rem;
+.homeMenu {
+  position: relative;
 }

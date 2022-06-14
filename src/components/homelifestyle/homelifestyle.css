@@ -12,14 +12,17 @@
 
 .photo-ex1 {
   width: 90%;
-  position: relative;
+
   margin-top: 1rem;
   margin-left: 2rem;
 }
+.lifefirstphoto {
+  position: relative;
+}
 .life-exbtn {
   position: absolute;
-  left: 3rem;
-  top: 28rem;
+  left: 46px;
+  bottom: 25px;
   background-color: black;
   color: white;
   padding: 0.1rem 0.3rem;
