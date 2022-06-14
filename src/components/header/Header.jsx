@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Dropdown from "./dropdown/Dropdown";
+import Langdrop from "./dropdown/Langdrop";
 
 import "./header.css";
 
@@ -52,10 +53,7 @@ export default function Header() {
                 <button className="subscribebtn">Subscribe</button>
               </Link>
             </li>
-            <li className="language">
-              <img src="./images/homeimgs/englang.jpg" alt="" />
-              <span>Eng</span>
-            </li>
+            <li className="language"></li>
             <li>
               <Link to="/signup" className="login">
                 <i class="uil uil-user loginicon"></i>
