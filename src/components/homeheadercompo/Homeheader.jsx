@@ -32,7 +32,7 @@ const HomeHeader = () => {
           </div>
         </div>
       </section>
-      <span className="header-bottom-line"></span>
+      {/* <span className="header-bottom-line"></span> */}
       <Slider />
 
       {/* text slider */}
@@ -56,7 +56,7 @@ const HomeHeader = () => {
         </div>
       </section> */}
 
-      <section className="popular-header">
+      <section className="popular-header container">
         <div className="popular-title">
           <h2>Popular Now</h2>
           <span className="popular-now-line"></span>

@@ -3,9 +3,9 @@ import "./viedonav.css";
 import { Link } from "react-router-dom";
 const ViedoNav = () => {
   return (
-    <section>
+    <section className="navsect">
       <div className="Vedionav">
-        <h2>Viedo</h2>
+        <h2>Video</h2>
         <div className="Viedo_nav">
           <ul>
             <li>

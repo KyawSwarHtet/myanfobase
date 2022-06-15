@@ -4,10 +4,10 @@ import Vedionew from "./Vedionew";
 import ViedoNav from "./ViedoNav";
 const Viedosec = () => {
   return (
-    <div className="container">
+    <section className="container video-container">
       <ViedoNav />
       <Vedionew />
-    </div>
+    </section>
   );
 };
 

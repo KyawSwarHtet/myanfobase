@@ -7,13 +7,13 @@ import TrainingClass from "./trainingClass";
 
 export default function HomeEducation() {
   return (
-    <section>
-      <div className="container titleEducation">
+    <section className="container EducSect">
+      <div className="titleEducation">
         <h2>Technology Tranning Class</h2>
         <span className="headerline"></span>
       </div>
       <div className="educationHOme">
-        <div id="homeeducation" className="container edusection">
+        <div id="homeeducation" className="edusection">
           <TrainingClass />
           <AdvertiseEducation />
         </div>
