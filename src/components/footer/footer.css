@@ -4,9 +4,10 @@ ul li {
 .FooterColor {
   background-color: #175892;
   color: white;
+  padding-bottom: 0.5rem;
 }
 .FooterDiv {
-  margin: 4rem 4rem;
+  padding: 0rem 4rem;
 }
 /* .footertitle {
   padding: 2rem 0 1.5rem 0;
@@ -60,7 +61,7 @@ ul li {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px;
+  padding: 2rem;
 }
 .copyright span {
   color: rgb(244, 234, 234);

@@ -2,7 +2,7 @@ import "./homelifestyle.css";
 
 export default function Homelifestyle() {
   return (
-    <section className="container">
+    <section className="container LifestyleSect">
       <h2>Lifestyle News</h2>
       <span className="Lifeline"></span>
       <div id="lifestyles-New">
