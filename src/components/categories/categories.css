@@ -32,7 +32,6 @@ body {
 }
 
 .cate-swiper img {
-  border-radius: 30px;
   height: 10rem;
   width: 100%;
 }
@@ -41,7 +40,6 @@ body {
   text-align: center;
   font-size: 18px;
   background: #fff;
-
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -72,12 +70,11 @@ body {
   height: 30rem;
 }
 .per-cate {
-  width: 25rem;
+  width: 19rem;
   height: 30rem;
   display: grid;
   grid-template-rows: 45% 55%;
   border: 2px solid #5b5299;
-  border-radius: 30px;
   padding: 1rem;
 }
 .categories-header {

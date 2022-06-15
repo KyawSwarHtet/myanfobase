@@ -22,7 +22,7 @@ export default function Categorieslider() {
           <span className="cate-para-line"></span>
         </div>
         <Swiper
-          slidesPerView={3}
+          slidesPerView={4}
           spaceBetween={0}
           loop={true}
           pagination={{
