@@ -29,10 +29,15 @@ aq .RecentViedo {
   margin-bottom: 1rem;
 }
 .btnViedo {
-  background-color: rgb(41, 41, 105);
+  background-color: rgb(246, 246, 250);
   border-radius: 10px;
-  color: white;
+  border: 1px solid #000;
+  color: rgb(56, 36, 83);
   font-size: 0.8rem;
-  margin: 0 35%;
-  font-weight: 600;
+  margin: 2rem 35% 0;
+  font-weight: 800;
+}
+.btnViedo:hover {
+  background-color: rgb(6, 164, 237);
+  color: #fff;
 }

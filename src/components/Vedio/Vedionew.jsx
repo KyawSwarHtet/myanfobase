@@ -6,7 +6,7 @@ const Vedionew = () => {
     <div className="Viedosec">
       <div className="NewViedo">
         <ReactPlayer
-          width="800px"
+          width="750px"
           height="600px"
           url="https://youtu.be/7sDY4m8KNLc"
         />

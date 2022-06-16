@@ -114,38 +114,40 @@ span.headerline {
 }
 .CurrencyExchange {
   border: 2px solid #090e6a;
-  background-color: #e0edfd;
+  /* background-color: #e0edfd; */
   padding: 10px 20px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   gap: 0.3em;
   width: 80%;
   text-align: center;
-  border-radius: 20px;
 }
 .today {
   font-size: 12px;
-  border: 1px solid #4f4f4f;
-  background-color: #7da2df;
+  font-size: 1.1rem;
   padding: 5px 30px;
-  border-radius: 50px;
-  color: white;
+  font-weight: 700;
+  color: rgb(7, 103, 162);
+}
+.today:hover {
+  font-size: 1.2rem;
+  color: #f18510;
 }
 .Goldprice {
   border: 2px solid #090e6a;
-  background-color: #e0edfd;
+  /* background-color: #e0edfd; */
   padding: 10px 10px;
   width: 80%;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 0.3em;
-  border-radius: 20px;
+  /* border-radius: 20px; */
 }
 .FuelPrice {
   border: 2px solid #090e6a;
-  background-color: #e0edfd;
+  /* background-color: #e0edfd; */
   padding: 10px 10px;
   width: 80%;
   display: flex;
@@ -153,11 +155,17 @@ span.headerline {
   align-items: center;
   gap: 0.3em;
   text-align: center;
-  border-radius: 20px;
+  /* border-radius: 20px; */
 }
 .btnlast {
   margin: 0 42%;
+  border: 1px solid #000;
   border-radius: 10px;
+  color: rgb(4, 55, 99);
+  background-color: rgb(238, 239, 245);
+  font-weight: 800;
+}
+.btnlast:hover {
+  background-color: rgb(4, 55, 99);
   color: #fff;
-  background-color: #5d66a0;
 }
