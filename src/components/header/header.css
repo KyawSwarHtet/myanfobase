@@ -1,4 +1,4 @@
-a {
+.headerwrap a {
   color: white;
 }
 .headerPadding {
@@ -6,12 +6,14 @@ a {
 }
 .nav-logo img {
   width: 100px;
+  height: 90px;
 }
 .headercolor {
   width: 100%;
   background-color: #15568e;
   position: fixed;
   z-index: 11;
+  height: 5.5rem;
 }
 .headerwrap {
   display: flex;
@@ -26,7 +28,10 @@ a {
   align-items: center;
   justify-content: space-between;
 
-  gap: 5rem;
+  gap: 1rem;
+}
+.headerfirst li {
+  padding: 0 2rem;
 }
 .headersecond {
   display: flex;
@@ -62,10 +67,9 @@ a {
 nav .flex {
   display: flex;
   align-items: center;
-  height: 5rem;
+  height: 4.5rem;
 }
 nav .hoverclor:hover {
-  /* background-color: rgb(255, 174, 0); */
   color: rgb(239, 145, 13);
 
   border-radius: 4px;

@@ -17,6 +17,7 @@ import { Pagination, Navigation } from "swiper";
 export default function Slider() {
   return (
     <>
+      <span className="swipper-bottom-line"></span>
       <Swiper
         slidesPerView={8}
         spaceBetween={30}

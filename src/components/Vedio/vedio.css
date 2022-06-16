@@ -41,3 +41,6 @@ aq .RecentViedo {
   background-color: rgb(6, 164, 237);
   color: #fff;
 }
+.VideoTitle .minutes {
+  font-weight: bold;
+}
