@@ -13,7 +13,11 @@
     "react-router-dom": "^6.3.0",
     "react-script": "^2.0.5",
     "react-scripts": "5.0.1",
+<<<<<<< HEAD
     "script": "^0.1.4",
+=======
+    "react-select": "^5.3.2",
+>>>>>>> master
     "swiper": "^8.2.3",
     "web-vitals": "^2.1.4"
   },

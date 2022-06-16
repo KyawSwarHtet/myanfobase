@@ -12,6 +12,7 @@ import "./categories.css";
 
 // import required modules
 import { Pagination, Navigation } from "swiper";
+import { Link } from "react-router-dom";
 
 export default function Categorieslider() {
   return (
