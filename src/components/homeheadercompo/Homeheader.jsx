@@ -32,7 +32,7 @@ const HomeHeader = () => {
           </div>
         </div>
       </section>
-      <span className="header-bottom-line"></span>
+
       <Slider />
 
       {/* text slider */}

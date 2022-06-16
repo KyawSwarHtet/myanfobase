@@ -33,3 +33,6 @@
   margin: 0 35%;
   font-weight: 600;
 }
+.VideoTitle .minutes {
+  font-weight: bold;
+}

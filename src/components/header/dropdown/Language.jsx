@@ -15,10 +15,17 @@ const options = [
   },
 ];
 
+function onChangeInput(value) {
+  console.log(value);
+}
 export default function Language() {
   return (
     <div>
-      <Select options={options} defaultValue={options[0]} />
+      <Select
+        options={options}
+        onChange={onChangeInput}
+        defaultValue={[options[0], options[0][1]]}
+      />
     </div>
   );
 }

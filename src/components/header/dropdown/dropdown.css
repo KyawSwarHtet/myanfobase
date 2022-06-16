@@ -1,10 +1,10 @@
 .categoriessub {
   position: absolute;
-  left: -70px;
+  top: 62px;
+  left: -38px;
   width: 700px;
   height: 250px;
-  color: black;
-  background-color: #387c9a;
+  background-color: #15568e;
   /* width: fit-content; */
   justify-items: center;
   display: grid;
@@ -18,11 +18,14 @@
   display: block;
   /* margin-left: 3rem; */
   margin-top: 1rem;
-  padding: 0.3rem;
+  padding: 7px 30px;
 
   align-self: auto;
 }
-ul .catgitems h5:hover {
-  color: red;
-  border-bottom: 2px solid red;
+ul .catgitems:hover a {
+  /* background-color: rgb(202, 193, 74);
+  border-radius: 10px; */
+}
+ul .catgitems:hover h5 {
+  color: rgb(239, 145, 13);
 }

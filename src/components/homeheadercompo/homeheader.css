@@ -6,6 +6,7 @@
 }
 .homeheader {
   padding-top: 5rem;
+  margin-bottom: 1rem;
 }
 .home-banner-detail h1 {
   padding-top: 2rem;
@@ -127,7 +128,7 @@
 }
 .popular-now-line {
   display: block;
-  width: 150px;
+  width: 185px;
   height: 2px;
   background-color: #f18510;
   margin-bottom: 1rem;

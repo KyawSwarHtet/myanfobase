@@ -25,7 +25,7 @@ const Vedionew = () => {
               <p>
                 It is a long established fact that a reader will be distracted
               </p>
-              <span>12:38</span>
+              <span className="minutes">12:38</span>
             </div>
           </div>
           <span className="underline"></span>
@@ -40,7 +40,7 @@ const Vedionew = () => {
               <p>
                 It is a long established fact that a reader will be distracted
               </p>
-              <span>12:38</span>
+              <span className="minutes">12:38</span>
             </div>
           </div>
           <span className="underline"></span>
@@ -55,7 +55,7 @@ const Vedionew = () => {
               <p>
                 It is a long established fact that a reader will be distracted
               </p>
-              <span>12:38</span>
+              <span className="minutes">12:38</span>
             </div>
           </div>
           <button className="btn btnViedo">Show More</button>

@@ -12,48 +12,53 @@ import "./categories.css";
 
 // import required modules
 import { Pagination, Navigation } from "swiper";
+import { Link } from "react-router-dom";
 
 export default function Categorieslider() {
   return (
     <>
       <section className="categories container">
-        <div className="categories-header">
-          <h2>Categories</h2>
-          <span className="cate-para-line"></span>
-        </div>
-        <Swiper
-          slidesPerView={3}
-          spaceBetween={0}
-          loop={true}
-          pagination={{
-            clickable: true,
-          }}
-          navigation={true}
-          modules={[Pagination, Navigation]}
-          className="cates-swiper"
-        >
-          {categories
-            .filter((val) => {
-              return val;
-            })
+        <div className="categoriescolor">
+          <div className="categories-header">
+            <h2>Categories</h2>
+            <span className="cate-para-line"></span>
+          </div>
+          <Swiper
+            id="swiperdiv"
+            slidesPerView={4}
+            spaceBetween={20}
+            loop={true}
+            pagination={{
+              clickable: true,
+            }}
+            navigation={true}
+            modules={[Pagination, Navigation]}
+            className="cates-swiper"
+          >
+            {categories
+              .filter((val) => {
+                return val;
+              })
 
-            .map((cate) => {
-              return (
-                <SwiperSlide className="cate-swiper">
-                  <div className="per-cate">
-                    <div>
-                      <img src={cate.image} alt="" />
+              .map((cate) => {
+                return (
+                  <SwiperSlide className="cate-swiper">
+                    <div className="per-cate">
+                      <div className="cate-image">
+                        <img src={cate.image} alt="" />
+                      </div>
+                      <Link to={cate.path}>
+                        <div className="swiperbody">
+                          <h3>{cate.title}</h3>
+                          <h5>{cate.articles} Articles</h5>
+                          <span className="checkText">Check Here</span>
+                        </div>
+                      </Link>
                     </div>
-                    <div>
-                      <h3>{cate.bigtitle}</h3>
-                      <h5>{cate.title}</h5>
-                      <p>{cate.para}</p>
-                    </div>
-                  </div>
-                </SwiperSlide>
-              );
-            })}
-          {/* <SwiperSlide className="cate-swiper">
+                  </SwiperSlide>
+                );
+              })}
+            {/* <SwiperSlide className="cate-swiper">
             <div className="per-cate">
               <div>
                 <img src="/images/homeimgs/catpolitical.jpg" alt="" />
@@ -251,7 +256,8 @@ export default function Categorieslider() {
               </div>
             </div>
           </SwiperSlide> */}
-        </Swiper>
+          </Swiper>
+        </div>
       </section>
     </>
   );
