@@ -11,7 +11,6 @@ export const categories = [
   {
     id: 2,
     image: "./images/homeimgs/bg1.jpg",
-    bigtitle: "Techology",
 
     para: "It is a long established fact that a reader will be distracte by the readable content of a page when looking at its layout.The point of using Lorem Ipsum is that it has a more-or-lessormal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for'lorem ipsum' will uncover many web sites still in their infancy.",
     articles: 17,
@@ -21,7 +20,6 @@ export const categories = [
   {
     id: 3,
     image: "./images/homeimgs/bg2.jpg",
-    bigtitle: "History",
 
     para: "It is a long established fact that a reader will be distracte by the readable content of a page when looking at its layout.The point of using Lorem Ipsum is that it has a more-or-lessormal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for'lorem ipsum' will uncover many web sites still in their infancy.",
     articles: 23,
@@ -31,7 +29,6 @@ export const categories = [
   {
     id: 4,
     image: "./images/homeimgs/bg3.jpg",
-    bigtitle: "Trading",
 
     para: "It is a long established fact that a reader will be distracte by the readable content of a page when looking at its layout.The point of using Lorem Ipsum is that it has a more-or-lessormal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for'lorem ipsum' will uncover many web sites still in their infancy.",
     articles: 20,
@@ -41,7 +38,6 @@ export const categories = [
   {
     id: 5,
     image: "./images/homeimgs/bg4.jpg",
-    bigtitle: "Traval",
 
     para: "It is a long established fact that a reader will be distracte by the readable content of a page when looking at its layout.The point of using Lorem Ipsum is that it has a more-or-lessormal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for'lorem ipsum' will uncover many web sites still in their infancy.",
     articles: 18,
@@ -51,7 +47,7 @@ export const categories = [
   {
     id: 6,
     image: "./images/homeimgs/bg5.jpg",
-    bigtitle: "Political",
+
     title: "History",
     path: "/history",
     para: "It is a long established fact that a reader will be distracte by the readable content of a page when looking at its layout.The point of using Lorem Ipsum is that it has a more-or-lessormal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for'lorem ipsum' will uncover many web sites still in their infancy.",
@@ -60,7 +56,7 @@ export const categories = [
   {
     id: 7,
     image: "./images/homeimgs/bg1.jpg",
-    bigtitle: "Political",
+
     title: "Health&Medican",
     path: "/health",
     para: "It is a long established fact that a reader will be distracte by the readable content of a page when looking at its layout.The point of using Lorem Ipsum is that it has a more-or-lessormal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for'lorem ipsum' will uncover many web sites still in their infancy.",
@@ -69,7 +65,7 @@ export const categories = [
   {
     id: 8,
     image: "./images/homeimgs/bg2.jpg",
-    bigtitle: "Political",
+
     title: "Literature",
     path: "/literature",
     para: "It is a long established fact that a reader will be distracte by the readable content of a page when looking at its layout.The point of using Lorem Ipsum is that it has a more-or-lessormal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for'lorem ipsum' will uncover many web sites still in their infancy.",
@@ -78,7 +74,7 @@ export const categories = [
   {
     id: 9,
     image: "./images/homeimgs/bg3.jpg",
-    bigtitle: "Political",
+
     title: "Lifestyles",
     path: "/lifestyles",
     para: "It is a long established fact that a reader will be distracte by the readable content of a page when looking at its layout.The point of using Lorem Ipsum is that it has a more-or-lessormal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for'lorem ipsum' will uncover many web sites still in their infancy.",
@@ -87,7 +83,7 @@ export const categories = [
   {
     id: 10,
     image: "./images/homeimgs/bg4.jpg",
-    bigtitle: "Political",
+
     title: "Science",
     path: "/science",
     para: "It is a long established fact that a reader will be distracte by the readable content of a page when looking at its layout.The point of using Lorem Ipsum is that it has a more-or-lessormal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for'lorem ipsum' will uncover many web sites still in their infancy.",
@@ -96,7 +92,7 @@ export const categories = [
   {
     id: 11,
     image: "./images/homeimgs/bg5.jpg",
-    bigtitle: "Political",
+
     title: "Sports",
     path: "/sports",
     para: "It is a long established fact that a reader will be distracte by the readable content of a page when looking at its layout.The point of using Lorem Ipsum is that it has a more-or-lessormal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for'lorem ipsum' will uncover many web sites still in their infancy.",
@@ -105,7 +101,7 @@ export const categories = [
   {
     id: 12,
     image: "./images/homeimgs/catpolitical.jpg",
-    bigtitle: "Political",
+
     title: "Arts",
     path: "/arts",
     para: "It is a long established fact that a reader will be distracte by the readable content of a page when looking at its layout.The point of using Lorem Ipsum is that it has a more-or-lessormal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for'lorem ipsum' will uncover many web sites still in their infancy.",

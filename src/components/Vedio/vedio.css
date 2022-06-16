@@ -1,12 +1,15 @@
+.video-container {
+  max-width: 1600px;
+}
 .Viedosec {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 60% 40%;
 }
 .NewViedo {
-  width: 50%;
+  width: 100%;
 }
-.RecentViedo {
-  width: 40%;
+aq .RecentViedo {
+  width: 100%;
   padding: 10px 0px;
 }
 .RecentViedo h4 {

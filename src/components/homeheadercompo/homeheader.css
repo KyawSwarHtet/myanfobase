@@ -10,6 +10,7 @@
 }
 .home-banner-detail h1 {
   padding-top: 2rem;
+  letter-spacing: 5px;
 }
 .header-nav {
   display: flex;
@@ -37,11 +38,11 @@
   margin-left: 0.5rem;
 }
 .home-banner {
-  background: url(/public/images/homeimgs/bagan1.jpg);
+  background-image: url(/public/images/homeimgs/bagan1.jpg);
   height: 40rem;
-  background-repeat: no-repeat;
   background-size: cover;
-  background-position: right center;
+  background-repeat: no-repeat;
+  background-position: top 50% right 0;
 }
 .home-banner-detail {
   text-align: center;
@@ -50,6 +51,7 @@
   color: white;
   font-family: "Bowlby One";
   font-size: 70px;
+  padding-top: 4rem;
 }
 .home-banner-detail h3 {
   color: #6b3451;
@@ -61,22 +63,24 @@
   margin-top: 1.5rem;
   padding: 0.6rem 30rem 0.6rem 2rem;
   border-radius: 50px;
+  max-width: 1600px;
 }
 .search-banner {
   display: grid;
   width: 50%;
   margin-left: 25%;
   margin-top: 1rem;
+  position: relative;
 }
 .search-button {
   position: absolute;
-  margin-left: 45rem;
-  margin-top: 1.8rem;
+  left: 45rem;
+  top: 1.8rem;
   font-size: 1.3rem;
   background-color: transparent;
 }
 .banner-botton {
-  margin-top: 13rem;
+  margin-top: 8rem;
 }
 .banner-botton h2 {
   font-size: 2rem;
@@ -122,6 +126,7 @@
 .popular-header {
   display: grid;
   grid-template-columns: 20% 80%;
+  max-width: 1600px;
 }
 .popular-title {
   margin-left: 3rem;
@@ -145,6 +150,7 @@
 
 .popular-body {
   margin-top: 0rem;
+  max-width: 1600px;
 }
 .popular-bignew {
   background: url(/public/images/homeimgs/Wear-Mask-2.jpg);
