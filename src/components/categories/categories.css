@@ -32,7 +32,6 @@ body {
 }
 
 .cate-swiper img {
-  border-radius: 30px;
   height: 10rem;
   width: 100%;
 }
@@ -56,7 +55,7 @@ body {
   align-items: center;
 }
 
-/* .swiper-slide img {
+.swiper-slide img {
   display: block;
   width: 100%;
   height: 100%;
@@ -64,21 +63,19 @@ body {
 }
 
 .swiper {
-  margin-left: auto;
-  margin-right: auto;
-} */
+  margin-left: 2px;
+  margin-right: 2px;
+}
 .cates-swiper {
   width: 100%;
-  height: 30rem;
+  height: 20rem;
 }
 .per-cate {
-  width: 25rem;
-  height: 30rem;
+  width: 20rem;
+  height: 20rem;
   display: grid;
   grid-template-rows: 45% 55%;
-  border: 2px solid #5b5299;
-  border-radius: 30px;
-  padding: 1rem;
+  padding: 10px;
 }
 .categories-header {
   margin-bottom: 3rem;
@@ -89,4 +86,12 @@ body {
   height: 2px;
   background-color: #f18510;
   margin-bottom: 1rem;
+}
+.swiper-button-next {
+  right: 0px;
+  left: auto;
+}
+.swiper-button-prev {
+  left: 0px;
+  right: auto;
 }

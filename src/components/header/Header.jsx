@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Dropdown from "./dropdown/Dropdown";
-import Langdrop from "./dropdown/Langdrop";
 
 import "./header.css";
 

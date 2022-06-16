@@ -14,12 +14,9 @@ export default function Home() {
       <HomeHeader />
       <LastNews />
       <Homelifestyle />
-<<<<<<< HEAD
-=======
 
       <HomeEducation />
       <Viedo />
->>>>>>> master
       <Categorieslider />
       <Footer />
     </>
