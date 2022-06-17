@@ -79,28 +79,52 @@ const HomeHeader = () => {
       </section>
       <section className="popular-body container">
         <div className="first-grid">
-          <div className="popular-bignew">
-            <button className="popular-health">Health</button>
-            <p>
-              popular-health Lorem Ipsum is simply dummy text of the printing
-              and typesetting industry. Lorem Ipsum has been the industry's
-              standard dummy text ever since the 1500s,
-            </p>
-            <h5>Author name. 31.5.2022</h5>
+          <div className="mask-div">
+            <div className="popular-bignew">
+              <button className="popular-health">Health</button>
+              <p>
+                popular-health Lorem Ipsum is simply dummy text of the printing
+                and typesetting industry. Lorem Ipsum has been the industry's
+                standard dummy text ever since the 1500s,
+              </p>
+              <h5>Author name. 31.5.2022</h5>
+            </div>
+            <img
+              className="maskimg"
+              src="/images/homeimgs/Wear-Mask-2.jpg"
+              alt=""
+            />
           </div>
           <div>
-            <div className="popular-secnew">
-              <button className="popular-health">Travel</button>
-              <p>Where can I get some?</p>
+            <div>
+              <img src="images/homeimgs/popularland.jpg" alt="" />
+
+              <div className="popular-secnew">
+                <button className="popular-health">Travel</button>
+                <p>Where can I get some?</p>
+              </div>
             </div>
+
             <div className="sec-grid">
+              <img
+                className="fashion-img"
+                src="images/homeimgs/fashion.jpg"
+                alt=""
+              />
               <div className="popular-thirdnew">
                 <button className="popular-health">Fashion</button>
                 <p>Where can I get some?</p>
               </div>
-              <div className="popular-fouthnew">
-                <button className="popular-health">Culture</button>
-                <p>Where can I get some?</p>
+              <div>
+                <img
+                  className="culture-img"
+                  src="images/homeimgs/bg2.jpg"
+                  alt=""
+                />
+                <div className="popular-fouthnew">
+                  <button className="popular-health">Culture</button>
+                  <p>Where can I get some?</p>
+                </div>
               </div>
             </div>
           </div>

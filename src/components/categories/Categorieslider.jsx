@@ -1,6 +1,5 @@
 import React, { useRef, useState } from "react";
 // Import Swiper React components
-import { categories } from "./categoriesarray";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -13,6 +12,7 @@ import "./categories.css";
 // import required modules
 import { Pagination, Navigation } from "swiper";
 import { Link } from "react-router-dom";
+import { categories } from "./categoriesarray";
 
 export default function Categorieslider() {
   return (
