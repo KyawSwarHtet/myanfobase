@@ -15,7 +15,9 @@
   grid-template-columns: 70% 30%;
   gap: 1rem;
 }
-
+.container h2:hover {
+  color: #7da2df;
+}
 span.headerline {
   display: block;
   width: 200px;
@@ -33,7 +35,11 @@ span.headerline {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  /* margin: 2rem 0; */
+  /*
+   margin: 2rem 0; */
+}
+.news:hover {
+  color: #7da2df;
 }
 .postbuttom {
   display: flex;
@@ -50,6 +56,9 @@ span.headerline {
   font-weight: 500;
   color: red;
   margin: 0 25px 0 10px;
+}
+.profileName:hover {
+  color: #7da2df;
 }
 .postman img {
   width: 30px;
@@ -150,6 +159,13 @@ span.headerline {
 .today:hover {
   color: #f18510;
 }
+
+.today:hover {
+  background: #5b96f4ef;
+  color: #111;
+  box-shadow: 0 0 50px #2a75ef;
+}
+
 .Goldprice {
   border: 2px solid #090e6a;
   /* background-color: #e0edfd; */
@@ -177,13 +193,13 @@ span.headerline {
   text-align: center;
   /* border-radius: 20px; */
 }
-.btnlast {
+.btn {
   margin: 0 42%;
   border: 1px solid #000;
   border-radius: 10px;
-  color: rgb(4, 55, 99);
-  background-color: rgb(238, 239, 245);
-  font-weight: 800;
+  color: #fff;
+  background-color: #5d66a0;
+  cursor: pointer;
 }
 .btnlast:hover {
   background-color: rgb(4, 55, 99);
