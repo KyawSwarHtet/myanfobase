@@ -127,7 +127,7 @@
 
 .beauty-photo {
   width: 95%;
-  height: 150px;
+  height: 130px;
   margin-top: 1rem;
 }
 
@@ -145,6 +145,7 @@
 .foodies-photo {
   width: 95%;
   margin-top: 1rem;
+  height: 130px;
 }
 
 .sponsered-2 {
@@ -199,7 +200,7 @@
 }
 
 .sponsered-1 h6 {
-  margin-top: 3rem;
+  margin-top: 1.5rem;
   margin-left: 0rem;
   font-size: 0.8rem;
   color: red;

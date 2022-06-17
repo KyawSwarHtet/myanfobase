@@ -1,3 +1,6 @@
+.categories {
+  max-width: 1600px;
+}
 .categories .categoriescolor {
   position: sticky;
   width: 100%;

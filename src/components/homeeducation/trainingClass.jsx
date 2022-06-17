@@ -10,7 +10,7 @@ export default function TrainingClass() {
         <div className="classimg">
           <img src="./images/homeimgs/school1.jpg" alt="" />
         </div>
-        <h2>Where can I get some?</h2>
+        <h4>Where can I get some?</h4>
         <div className="authTitle">
           <div className="authimg">
             <img
@@ -32,7 +32,7 @@ export default function TrainingClass() {
         <div className="classimg">
           <img src="./images/homeimgs/school3.jpg" alt="" />
         </div>
-        <h2>Where can I get some?</h2>
+        <h4>Where can I get some?</h4>
         <div className="authTitle">
           <div className="authimg">
             <img
