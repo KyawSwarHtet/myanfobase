@@ -47,13 +47,15 @@ export default function Categorieslider() {
                       <div className="cate-image">
                         <img src={cate.image} alt="" />
                       </div>
-                      <Link to={cate.path}>
-                        <div className="swiperbody">
-                          <h3>{cate.title}</h3>
-                          <h5>{cate.articles} Articles</h5>
-                          <span className="checkText">Check Here</span>
-                        </div>
-                      </Link>
+
+                      <div className="swiperbody">
+                        <h3>{cate.title}</h3>
+                        <h5>{cate.articles} Articles</h5>
+
+                        <Link to={cate.path}>
+                          <span>C</span>heck Here
+                        </Link>
+                      </div>
                     </div>
                   </SwiperSlide>
                 );

@@ -129,7 +129,6 @@
   max-width: 1600px;
 }
 .popular-title {
-  margin-left: 3rem;
 }
 .popular-now-line {
   display: block;
@@ -159,6 +158,9 @@
   padding-left: 2rem;
   padding-top: 21rem;
   margin-right: 0.5rem;
+}
+.popular-bignew:hover {
+  transform: perspective(1000px) translateZ(150px);
 }
 .popular-bignew p {
   color: aliceblue;
@@ -215,6 +217,8 @@
 .first-grid {
   display: grid;
   grid-template-columns: 60% 40%;
+  overflow: hidden;
+  transition: all 6s ease-in-out;
 }
 .sec-grid {
   display: grid;
