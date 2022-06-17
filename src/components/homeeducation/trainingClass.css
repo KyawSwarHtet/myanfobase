@@ -21,6 +21,10 @@ img {
 
   transition: all 1s;
 }
+.classTop h2:hover {
+  color: #00a79d;
+}
+
 .classTop .authTitle {
   display: flex;
   gap: 6px;
@@ -41,7 +45,14 @@ img {
 .authTitle .authorname {
   color: rgb(231, 25, 25);
 }
+.authTitle .authorname:hover {
+  color: #00a79d;
+}
 
 article p::first-letter {
   font-size: 22px;
+}
+
+article p:hover {
+  color: #00a79d;
 }

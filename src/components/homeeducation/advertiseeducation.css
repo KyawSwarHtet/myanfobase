@@ -34,6 +34,9 @@ img {
   margin-top: 0.8rem;
   margin-left: 3px;
 }
+.Advwrapper h4:hover {
+  color: #00a79d;
+}
 .advertisetitle h4 {
   font-size: 1.6rem;
   margin-bottom: 0;
@@ -46,4 +49,7 @@ img {
   height: 2px;
   background-color: #f18510;
   margin-bottom: 1rem;
+}
+.advTop h4:hover {
+  color: #00a79d;
 }

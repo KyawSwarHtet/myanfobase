@@ -131,6 +131,9 @@
 .popular-title {
   margin-left: 3rem;
 }
+.popular-title h2:hover {
+  color: var(--health-bg);
+}
 .popular-now-line {
   display: block;
   width: 185px;
@@ -164,12 +167,22 @@
   color: aliceblue;
   width: 50%;
 }
+
+.popular-bignew p:hover {
+  color: var(--health-bg);
+}
 .popular-health {
   background-color: black;
   color: white;
   font-size: 1rem;
   padding: 0.3rem;
 }
+
+.popular-health:hover {
+  background: var(--health-bg);
+  color: black;
+}
+
 .popular-secnew {
   background: url(/public/images/homeimgs/popularland.jpg);
   background-repeat: no-repeat;
@@ -183,6 +196,10 @@
   font-size: 1.2rem;
   margin-top: 1rem;
   font-family: "Ultra";
+}
+
+.popular-secnew p:hover {
+  color: var(--health-bg);
 }
 .popular-thirdnew {
   background: url(/public/images/homeimgs/fashion.jpg);
@@ -198,6 +215,10 @@
   font-size: 0.8rem;
   font-family: "Ultra";
 }
+
+.popular-thirdnew p:hover {
+  color: var(--health-bg);
+}
 .popular-fouthnew {
   background: url(/public/images/homeimgs/bg2.jpg);
   background-repeat: no-repeat;
@@ -211,6 +232,10 @@
   color: white;
   font-size: 0.8rem;
   font-family: "Ultra";
+}
+
+.popular-fouthnew p:hover {
+  color: var(--health-bg);
 }
 .first-grid {
   display: grid;
