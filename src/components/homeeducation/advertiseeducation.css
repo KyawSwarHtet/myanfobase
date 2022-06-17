@@ -1,6 +1,6 @@
 .Advwrapper {
   display: grid;
-  grid-template-rows: 10% 1fr 1fr;
+  /* grid-template-rows: 10% 1fr 1fr; */
   border: 1px solid rgb(233, 175, 81);
 }
 img {
@@ -47,3 +47,48 @@ img {
   background-color: #f18510;
   margin-bottom: 1rem;
 }
+.advTop {
+  padding: 0px 0 0px 0;
+  margin-bottom: 20px;
+  background-color: rgb(248, 172, 72);
+  text-align: center;
+}
+.advTop h4 {
+  padding: 0 10px;
+  color: #fff;
+}
+.advTop:hover h4 {
+  color: #f18510;
+  /* background-color: #fff; */
+}
+.advTop:hover {
+  border: 1px solid #f18510;
+  background-color: #fff;
+}
+
+.advBot:hover {
+  border: 1px solid #f18510;
+  background-color: #fff;
+}
+.advBot {
+  background-color: rgb(248, 172, 72);
+  text-align: center;
+}
+.advBot h4 {
+  padding: 0 10px;
+  color: #fff;
+}
+.advBot:hover h4 {
+  color: #f18510;
+  /* background-color: #fff; */
+}
+.advBot:hover {
+  border: 1px solid #f18510;
+  background-color: #fff;
+}
+/* .advBot h4:hover {
+  color: #f18510;
+} */
+/* .advTop h4:hover {
+  color: #f18510;
+} */
