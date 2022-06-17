@@ -81,7 +81,7 @@ body {
   align-items: center;
 }
 
-/* .swiper-slide img {
+.swiper-slide img {
   display: block;
   width: 100%;
   height: 100%;
@@ -89,12 +89,12 @@ body {
 }
 
 .swiper {
-  margin-left: auto;
-  margin-right: auto;
-} */
+  margin-left: 2px;
+  margin-right: 2px;
+}
 .cates-swiper {
   width: 100%;
-  height: 30rem;
+  height: 20rem;
 }
 .cates-swiper .swiperbody {
   padding: 7px 8px 2rem;

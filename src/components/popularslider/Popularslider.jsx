@@ -27,7 +27,7 @@ export default function Popularslider() {
         }}
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
-        className="popularswiper"
+        className="popularswiper container"
       >
         <SwiperSlide>
           <p>
