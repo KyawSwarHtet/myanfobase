@@ -128,9 +128,7 @@
   grid-template-columns: 20% 80%;
   max-width: 1600px;
 }
-.popular-title {
-  margin-left: 3rem;
-}
+
 .popular-now-line {
   display: block;
   width: 185px;
@@ -152,16 +150,19 @@
   margin-top: 0rem;
   max-width: 1600px;
 }
-.popular-bignew {
-  background: url(/public/images/homeimgs/Wear-Mask-2.jpg);
-  background-repeat: no-repeat;
+.maskimg {
   height: 30rem;
-  padding-left: 2rem;
-  padding-top: 21rem;
+}
+.mask-div {
   margin-right: 0.5rem;
 }
+.popular-bignew {
+  position: absolute;
+  top: 80rem;
+  margin-left: 2rem;
+}
 .popular-bignew p {
-  color: aliceblue;
+  color: white;
   width: 50%;
 }
 .popular-health {
@@ -171,12 +172,9 @@
   padding: 0.3rem;
 }
 .popular-secnew {
-  background: url(/public/images/homeimgs/popularland.jpg);
-  background-repeat: no-repeat;
-  height: 20rem;
-  background-size: cover;
-  padding-top: 15rem;
-  padding-left: 2rem;
+  position: absolute;
+  top: 74rem;
+  margin-left: 1.5rem;
 }
 .popular-secnew p {
   color: white;
@@ -185,13 +183,9 @@
   font-family: "Ultra";
 }
 .popular-thirdnew {
-  background: url(/public/images/homeimgs/fashion.jpg);
-  background-repeat: no-repeat;
-  height: 10rem;
-  margin-right: 0.5rem;
-  background-size: cover;
-  padding-top: 7rem;
-  padding-left: 1rem;
+  position: absolute;
+  top: 86rem;
+  margin-left: 1rem;
 }
 .popular-thirdnew p {
   color: black;
@@ -199,18 +193,21 @@
   font-family: "Ultra";
 }
 .popular-fouthnew {
-  background: url(/public/images/homeimgs/bg2.jpg);
-  background-repeat: no-repeat;
-  height: 10rem;
-  width: 100%;
-  background-size: cover;
-  padding-top: 7rem;
-  padding-left: 1rem;
+  position: absolute;
+  top: 86rem;
+  margin-left: 1rem;
 }
 .popular-fouthnew p {
   color: white;
   font-size: 0.8rem;
   font-family: "Ultra";
+}
+.fashion-img {
+  height: 10rem;
+  padding-right: 0.5rem;
+}
+.culture-img {
+  height: 10rem;
 }
 .first-grid {
   display: grid;
