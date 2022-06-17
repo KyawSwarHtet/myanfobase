@@ -1,5 +1,6 @@
 import React from "react";
 import "./footer.css";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -41,12 +42,24 @@ export default function Footer() {
                 <li>
                   <h4>Category</h4>
                 </li>
-                <li>business</li>
-                <li>entertainment</li>
-                <li>fashion</li>
-                <li>fod</li>
-                <li>health</li>
-                <li>lifestyle</li>
+                <li>
+                  <Link to="/business">business</Link>
+                </li>
+                <li>
+                  <Link to="/entertainment">entertainment</Link>
+                </li>
+                <li>
+                  <Link to="/fashion">fashion</Link>
+                </li>
+                <li>
+                  <Link to="/food">food</Link>
+                </li>
+                <li>
+                  <Link to="/health">health</Link>
+                </li>
+                <li>
+                  <Link to="/lifestyle">lifestyle</Link>
+                </li>
               </ul>
             </div>
 
