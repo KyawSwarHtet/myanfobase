@@ -13,6 +13,7 @@
   justify-content: space-between; */
   display: grid;
   grid-template-columns: 70% 30%;
+  gap: 1rem;
 }
 
 span.headerline {
@@ -25,7 +26,7 @@ span.headerline {
 .newspart {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 2rem;
   width: 100%;
 }
 .news {
@@ -119,40 +120,59 @@ span.headerline {
   display: flex;
   flex-direction: column;
   /* align-items: center; */
-  gap: 0.3em;
-  width: 80%;
+  gap: 1rem;
+  width: 90%;
   text-align: center;
 }
 .today {
-  font-size: 12px;
-  font-size: 1.1rem;
-  padding: 5px 30px;
-  font-weight: 700;
-  color: rgb(7, 103, 162);
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 1rem;
+  padding: 0 1rem;
+}
+.foreignmoney {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.foreignmoney img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
+.foreignmoney span {
+  font-size: 1em;
+}
+.myanmarKyats {
+  font-size: 1em;
 }
 .today:hover {
-  font-size: 1.2rem;
   color: #f18510;
 }
 .Goldprice {
   border: 2px solid #090e6a;
   /* background-color: #e0edfd; */
   padding: 10px 10px;
-  width: 80%;
+  width: 90%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  text-align: center;
+  /* align-items: center; */
   gap: 0.3em;
   /* border-radius: 20px; */
+}
+.goldprices {
+  font-size: 1em;
 }
 .FuelPrice {
   border: 2px solid #090e6a;
   /* background-color: #e0edfd; */
   padding: 10px 10px;
-  width: 80%;
+  width: 90%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   gap: 0.3em;
   text-align: center;
   /* border-radius: 20px; */
@@ -169,3 +189,10 @@ span.headerline {
   background-color: rgb(4, 55, 99);
   color: #fff;
 }
+/* .underline1 {
+  display: block;
+  width: 280px;
+  height: 2px;
+  background-color: #f18510;
+  margin-bottom: 1rem;
+} */
