@@ -9,7 +9,7 @@ export default function HomeEducation() {
   return (
     <section className="container EducSect">
       <div className="titleEducation">
-        <h2>Technology Tranning Class</h2>
+        <h2>Technology Trainning Class</h2>
         <span className="headerline"></span>
       </div>
       <div className="educationHOme">
