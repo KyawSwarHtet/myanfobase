@@ -128,7 +128,12 @@
   grid-template-columns: 20% 80%;
   max-width: 1600px;
 }
-
+.popular-title {
+  margin-left: 3rem;
+}
+.popular-title h2:hover {
+  color: var(--health-bg);
+}
 .popular-now-line {
   display: block;
   width: 185px;
@@ -165,12 +170,22 @@
   color: white;
   width: 50%;
 }
+
+.popular-bignew p:hover {
+  color: var(--health-bg);
+}
 .popular-health {
   background-color: black;
   color: white;
   font-size: 1rem;
   padding: 0.3rem;
 }
+
+.popular-health:hover {
+  background: var(--health-bg);
+  color: black;
+}
+
 .popular-secnew {
   position: absolute;
   top: 74rem;
@@ -182,6 +197,10 @@
   margin-top: 1rem;
   font-family: "Ultra";
 }
+
+.popular-secnew p:hover {
+  color: var(--health-bg);
+}
 .popular-thirdnew {
   position: absolute;
   top: 86rem;
@@ -191,6 +210,10 @@
   color: black;
   font-size: 0.8rem;
   font-family: "Ultra";
+}
+
+.popular-thirdnew p:hover {
+  color: var(--health-bg);
 }
 .popular-fouthnew {
   position: absolute;
@@ -202,12 +225,9 @@
   font-size: 0.8rem;
   font-family: "Ultra";
 }
-.fashion-img {
-  height: 10rem;
-  padding-right: 0.5rem;
-}
-.culture-img {
-  height: 10rem;
+
+.popular-fouthnew p:hover {
+  color: var(--health-bg);
 }
 .first-grid {
   display: grid;
