@@ -36,8 +36,8 @@ export default function Slider() {
         </SwiperSlide>
 
         <SwiperSlide>
-          <Link to="/entertainment" className="main-cat">
-            Techology
+          <Link to="/tecnology" className="main-cat">
+            Tecnology
           </Link>
         </SwiperSlide>
         <SwiperSlide>
