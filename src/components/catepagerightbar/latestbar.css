@@ -13,14 +13,17 @@
   background-color: #f18510;
   margin-bottom: 2rem;
 }
+.lastnewbar-body {
+  width: 100%;
+}
 .lastnewbar-body .lastnewimg {
   width: 100%;
   height: 5.5rem;
 }
 .lastnewbar-body .article-lastest {
   display: grid;
-  grid-template-columns: 20% 80%;
-  gap: 1rem;
+  grid-template-columns: 30% 70%;
+  gap: 2rem;
 }
 .lastnewinfo {
   display: grid;
@@ -35,7 +38,7 @@
 }
 .lastestbottomline {
   display: block;
-  width: 428px;
+  width: 355px;
   height: 4px;
   background-color: #f18510;
   margin-bottom: 2rem;
