@@ -178,12 +178,13 @@ span.headerline {
   /* border-radius: 20px; */
 }
 .btnlast {
-  margin: 0 42%;
+  margin: 0 44%;
   border: 1px solid #000;
   border-radius: 10px;
   color: rgb(4, 55, 99);
   background-color: rgb(238, 239, 245);
   font-weight: 800;
+  transition: all 0.5s ease-in-out;
 }
 .btnlast:hover {
   background-color: rgb(4, 55, 99);

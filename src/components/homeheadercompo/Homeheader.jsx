@@ -18,9 +18,9 @@ const HomeHeader = () => {
                 placeholder="Search in here...."
                 id="searchinput"
               />
-              <button className="search-button">
+              <Link to="./search" className="search-button">
                 <i className="uil uil-search"></i>
-              </button>
+              </Link>
             </div>
             <div className="banner-botton">
               <h2>Welcome to our Page</h2>
@@ -89,7 +89,7 @@ const HomeHeader = () => {
               </p>
               <h5>Author name. 31.5.2022</h5>
             </div>
-            <div>
+            <div className="maskimgdiv">
               <img
                 className="maskimg"
                 src="/images/homeimgs/Wear-Mask-2.jpg"
@@ -97,9 +97,9 @@ const HomeHeader = () => {
               />
             </div>
           </div>
-          <div>
+          <div className="SecondDiv">
             <div className="secGridfistphoto">
-              <div>
+              <div className="travelpopular">
                 <img src="images/homeimgs/popularland.jpg" alt="" />
               </div>
               <div className="popular-secnew">
@@ -110,12 +110,8 @@ const HomeHeader = () => {
 
             <div className="sec-grid">
               <div className="secGrid2ndphoto">
-                <div>
-                  <img
-                    className="fashion-img"
-                    src="images/homeimgs/fashion.jpg"
-                    alt=""
-                  />
+                <div className="fashion-img">
+                  <img src="images/homeimgs/fashion.jpg" alt="" />
                 </div>
                 <div className="popular-thirdnew">
                   <button className="popular-health">Fashion</button>
@@ -123,12 +119,8 @@ const HomeHeader = () => {
                 </div>
               </div>
               <div className="secondGrid3rdphoto">
-                <div>
-                  <img
-                    className="culture-img"
-                    src="images/homeimgs/bg2.jpg"
-                    alt=""
-                  />
+                <div className="culture-img">
+                  <img src="images/homeimgs/bg2.jpg" alt="" />
                 </div>
                 <div className="popular-fouthnew">
                   <button className="popular-health">Culture</button>
