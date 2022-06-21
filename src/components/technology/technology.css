@@ -1,0 +1,122 @@
+.top {
+  display: flex;
+  padding-left: 150px;
+  color: #747474;
+}
+
+.top h4 {
+  font-size: 15px;
+}
+.sectop h1 {
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 700;
+  padding-left: 150px;
+}
+
+.tec {
+  left: 150px;
+  position: relative;
+  font-size: 11px;
+  margin: 0 5px 0 0;
+  padding: 4px 8px 5px 8px;
+  background-color: #262e67;
+  color: white;
+  letter-spacing: 2px;
+  top: 8px;
+}
+.tec:hover {
+  background-color: var(--technology-bg);
+  color: black;
+}
+.para {
+  padding-left: 150px;
+  padding-right: 280px;
+  font-family: "Open Sans", "Open Sans Regular", sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 26px;
+  color: #777;
+  margin-top: 18px;
+}
+.para:hover {
+  color: #262e67;
+}
+.firstpara {
+  position: absolute;
+  padding-left: 180px;
+  margin-top: 360px;
+}
+.technologypart {
+  background-color: var(--technology-bg);
+  color: white;
+}
+.technologypart:hover {
+  background-color: #262e67;
+  color: white;
+}
+.firstpara h4 {
+  color: white;
+  font-size: 25px;
+}
+.firstpara h4:hover {
+  color: #262e67;
+}
+.firstpara p {
+  margin-right: 800px;
+  font-size: 12px;
+  color: white;
+}
+.firstpara p:hover {
+  color: #262e67;
+}
+.fbphoto {
+  height: 480px;
+  width: 97%;
+  padding-left: 150px;
+  margin-top: 30px;
+}
+
+.photo {
+  display: grid;
+  grid-template-columns: 65% 35%;
+}
+.robotphoto {
+  height: 260px;
+  width: 100%;
+  padding-right: 80px;
+  margin-top: 30px;
+}
+
+.robotpara {
+  position: absolute;
+  margin-top: 200px;
+  padding-left: 15px;
+}
+.robotpara h4 {
+  font-size: 20px;
+  color: white;
+  margin-right: 100px;
+}
+.robotpara h4:hover {
+  color: #262e67;
+}
+.airbudpara {
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 15px;
+}
+.airbudpara h4 {
+  font-size: 20px;
+  color: black;
+  margin-right: 100px;
+}
+.airbudpara h4:hover {
+  color: #262e67;
+}
+.airbudphoto {
+  height: 210px;
+  width: 100%;
+  padding-right: 80px;
+  margin-top: 25px;
+}
