@@ -1,3 +1,40 @@
-.main {
-  flex: 7.8;
+.sidebar {
+  height: calc(100vh - 50px);
+  overflow-y: scroll;
+  position: sticky;
+  top: 50px;
 }
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(179, 179, 179);
+}
+
+.main {
+  width: 90%;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.postTech {
+  display: grid;
+  grid-template-columns: 35% 60%;
+}
+.Tech_img img {
+  width: 250px;
+  height: 150px;
+}
+.postTech_info {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+/* .postTech_info h4 {
+  border-bottom: 1px solid #000;
+} */

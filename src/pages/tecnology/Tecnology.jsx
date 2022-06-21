@@ -5,10 +5,10 @@ import "./tecnology.css";
 export default function Tecnology() {
   return (
     <>
-        <div className="tecbody container">
-          <Tecmain />
-          <Latestbar />
-        </div>
+      <div className="tecbody container">
+        <Tecmain />
+        <Latestbar />
+      </div>
     </>
   );
 }
