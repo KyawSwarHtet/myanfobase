@@ -6,7 +6,7 @@ export default function Latestbar() {
       <div className="allrightbar">
         <div>
           <div className="lastnewbar-title">
-            <h2>Latest Article</h2>
+            {/* <h2>Latest Article</h2> */}
           </div>
         </div>
       </div>
