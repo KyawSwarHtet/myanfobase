@@ -48,7 +48,8 @@
 }
 .connect-social {
   margin-top: 1rem;
-  border: 1px solid black;
+  border: 1px solid rgb(222, 221, 221);
+  
 }
 .connect-logo img {
   width: 100%;
