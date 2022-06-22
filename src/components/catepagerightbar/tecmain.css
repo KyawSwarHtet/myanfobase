@@ -29,11 +29,14 @@
   width: 250px;
   height: 150px;
 }
-.postTech_info {
+/* .postTech_info {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-}
-/* .postTech_info h4 {
-  border-bottom: 1px solid #000;
 } */
+.postTech_info h4 {
+  margin-bottom: 0;
+}
+.postTech_info p {
+  margin-bottom: 0;
+}
