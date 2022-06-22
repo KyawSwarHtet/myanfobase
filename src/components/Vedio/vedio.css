@@ -1,6 +1,9 @@
 .video-container {
   max-width: 1600px;
 }
+.Vsection {
+  width: 100%;
+}
 .Viedosec {
   display: grid;
   grid-template-columns: 60% 40%;
@@ -18,27 +21,29 @@ aq .RecentViedo {
 }
 .Video {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 60% 40%;
   margin: 20px 0;
 }
 .underline {
   display: block;
-  width: 550px;
+  width: 450px;
   height: 4px;
   background-color: #877867;
   margin-bottom: 1rem;
 }
 .btnViedo {
-  background-color: rgb(246, 246, 250);
-  border-radius: 10px;
+  margin: 2rem 34% 0;
+  /* margin: 0px auto; */
   border: 1px solid #000;
-  color: rgb(56, 36, 83);
-  font-size: 0.8rem;
-  margin: 2rem 35% 0;
+  border-radius: 10px;
+  color: rgb(4, 55, 99);
+  background-color: rgb(238, 239, 245);
   font-weight: 800;
+  transition: all 0.5s ease-in-out;
+  padding: 0.5rem 2rem;
 }
 .btnViedo:hover {
-  background-color: rgb(6, 164, 237);
+  background-color: rgb(4, 55, 99);
   color: #fff;
 }
 .VideoTitle .minutes {

@@ -112,10 +112,22 @@ body {
   font-weight: bold;
 }
 .cat-text {
-  width: 90%;
+  width: 94%;
   height: 50px;
 }
 .swiper-button-next .cat-text {
   right: 0px;
   left: auto;
+}
+#SliderTop .swiper-button-prev {
+  position: absolute;
+  /* align-items: center; */
+  top: 18px;
+}
+#SliderTop .swiper-button-next {
+  position: absolute;
+  top: 18px;
+}
+#SliderTop p {
+  margin-left: 12px;
 }
