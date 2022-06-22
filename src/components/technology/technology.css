@@ -1,6 +1,5 @@
 .top {
   display: flex;
-  padding-left: 150px;
   color: #747474;
 }
 
@@ -11,14 +10,12 @@
   font-size: 30px;
   line-height: 38px;
   font-weight: 700;
-  padding-left: 150px;
 }
 
 .tec {
-  left: 150px;
-  position: relative;
+  /* position: relative; */
   font-size: 11px;
-  margin: 0 5px 0 0;
+  margin: 10px 15px 10px 0;
   padding: 4px 8px 5px 8px;
   background-color: #262e67;
   color: white;
@@ -30,7 +27,6 @@
   color: black;
 }
 .para {
-  padding-left: 150px;
   padding-right: 280px;
   font-family: "Open Sans", "Open Sans Regular", sans-serif;
   font-size: 16px;
@@ -42,10 +38,13 @@
 .para:hover {
   color: #262e67;
 }
+.firstphoto {
+  position: relative;
+}
 .firstpara {
   position: absolute;
-  padding-left: 180px;
-  margin-top: 360px;
+  left: 20px;
+  bottom: 20px;
 }
 .technologypart {
   background-color: var(--technology-bg);
@@ -63,9 +62,9 @@
   color: #262e67;
 }
 .firstpara p {
-  margin-right: 800px;
-  font-size: 12px;
+  font-size: 15px;
   color: white;
+  width: 80%;
 }
 .firstpara p:hover {
   color: #262e67;
@@ -73,38 +72,41 @@
 .fbphoto {
   height: 480px;
   width: 97%;
-  padding-left: 150px;
-  margin-top: 30px;
 }
 
 .photo {
   display: grid;
   grid-template-columns: 65% 35%;
 }
+
+.secrobot {
+  position: relative;
+}
 .robotphoto {
   height: 260px;
   width: 100%;
-  padding-right: 80px;
-  margin-top: 30px;
+  position: relative;
 }
 
 .robotpara {
   position: absolute;
-  margin-top: 200px;
-  padding-left: 15px;
+  left: 20px;
+  bottom: 20px;
 }
 .robotpara h4 {
   font-size: 20px;
   color: white;
-  margin-right: 100px;
 }
 .robotpara h4:hover {
   color: #262e67;
 }
+.secair {
+  position: relative;
+}
 .airbudpara {
   position: absolute;
-  margin-top: 150px;
-  margin-left: 15px;
+  bottom: 20px;
+  left: 20px;
 }
 .airbudpara h4 {
   font-size: 20px;
@@ -117,6 +119,4 @@
 .airbudphoto {
   height: 210px;
   width: 100%;
-  padding-right: 80px;
-  margin-top: 25px;
 }

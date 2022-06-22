@@ -51,24 +51,28 @@ export default function Technology() {
           />
         </div>
         <div className="secphoto">
-          <div className="robotpara">
-            <button className="technologypart">Technology</button>
-            <h4>Corsair HS80 RGB Wireless Gaming Headset Review</h4>
+          <div className="secrobot">
+            <img
+              className="robotphoto"
+              src="./images/homeimgs/techhyperx.jpg"
+              alt=""
+            />
+            <div className="robotpara">
+              <button className="technologypart">Technology</button>
+              <h4>Corsair HS80 RGB Wireless Gaming Headset Review</h4>
+            </div>
           </div>
-          <img
-            className="robotphoto"
-            src="./images/homeimgs/techhyperx.jpg"
-            alt=""
-          />
-          <div className="airbudpara">
-            <button className="technologypart">Technology</button>
-            <h4>Corsair HS80 RGB Wirless Gaming Headset Review</h4>
+          <div className="secair">
+            <div className="airbudpara">
+              <button className="technologypart">Technology</button>
+              <h4>Corsair HS80 RGB Wirless Gaming Headset Review</h4>
+            </div>
+            <img
+              className="airbudphoto"
+              src="./images/homeimgs/techkeyboard.jpg"
+              alt=""
+            />
           </div>
-          <img
-            className="airbudphoto"
-            src="./images/homeimgs/techkeyboard.jpg"
-            alt=""
-          />
         </div>
       </div>
     </section>
