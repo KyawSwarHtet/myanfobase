@@ -32,7 +32,11 @@ export default function Footer() {
                 </a>
               </div>
               <div className="inputbox">
-                <input type="text" placeholder="Enter your email" />
+                <input
+                  className="inputfooter"
+                  type="text"
+                  placeholder="Enter your email"
+                />
                 <i class="uil uil-envelope-open"></i>
               </div>
             </div>
