@@ -1,3 +1,4 @@
+import Advtecbar from "./Advtecbar";
 import "./latestbar.css";
 
 export default function Latestbar() {
@@ -77,6 +78,7 @@ export default function Latestbar() {
           </div>
         </div>
         <span className="lastestbottomline"></span>
+        <Advtecbar />
       </div>
     </>
   );

@@ -1,0 +1,122 @@
+.top {
+  display: flex;
+  color: #747474;
+}
+
+.top h4 {
+  font-size: 15px;
+}
+.sectop h1 {
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 700;
+}
+
+.tec {
+  /* position: relative; */
+  font-size: 11px;
+  margin: 10px 15px 10px 0;
+  padding: 4px 8px 5px 8px;
+  background-color: #262e67;
+  color: white;
+  letter-spacing: 2px;
+  top: 8px;
+}
+.tec:hover {
+  background-color: var(--technology-bg);
+  color: black;
+}
+.para {
+  padding-right: 280px;
+  font-family: "Open Sans", "Open Sans Regular", sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 26px;
+  color: #777;
+  margin-top: 18px;
+}
+.para:hover {
+  color: #262e67;
+}
+.firstphoto {
+  position: relative;
+}
+.firstpara {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}
+.technologypart {
+  background-color: var(--technology-bg);
+  color: white;
+}
+.technologypart:hover {
+  background-color: #262e67;
+  color: white;
+}
+.firstpara h4 {
+  color: white;
+  font-size: 25px;
+}
+.firstpara h4:hover {
+  color: #262e67;
+}
+.firstpara p {
+  font-size: 15px;
+  color: white;
+  width: 80%;
+}
+.firstpara p:hover {
+  color: #262e67;
+}
+.fbphoto {
+  height: 480px;
+  width: 97%;
+}
+
+.photo {
+  display: grid;
+  grid-template-columns: 65% 35%;
+}
+
+.secrobot {
+  position: relative;
+}
+.robotphoto {
+  height: 260px;
+  width: 100%;
+  position: relative;
+}
+
+.robotpara {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}
+.robotpara h4 {
+  font-size: 20px;
+  color: white;
+}
+.robotpara h4:hover {
+  color: #262e67;
+}
+.secair {
+  position: relative;
+}
+.airbudpara {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+.airbudpara h4 {
+  font-size: 20px;
+  color: black;
+  margin-right: 100px;
+}
+.airbudpara h4:hover {
+  color: #262e67;
+}
+.airbudphoto {
+  height: 210px;
+  width: 100%;
+}

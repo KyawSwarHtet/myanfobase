@@ -73,7 +73,7 @@ ul li {
   display: flex;
   align-items: center;
 }
-.inputbox input {
+.inputbox .inputfooter {
   padding: 16px 5px;
 }
 .inputbox i {

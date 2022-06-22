@@ -1,6 +1,9 @@
 .video-container {
   max-width: 1600px;
 }
+.Vsection {
+  width: 100%;
+}
 .Viedosec {
   display: grid;
   grid-template-columns: 60% 40%;
@@ -18,12 +21,12 @@ aq .RecentViedo {
 }
 .Video {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 60% 40%;
   margin: 20px 0;
 }
 .underline {
   display: block;
-  width: 550px;
+  width: 450px;
   height: 4px;
   background-color: #877867;
   margin-bottom: 1rem;

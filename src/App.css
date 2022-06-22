@@ -38,6 +38,9 @@ body {
 /* .body-color {
   background: var(--background-main) !important;
 } */
+a {
+  text-decoration: none;
+}
 .container {
   width: var(--container-width-lg);
   margin: 0 auto;
@@ -190,4 +193,8 @@ p {
   color: white;
   padding: 1px 8px;
   font-size: 0.9rem;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 0 !important;
 }
