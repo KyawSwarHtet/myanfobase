@@ -1,0 +1,42 @@
+.lastnewimg img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.lasttitleline {
+  display: block;
+  width: 200px;
+  height: 2px;
+  background-color: #f18510;
+  margin-bottom: 2rem;
+}
+.lastnewbar-body .lastnewimg {
+  width: 100%;
+  height: 5.5rem;
+}
+.lastnewbar-body .article-lastest {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  gap: 1rem;
+}
+.lastnewinfo {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+.lastnewbuttondate {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.lastnewinfo h4 {
+  font-size: 1.2rem;
+}
+.lastestbottomline {
+  display: block;
+  width: 460px;
+  height: 2px;
+  background-color: #f18510;
+  margin-bottom: 2rem;
+}

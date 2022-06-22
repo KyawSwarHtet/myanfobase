@@ -9,7 +9,7 @@ export default function EducationLeft() {
       </div>
       <div className="wrapperinfo">
         <h4>Where does it come from effective from Exercise ?</h4>
-        <span>Education</span>
+        <span className="cateEducation">Education</span>
         <h5>32.4.2021</h5>
       </div>
 
@@ -18,7 +18,7 @@ export default function EducationLeft() {
       </div>
       <div className="wrapperinfo">
         <h4>Where does it come from effective from Exercise ?</h4>
-        <span>Education</span>
+        <span className="cateEducation">Education</span>
         <h5>32.4.2021</h5>
       </div>
     </div>

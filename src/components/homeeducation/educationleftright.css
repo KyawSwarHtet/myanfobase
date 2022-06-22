@@ -16,15 +16,20 @@ img {
 .wrapperinfo h4 {
   line-height: 1.5rem;
 }
+.wrapperinfo h4:hover {
+  color: #00a79d;
+}
 .wrapperinfo span {
   display: inline-block;
   margin: 0.8rem 0;
-  background-color: black;
-  padding: 1px 3px;
-  font-size: 0.9em;
-  border-radius: 4px;
-  color: #fff;
+}
+.wrapperinfo span:hover {
+  background-color: #00a79d;
+  color: black;
 }
 .wrapperinfo h5 {
   font-weight: 700;
+}
+.wrapperinfo h5:hover {
+  color: #00a79d;
 }

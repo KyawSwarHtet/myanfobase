@@ -81,7 +81,9 @@ const HomeHeader = () => {
         <div className="first-grid">
           <div className="mask-div">
             <div className="popular-bignew">
-              <button className="popular-health">Health</button>
+              <Link to="/health" className="cateHealth">
+                Health
+              </Link>
               <p>
                 popular-health Lorem Ipsum is simply dummy text of the printing
                 and typesetting industry. Lorem Ipsum has been the industry's
@@ -103,7 +105,9 @@ const HomeHeader = () => {
                 <img src="images/homeimgs/popularland.jpg" alt="" />
               </div>
               <div className="popular-secnew">
-                <button className="popular-health">Travel</button>
+                <Link to="/travel" className="cateTravel">
+                  Travel
+                </Link>
                 <p>Where can I get some?</p>
               </div>
             </div>
@@ -114,7 +118,9 @@ const HomeHeader = () => {
                   <img src="images/homeimgs/fashion.jpg" alt="" />
                 </div>
                 <div className="popular-thirdnew">
-                  <button className="popular-health">Fashion</button>
+                  <Link to="/beauty" className="cateBeauty">
+                    Beauty
+                  </Link>
                   <p>Where can I get some?</p>
                 </div>
               </div>
@@ -123,7 +129,9 @@ const HomeHeader = () => {
                   <img src="images/homeimgs/bg2.jpg" alt="" />
                 </div>
                 <div className="popular-fouthnew">
-                  <button className="popular-health">Culture</button>
+                  <Link to="/history" className="cateHistory">
+                    History
+                  </Link>
                   <p>Where can I get some?</p>
                 </div>
               </div>

@@ -15,7 +15,9 @@
   grid-template-columns: 70% 30%;
   gap: 1rem;
 }
-
+.container h2:hover {
+  color: #7da2df;
+}
 span.headerline {
   display: block;
   width: 200px;
@@ -33,7 +35,11 @@ span.headerline {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  /* margin: 2rem 0; */
+  /*
+   margin: 2rem 0; */
+}
+.news:hover {
+  color: #7da2df;
 }
 .postbuttom {
   display: flex;
@@ -50,6 +56,9 @@ span.headerline {
   font-weight: 500;
   color: red;
   margin: 0 25px 0 10px;
+}
+.profileName:hover {
+  color: #7da2df;
 }
 .postman img {
   width: 30px;
@@ -76,35 +85,31 @@ span.headerline {
   position: relative;
 }
 .entertainment {
-  background: #d1a2e9;
-  bottom: 40px;
+  bottom: 50px;
   left: -20px;
-  color: white;
+
   position: absolute;
 }
 .science {
   background: #5d66a0;
   position: absolute;
-  padding: 0 22px;
+
   bottom: 20px;
   left: -20px;
-  color: white;
 }
 .Newsdiv {
-  background: #2ea397;
+  /* background: #2ea397; */
   position: absolute;
-  padding: 0 27px;
+
   bottom: 20px;
   left: -20px;
-  color: white;
 }
 .Technology {
-  background: #c07d5d;
+  /* background: #c07d5d; */
   position: absolute;
-  padding: 0 8px;
+
   bottom: 20px;
   left: -20px;
-  color: white;
 }
 .todaylist {
   display: flex;
@@ -129,10 +134,11 @@ span.headerline {
   grid-template-columns: 50% 50%;
   gap: 1rem;
   padding: 0 1rem;
+  align-items: center;
 }
 .foreignmoney {
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
   align-items: center;
 }
 .foreignmoney img {
@@ -150,6 +156,13 @@ span.headerline {
 .today:hover {
   color: #f18510;
 }
+
+.today:hover {
+  background: #5b96f4ef;
+  color: #fff;
+  box-shadow: 0 0 13px #2a75ef;
+}
+
 .Goldprice {
   border: 2px solid #090e6a;
   /* background-color: #e0edfd; */
@@ -164,6 +177,8 @@ span.headerline {
 }
 .goldprices {
   font-size: 1em;
+  text-align: left;
+  padding-left: 1.5rem;
 }
 .FuelPrice {
   border: 2px solid #090e6a;

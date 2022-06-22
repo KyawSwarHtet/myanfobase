@@ -7,8 +7,19 @@
   /* background: #efe8d7; */
 }
 #swiperdiv {
-  width: 98%;
+  width: 100%;
   height: 19rem;
+}
+#swiperdiv .swiper-button-prev {
+  position: absolute;
+  top: 50%;
+}
+#swiperdiv .swiper-button-next {
+  position: absolute;
+  top: 50%;
+}
+.categories-header:hover {
+  color: #f18510;
 }
 #swiperdiv .cate-swiper {
   margin: auto;
@@ -44,10 +55,16 @@ body {
   font-size: 1rem;
   font-weight: bolder;
 }
+.cate-swiper h3:hover {
+  color: #f18510;
+}
 .cate-swiper h5 {
   text-align: left;
   font-weight: 500;
   font-size: 0.9rem;
+}
+.cate-swiper h5:hover {
+  color: #f18510;
 }
 .cate-swiper .cate-image {
   width: 100%;

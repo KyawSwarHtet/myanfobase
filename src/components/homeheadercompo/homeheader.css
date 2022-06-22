@@ -45,6 +45,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top 50% right 0;
+  position: relative;
 }
 .home-banner-detail {
   text-align: center;
@@ -82,19 +83,20 @@
   background-color: transparent;
 }
 .banner-botton {
-  margin-top: 8rem;
+  position: absolute;
+  bottom: 62px;
+  right: -321px;
 }
 .banner-botton h2 {
   font-size: 2rem;
   color: white;
   font-family: "Ultra";
   font-weight: 250;
-  margin-left: 64%;
+  text-align: left;
 }
 .banner-botton p {
   text-align: left;
-  margin-left: 65rem;
-  width: 30%;
+  width: 55%;
   color: white;
 }
 .header-bottom-line {
@@ -170,12 +172,16 @@
   color: white;
   width: 50%;
 }
-.popular-health {
-  background-color: black;
-  color: white;
-  font-size: 1rem;
-  padding: 0.3rem;
+
+.popular-bignew p:hover {
+  color: var(--health-bg);
 }
+
+.popular-health:hover {
+  background: var(--health-bg);
+  color: black;
+}
+
 .popular-secnew {
   position: absolute;
   bottom: 1rem;
@@ -187,6 +193,10 @@
   /* margin-top: 1rem; */
   font-family: "Ultra";
 }
+
+.popular-secnew p:hover {
+  color: var(--health-bg);
+}
 .popular-thirdnew {
   position: absolute;
   bottom: 1rem;
@@ -194,8 +204,12 @@
 }
 .popular-thirdnew p {
   color: white;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-family: "Ultra";
+}
+
+.popular-thirdnew p:hover {
+  color: var(--health-bg);
 }
 .popular-fouthnew {
   position: absolute;
@@ -204,10 +218,13 @@
 }
 .popular-fouthnew p {
   color: white;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-family: "Ultra";
 }
 
+.popular-fouthnew p:hover {
+  color: var(--health-bg);
+}
 .first-grid {
   display: grid;
   grid-template-columns: 60% 40%;

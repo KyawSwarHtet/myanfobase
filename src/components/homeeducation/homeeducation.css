@@ -13,6 +13,9 @@
   margin-bottom: 0;
   line-height: 1.4 !important;
 }
+.titleEducation h2:hover {
+  color: #00a79d;
+}
 .titleEducation span.headerline {
   display: block;
   width: 400px;
