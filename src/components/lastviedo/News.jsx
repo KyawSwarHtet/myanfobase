@@ -24,7 +24,7 @@ const News = () => {
           </div>
           <div className="news_img">
             <img src="./images/homeimgs/viedo3.jpg" alt="" />
-            <p className="entertainment">Entertainment</p>
+            <p className="entertainment cateEntertainment">Entertainment</p>
           </div>
         </div>
         <div className="news">
@@ -47,7 +47,7 @@ const News = () => {
           </div>
           <div className="news_img">
             <img src="./images/homeimgs/science.jpg" alt="" />
-            <p className="science">Science</p>
+            <p className="science cateScience">Science</p>
           </div>
         </div>
         <div className="news">
@@ -70,7 +70,7 @@ const News = () => {
           </div>
           <div className="news_img">
             <img src="./images/homeimgs/political.jpg" alt="" />
-            <p className="Newsdiv">News</p>
+            <p className="Newsdiv cateGovernment">Government</p>
           </div>
         </div>
         <div className="news">
@@ -93,7 +93,7 @@ const News = () => {
           </div>
           <div className="news_img">
             <img src="./images/homeimgs/technology.jpg" alt="" />
-            <p className="Technology">Technology</p>
+            <p className="Technology cateTechnology">Technology</p>
           </div>
         </div>
         <button className="btn btnlast">Show More</button>

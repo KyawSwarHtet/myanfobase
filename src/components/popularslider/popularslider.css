@@ -39,3 +39,12 @@ body {
   -webkit-align-items: center;
   align-items: center;
 }
+
+.Popularswiper .swiper-button-prev {
+  position: absolute;
+  top: 29px;
+}
+.Popularswiper .swiper-button-next {
+  position: absolute;
+  top: 29px;
+}

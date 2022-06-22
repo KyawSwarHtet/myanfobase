@@ -13,14 +13,16 @@ import "./slider.css";
 
 // import required modules
 import { Pagination, Navigation } from "swiper";
+import { categories } from "../categories/categoriesarray";
 
 export default function Slider() {
   return (
     <>
       <span className="swipper-bottom-line"></span>
       <Swiper
+        id="SliderTop"
         slidesPerView={8}
-        spaceBetween={30}
+        spaceBetween={0}
         loop={true}
         pagination={{
           clickable: true,
@@ -29,91 +31,15 @@ export default function Slider() {
         modules={[Pagination, Navigation]}
         className="cat-text"
       >
-        <SwiperSlide>
-          <Link to="/entertainment" className="main-cat">
-            Entertainment
-          </Link>
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <Link to="/tecnology" className="main-cat">
-            Tecnology
-          </Link>
-        </SwiperSlide>
-        <SwiperSlide>
-          <Link to="/entertainment" className="main-cat">
-            History
-          </Link>
-        </SwiperSlide>
-        <SwiperSlide>
-          <Link to="/entertainment" className="main-cat">
-            Travel
-          </Link>
-        </SwiperSlide>
-        <SwiperSlide>
-          <Link to="/entertainment" className="main-cat">
-            Beauty
-          </Link>
-        </SwiperSlide>
-        <SwiperSlide>
-          <Link to="/entertainment" className="main-cat">
-            Health
-          </Link>
-        </SwiperSlide>
-        <Link to="/entertainment" className="main-cat">
-          Techology
-        </Link>
-        <SwiperSlide>
-          <Link to="/entertainment" className="main-cat">
-            Government
-          </Link>
-        </SwiperSlide>
-        <SwiperSlide>
-          <Link to="/entertainment" className="main-cat">
-            Techology
-          </Link>
-        </SwiperSlide>
-        <SwiperSlide>
-          <Link to="/entertainment" className="main-cat">
-            Entertainment
-          </Link>
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <Link to="/entertainment" className="main-cat">
-            Techology
-          </Link>
-        </SwiperSlide>
-        <SwiperSlide>
-          <Link to="/entertainment" className="main-cat">
-            History
-          </Link>
-        </SwiperSlide>
-        <SwiperSlide>
-          <Link to="/entertainment" className="main-cat">
-            Travel
-          </Link>
-        </SwiperSlide>
-        <SwiperSlide>
-          <Link to="/entertainment" className="main-cat">
-            Beauty
-          </Link>
-        </SwiperSlide>
-        <SwiperSlide>
-          <Link to="/entertainment" className="main-cat">
-            Health
-          </Link>
-        </SwiperSlide>
-        <SwiperSlide>
-          <Link to="/entertainment" className="main-cat">
-            Government
-          </Link>
-        </SwiperSlide>
-        <SwiperSlide>
-          <Link to="/entertainment" className="main-cat">
-            Techology
-          </Link>
-        </SwiperSlide>
+        {categories.map((cate) => {
+          return (
+            <SwiperSlide>
+              <Link to={cate.path} className="main-cat">
+                <p>{cate.title}</p>
+              </Link>
+            </SwiperSlide>
+          );
+        })}
       </Swiper>
       <span className="swipper-bottom-line"></span>
     </>

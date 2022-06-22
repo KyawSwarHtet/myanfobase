@@ -18,9 +18,9 @@ const HomeHeader = () => {
                 placeholder="Search in here...."
                 id="searchinput"
               />
-              <button className="search-button">
+              <Link to="./search" className="search-button">
                 <i className="uil uil-search"></i>
-              </button>
+              </Link>
             </div>
             <div className="banner-botton">
               <h2>Welcome to our Page</h2>
@@ -81,7 +81,9 @@ const HomeHeader = () => {
         <div className="first-grid">
           <div className="mask-div">
             <div className="popular-bignew">
-              <button className="popular-health">Health</button>
+              <Link to="/health" className="cateHealth">
+                Health
+              </Link>
               <p>
                 popular-health Lorem Ipsum is simply dummy text of the printing
                 and typesetting industry. Lorem Ipsum has been the industry's
@@ -89,40 +91,47 @@ const HomeHeader = () => {
               </p>
               <h5>Author name. 31.5.2022</h5>
             </div>
-            <img
-              className="maskimg"
-              src="/images/homeimgs/Wear-Mask-2.jpg"
-              alt=""
-            />
+            <div className="maskimgdiv">
+              <img
+                className="maskimg"
+                src="/images/homeimgs/Wear-Mask-2.jpg"
+                alt=""
+              />
+            </div>
           </div>
-          <div>
-            <div>
-              <img src="images/homeimgs/popularland.jpg" alt="" />
-
+          <div className="SecondDiv">
+            <div className="secGridfistphoto">
+              <div className="travelpopular">
+                <img src="images/homeimgs/popularland.jpg" alt="" />
+              </div>
               <div className="popular-secnew">
-                <button className="popular-health">Travel</button>
+                <Link to="/travel" className="cateTravel">
+                  Travel
+                </Link>
                 <p>Where can I get some?</p>
               </div>
             </div>
 
             <div className="sec-grid">
-              <img
-                className="fashion-img"
-                src="images/homeimgs/fashion.jpg"
-                alt=""
-              />
-              <div className="popular-thirdnew">
-                <button className="popular-health">Fashion</button>
-                <p>Where can I get some?</p>
+              <div className="secGrid2ndphoto">
+                <div className="fashion-img">
+                  <img src="images/homeimgs/fashion.jpg" alt="" />
+                </div>
+                <div className="popular-thirdnew">
+                  <Link to="/beauty" className="cateBeauty">
+                    Beauty
+                  </Link>
+                  <p>Where can I get some?</p>
+                </div>
               </div>
-              <div>
-                <img
-                  className="culture-img"
-                  src="images/homeimgs/bg2.jpg"
-                  alt=""
-                />
+              <div className="secondGrid3rdphoto">
+                <div className="culture-img">
+                  <img src="images/homeimgs/bg2.jpg" alt="" />
+                </div>
                 <div className="popular-fouthnew">
-                  <button className="popular-health">Culture</button>
+                  <Link to="/history" className="cateHistory">
+                    History
+                  </Link>
                   <p>Where can I get some?</p>
                 </div>
               </div>

@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Bowlby+One&family=Ultra&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Bowlby+One&family=Ultra&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
+
 .header {
   background-color: rgb(209, 213, 212);
   padding-top: 1rem;
@@ -43,13 +45,15 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top 50% right 0;
+  position: relative;
 }
 .home-banner-detail {
   text-align: center;
 }
 .home-banner-detail h1 {
+  font-family: "Merriweather", serif;
   color: white;
-  font-family: "Bowlby One";
+  /* font-family: "Bowlby One"; */
   font-size: 70px;
   padding-top: 4rem;
 }
@@ -66,33 +70,33 @@
   max-width: 1600px;
 }
 .search-banner {
-  display: grid;
-  width: 50%;
-  margin-left: 25%;
-  margin-top: 1rem;
+  max-width: fit-content;
+  margin: 1rem auto;
+
   position: relative;
 }
 .search-button {
   position: absolute;
-  left: 45rem;
-  top: 1.8rem;
+  right: 1.5rem;
+  top: 1.5rem;
   font-size: 1.3rem;
   background-color: transparent;
 }
 .banner-botton {
-  margin-top: 8rem;
+  position: absolute;
+  bottom: 62px;
+  right: -321px;
 }
 .banner-botton h2 {
   font-size: 2rem;
   color: white;
   font-family: "Ultra";
   font-weight: 250;
-  margin-left: 64%;
+  text-align: left;
 }
 .banner-botton p {
   text-align: left;
-  margin-left: 65rem;
-  width: 30%;
+  width: 55%;
   color: white;
 }
 .header-bottom-line {
@@ -128,12 +132,6 @@
   grid-template-columns: 20% 80%;
   max-width: 1600px;
 }
-.popular-title {
-  margin-left: 3rem;
-}
-.popular-title h2:hover {
-  color: var(--health-bg);
-}
 .popular-now-line {
   display: block;
   width: 185px;
@@ -156,15 +154,19 @@
   max-width: 1600px;
 }
 .maskimg {
-  height: 30rem;
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 .mask-div {
   margin-right: 0.5rem;
+  overflow: hidden;
+  position: relative;
 }
-.popular-bignew {
+.mask-div .popular-bignew {
   position: absolute;
-  top: 80rem;
-  margin-left: 2rem;
+  bottom: 1rem;
+  left: 40px;
 }
 .popular-bignew p {
   color: white;
@@ -174,12 +176,6 @@
 .popular-bignew p:hover {
   color: var(--health-bg);
 }
-.popular-health {
-  background-color: black;
-  color: white;
-  font-size: 1rem;
-  padding: 0.3rem;
-}
 
 .popular-health:hover {
   background: var(--health-bg);
@@ -188,13 +184,13 @@
 
 .popular-secnew {
   position: absolute;
-  top: 74rem;
-  margin-left: 1.5rem;
+  bottom: 1rem;
+  left: 20px;
 }
 .popular-secnew p {
   color: white;
   font-size: 1.2rem;
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
   font-family: "Ultra";
 }
 
@@ -203,12 +199,12 @@
 }
 .popular-thirdnew {
   position: absolute;
-  top: 86rem;
-  margin-left: 1rem;
+  bottom: 1rem;
+  left: 20px;
 }
 .popular-thirdnew p {
-  color: black;
-  font-size: 0.8rem;
+  color: white;
+  font-size: 1rem;
   font-family: "Ultra";
 }
 
@@ -217,12 +213,12 @@
 }
 .popular-fouthnew {
   position: absolute;
-  top: 86rem;
-  margin-left: 1rem;
+  bottom: 1rem;
+  left: 20px;
 }
 .popular-fouthnew p {
   color: white;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-family: "Ultra";
 }
 
@@ -232,8 +228,53 @@
 .first-grid {
   display: grid;
   grid-template-columns: 60% 40%;
+  overflow: hidden;
+  transition: all 6s ease-in-out;
 }
+
 .sec-grid {
   display: grid;
   grid-template-columns: 50% 50%;
+  gap: 0.5rem;
+}
+.sec-grid .secGrid2ndphoto {
+  position: relative;
+}
+.sec-grid .secondGrid3rdphoto {
+  position: relative;
+}
+.first-grid .SecondDiv {
+  display: grid;
+  grid-template-rows: 60% 40%;
+  gap: 0.5rem;
+}
+.secGridfistphoto img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.SecondDiv .secGridfistphoto {
+  position: relative;
+}
+.secGridfistphoto .travelpopular {
+  width: 100%;
+  height: 100%;
+}
+.secGrid2ndphoto .fashion-img {
+  width: 100%;
+  height: 100%;
+}
+.secGrid2ndphoto .fashion-img image {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.secondGrid3rdphoto .culture-img {
+  width: 100%;
+  height: 100%;
+}
+.secondGrid3rdphoto .culture-img img {
+  display: block;
+  width: 100%;
+  height: 100%;
 }

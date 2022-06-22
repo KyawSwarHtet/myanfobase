@@ -12,17 +12,18 @@
 :root {
   --background-main: #fff;
   --entertainment-bg: rgb(245, 188, 213, 0.948);
-  --technology-bg: rgb(159, 102, 17, 0.597);
-  --beauty-bg: rgb(244, 145, 190);
-  --history-bg: rgb(86, 30, 6);
-  --government-bg: rgb(129, 173, 243);
-  --science-bg: rgb(96, 112, 235, 0.778);
+  --technology-bg: rgb(211 153 7);
+  --beauty-bg: rgb(211 128 166);
+  --history-bg: rgb(163 69 28);
+  --government-bg: rgb(159 65 136);
+  --science-bg: rgb(87 97 173 / 78%);
   --travel-bg: rgb(116, 104, 213);
   --sports-bg: rgb(36, 9, 9, 0.94);
   --arts-bg: rgb(12, 47, 105);
   --literature-bg: rgb(13, 222, 230);
-  --health-bg: rgb(135, 244, 188);
-  --lifestyle-bg: rgb(50, 233, 50);
+  --health-bg: rgb(60 211 134);
+  --lifestyles-bg: rgb(50, 233, 50);
+  --education-bg: rgb(144, 240, 18);
   --container-width-lg: 80%;
   --container-width-md: 90%;
   --container-width-sm: 96%;
@@ -37,6 +38,9 @@ body {
 /* .body-color {
   background: var(--background-main) !important;
 } */
+a {
+  text-decoration: none;
+}
 .container {
   width: var(--container-width-lg);
   margin: 0 auto;
@@ -83,11 +87,114 @@ h5 {
   display: inline-block;
   /* background: var(--color-white); */
   color: var(--color-black);
-  padding: 1rem 2rem;
+  padding: 0.5rem 0.5rem;
   border: 1px solid transparent;
   font-weight: 500;
   transition: var(--transition);
 }
 p {
   font-size: 16px;
+}
+.cateEntertainment {
+  background-color: var(--entertainment-bg);
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: white;
+  padding: 1px 8px;
+}
+.cateTechnology {
+  background-color: var(--technology-bg);
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: white;
+  padding: 1px 8px;
+}
+.cateHistory {
+  background-color: var(--history-bg);
+
+  padding: 1px 8px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: white;
+}
+.cateTravel {
+  background-color: var(--travel-bg);
+  font-weight: 500;
+  color: white;
+  padding: 1px 8px;
+  font-size: 0.9rem;
+}
+.cateBeauty {
+  background-color: var(--beauty-bg);
+
+  font-weight: 500;
+  color: #fff;
+  padding: 1px 8px;
+  font-size: 0.9rem;
+}
+.cateHealth {
+  background-color: var(--health-bg);
+
+  font-weight: 500;
+  color: white;
+  padding: 1px 8px;
+  font-size: 0.9rem;
+}
+.cateGovernment {
+  background-color: var(--government-bg);
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: white;
+  padding: 1px 8px;
+}
+.cateScience {
+  background-color: var(--science-bg);
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: white;
+  padding: 1px 12px;
+}
+.cateLiterature {
+  background-color: var(--literature-bg);
+
+  font-weight: 500;
+  color: white;
+  padding: 1px 8px;
+  font-size: 0.9rem;
+}
+.cateSports {
+  background-color: var(--sports-bg);
+
+  font-weight: 500;
+  color: white;
+  padding: 1px 8px;
+  font-size: 0.9rem;
+}
+.cateLifestyles {
+  background-color: var(--lifestyles-bg);
+
+  font-weight: 500;
+  color: white;
+  padding: 1px 8px;
+  font-size: 0.9rem;
+}
+.cateArts {
+  background-color: var(--arts-bg);
+
+  font-weight: 500;
+  color: white;
+  padding: 1px 8px;
+  font-size: 0.9rem;
+}
+.cateEducation {
+  background-color: var(--education-bg);
+
+  font-weight: 500;
+  color: white;
+  padding: 1px 8px;
+  font-size: 0.9rem;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 0 !important;
 }
