@@ -80,12 +80,16 @@
   display: grid;
   grid-template-columns: 65% 35%;
 }
-
+.secphoto {
+  display: grid;
+  grid-template-rows: 50% 50%;
+  gap: 0.5rem;
+}
 .secrobot {
   position: relative;
 }
 .robotphoto {
-  height: 260px;
+  height: 230px;
   width: 100%;
   position: relative;
 }
@@ -119,6 +123,6 @@
   color: #262e67;
 }
 .airbudphoto {
-  height: 210px;
+  height: 230px;
   width: 100%;
 }
