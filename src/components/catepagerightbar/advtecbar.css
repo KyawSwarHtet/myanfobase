@@ -1,14 +1,17 @@
-.Stayconnect-title{
-    margin-top: 2rem;
+.Stayconnect-title {
+  margin-top: 2rem;
 }
-.stayunderline{
-    display: block;
+.stayunderline {
+  display: block;
   width: 228px;
   height: 2px;
   background-color: #f18510;
+  margin-bottom: 1rem;
 }
 
 .adv-image img {
+  transition: all 0.5s ease-in-out;
+
   width: 100%;
   height: 100%;
   display: block;
@@ -17,20 +20,24 @@
 .adv-connection .adv-image {
   width: 100%;
   height: 20rem;
+  overflow: hidden;
+}
+.adv-image img:hover {
+  transform: perspective(1000px) translateZ(150px);
 }
 .advdata {
   position: relative;
 }
-.advh4 {
+.advh4 h4 {
   position: absolute;
   bottom: 14rem;
   text-align: center;
-  margin-left: 3rem;
+  margin-left: 1.5rem;
   color: white;
 }
 .adv-button {
   position: absolute;
-  bottom: 8rem;
+  bottom: 6rem;
   margin-left: 35%;
 }
 .adv-button .advbuynow {
@@ -46,29 +53,82 @@
   margin-left: 1rem;
   color: white;
 }
-.connect-social {
-  margin-top: 1rem;
-  border: 1px solid black;
-}
-.connect-logo img {
-  width: 100%;
-  height: 100%;
-  display: block;
-  object-fit: cover;
+.connect-social,
+.connect-social2,
+.connect-social3,
+.connect-social4 {
+  margin-bottom: 0.5rem;
+  margin-right: 0.5rem;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  border-radius: 5px;
+  border: 1px solid rgb(213, 209, 209);
+  padding: 0.5rem;
 }
 
-.connect-social .connect-logo {
-  margin-top: 0.5rem;
-  width: 41%;
-  height: 41%;
-  margin-left: 30%;
+.connect-social:hover {
+  background-color: #0693e3;
+  box-shadow: 3px 5px 5px 3px rgba(117, 172, 254, 0.64);
+  color: white;
+}
+.connect-social:hover .connect-logo i,
+.connect-social2:hover .connect-logo2 i,
+.connect-social3:hover .connect-logo3 i,
+.connect-social4:hover .connect-logo4 i {
+  color: white;
+}
+.connect-social3:hover {
+  background-color: #8ed1fc;
+  box-shadow: 3px 5px 5px 3px rgba(156, 214, 243, 0.542);
+  color: white;
+}
+.connect-social4:hover {
+  background-color: #9b51e0;
+  box-shadow: 3px 5px 5px 3px rgba(225, 162, 244, 0.567);
+  color: white;
+}
+.connect-social2:hover {
+  background-color: #fe2d2d;
+  box-shadow: 3px 5px 5px 3px rgba(244, 85, 85, 0.718);
+  color: white;
+}
+
+.connect-social .connect-logo i {
+  font-size: 1.8rem;
+  margin-left: 5px;
+  color: rgb(36, 133, 190);
+}
+.connect-logo2 i {
+  font-size: 1.8rem;
+  margin-left: 5px;
+  color: red;
+}
+.connect-logo3 i {
+  font-size: 1.8rem;
+  margin-left: 5px;
+  color: #8ed1fc;
+}
+.connect-logo4 i {
+  font-size: 1.8rem;
+  margin-left: 5px;
+  color: #9b51e0;
 }
 .connect-socials {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 3rem;
-  text-align: center;
+  grid-template-rows: 1fr 1fr;
 }
-.connect-social .followers :hover{
-color: gray;
+
+.connect-socials .first-line-socials {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.connect-socials .sec-line-socials {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.followers p {
+  font-size: 0.8rem;
+}
+.followers .follower {
+  font-weight: 600;
 }
