@@ -43,14 +43,16 @@ span.headerline {
 }
 
 .postbuttom {
-  display: flex;
-  justify-content: left;
+  /* display: flex;
+  justify-content: left; */
+  display: grid;
+  grid-template-columns: 80% 20%;
   align-items: center;
   position: relative;
 }
 .posticon {
   font-size: 18px;
-  margin-left: 12rem;
+  margin-left: 0rem;
   /* position: absolute;
   bottom: 4px;
   right: 4px; */

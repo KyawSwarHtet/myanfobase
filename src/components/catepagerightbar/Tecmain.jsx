@@ -6,7 +6,8 @@ export default function Tecmain() {
       <div className="main">
         <div className="postTech">
           <div className="Tech_img">
-            <img src="./images/homeimgs/technology.jpg" alt="" />
+            <img src="./images/technology/techhyperx.jpg" alt="" />
+            <p className="Technology1 cateTechnology">Technology</p>
           </div>
           <div className="postTech_info">
             <h4>18 Top Fall Fashion Trends from New York Fashion</h4>
@@ -28,7 +29,8 @@ export default function Tecmain() {
         </div>
         <div className="postTech">
           <div className="Tech_img">
-            <img src="./images/homeimgs/technology.jpg" alt="" />
+            <img src="./images/technology/techbitcoin.jpg" alt="" />
+            <p className="Technology1 cateTechnology">Technology</p>
           </div>
           <div className="postTech_info">
             <h4>18 Top Fall Fashion Trends from New York Fashion</h4>
@@ -50,7 +52,8 @@ export default function Tecmain() {
         </div>
         <div className="postTech">
           <div className="Tech_img">
-            <img src="./images/homeimgs/technology.jpg" alt="" />
+            <img src="./images/technology/techearphone.jpg" alt="" />
+            <p className="Technology1 cateTechnology">Technology</p>
           </div>
           <div className="postTech_info">
             <h4>18 Top Fall Fashion Trends from New York Fashion</h4>
@@ -72,7 +75,8 @@ export default function Tecmain() {
         </div>
         <div className="postTech">
           <div className="Tech_img">
-            <img src="./images/homeimgs/technology.jpg" alt="" />
+            <img src="./images/technology/techmouse.jpg" alt="" />
+            <p className="Technology1 cateTechnology">Technology</p>
           </div>
           <div className="postTech_info">
             <h4>18 Top Fall Fashion Trends from New York Fashion</h4>
@@ -94,7 +98,8 @@ export default function Tecmain() {
         </div>
         <div className="postTech">
           <div className="Tech_img">
-            <img src="./images/homeimgs/technology.jpg" alt="" />
+            <img src="./images/technology/techphone.jpg" alt="" />
+            <p className="Technology1 cateTechnology">Technology</p>
           </div>
           <div className="postTech_info">
             <h4>18 Top Fall Fashion Trends from New York Fashion</h4>

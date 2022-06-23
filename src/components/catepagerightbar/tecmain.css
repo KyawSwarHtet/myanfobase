@@ -25,6 +25,9 @@
   display: grid;
   grid-template-columns: 40% 60%;
 }
+.Tech_img {
+  position: relative;
+}
 .Tech_img img {
   width: 250px;
   height: 180px;
@@ -37,4 +40,9 @@
 }
 .postTech_info p {
   margin-bottom: 0;
+}
+.Technology1 {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
 }
