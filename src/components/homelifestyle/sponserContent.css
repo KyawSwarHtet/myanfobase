@@ -1,3 +1,6 @@
+.sponsered {
+  width: 100%;
+}
 .sponsered-1,
 .sponsered-2,
 .sponsered-3 {
@@ -40,5 +43,5 @@
 }
 .sponserBy .sponserBefore {
   font-size: 14px;
-  margin-left: 1rem;
+  margin-left: 0.6rem;
 }

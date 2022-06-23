@@ -10,7 +10,6 @@ import Viedo from "../../components/Vedio/Viedo";
 export default function Home() {
   return (
     <>
-      <Header />
       <HomeHeader />
       <LastNews />
       <Homelifestyle />
