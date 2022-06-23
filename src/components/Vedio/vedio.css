@@ -32,15 +32,16 @@ aq .RecentViedo {
   margin-bottom: 1rem;
 }
 .btnViedo {
-  margin: 2rem 34% 0;
-  /* margin: 0px auto; */
+  /* margin: 2rem 34% 0; */
+  display: block;
+  margin: auto;
   border: 1px solid #000;
   border-radius: 10px;
   color: rgb(4, 55, 99);
   background-color: rgb(238, 239, 245);
   font-weight: 800;
   transition: all 0.5s ease-in-out;
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 1rem;
 }
 .btnViedo:hover {
   background-color: rgb(4, 55, 99);
