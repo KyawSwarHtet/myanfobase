@@ -9,7 +9,7 @@ export default function Tecnology() {
     <>
       <section className="container">
         <Technology />
-        <section className="tecbody ">
+        <section className="tecbody">
           <Tecmain />
           <Latestbar />
         </section>
