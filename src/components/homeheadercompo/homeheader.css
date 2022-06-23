@@ -141,11 +141,11 @@
 }
 .popular-p {
   display: flex;
-  margin-left: 23rem;
+  margin-left: 0rem;
 }
 .popular-p p {
   background-color: rgb(235, 234, 232);
-
+  margin-top: 0.5rem;
   padding: 5px 10px 0px 10px;
 }
 
