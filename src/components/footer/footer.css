@@ -75,6 +75,7 @@ ul li {
 }
 .inputbox .inputfooter {
   padding: 16px 5px;
+  line-height: 0;
 }
 .inputbox i {
   display: block;
