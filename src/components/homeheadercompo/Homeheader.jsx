@@ -62,7 +62,7 @@ const HomeHeader = () => {
           <span className="popular-now-line"></span>
         </div>
         <div className="popular-p">
-          <Popularslider />  
+          <Popularslider />
         </div>
       </section>
       <section className="popular-body container">
@@ -80,11 +80,11 @@ const HomeHeader = () => {
               <h5>Author name. 31.5.2022</h5>
             </div>
             <div className="maskimgdiv">
-              <img
-                className="maskimg"
-                src="/images/homeimgs/Wear-Mask-2.jpg"
-                alt=""
-              />
+                <img
+                  className="maskimg"
+                  src="/images/homeimgs/Wear-Mask-2.jpg"
+                  alt=""
+                />
             </div>
           </div>
           <div className="SecondDiv">
@@ -92,11 +92,13 @@ const HomeHeader = () => {
               <div className="travelpopular">
                 <img src="images/homeimgs/popularland.jpg" alt="" />
               </div>
-              <div className="popular-secnew">
-                <Link to="/travel" className="cateTravel">
-                  Travel
-                </Link>
-                <p>Where can I get some?</p>
+              <div className="popularsec-bg">
+                <div className="popular-secnew">
+                  <Link to="/travel" className="cateTravel">
+                    Travel
+                  </Link>
+                  <p>Where can I get some?</p>
+                </div>
               </div>
             </div>
 

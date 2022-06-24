@@ -32,7 +32,7 @@
   position: absolute;
   bottom: 14rem;
   text-align: center;
-  margin-left: 1.5rem;
+  margin-left: 5%;
   color: white;
 }
 .adv-button {
@@ -60,7 +60,7 @@
   margin-bottom: 0.5rem;
   margin-right: 0.5rem;
   display: grid;
-  grid-template-columns: 30% 70%;
+  grid-template-columns: 25% 75%;
   border-radius: 5px;
   border: 1px solid rgb(213, 209, 209);
   padding: 0.5rem;
@@ -95,22 +95,18 @@
 
 .connect-social .connect-logo i {
   font-size: 1.8rem;
-  margin-left: 5px;
   color: rgb(36, 133, 190);
 }
 .connect-logo2 i {
   font-size: 1.8rem;
-  margin-left: 5px;
   color: red;
 }
 .connect-logo3 i {
   font-size: 1.8rem;
-  margin-left: 5px;
   color: #8ed1fc;
 }
 .connect-logo4 i {
   font-size: 1.8rem;
-  margin-left: 5px;
   color: #9b51e0;
 }
 .connect-socials {
@@ -127,7 +123,7 @@
   grid-template-columns: 1fr 1fr;
 }
 .followers p {
-  font-size: 0.8rem;
+  font-size: 12px;
 }
 .followers .follower {
   font-weight: 600;
