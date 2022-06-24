@@ -73,7 +73,9 @@
   height: 480px;
   width: 97%;
 }
-
+.fbphoto:hover{
+  transition: 1s;
+}
 .photo {
   display: grid;
   grid-template-columns: 65% 35%;

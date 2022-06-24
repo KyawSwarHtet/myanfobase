@@ -141,11 +141,11 @@
 }
 .popular-p {
   display: flex;
-  margin-left: 23rem;
+  margin-left: 0rem;
 }
 .popular-p p {
   background-color: rgb(235, 234, 232);
-
+  margin-top: 0.5rem;
   padding: 5px 10px 0px 10px;
 }
 
@@ -172,14 +172,12 @@
   color: white;
   width: 50%;
 }
-
-.popular-bignew p:hover {
-  color: var(--health-bg);
+.mask-div:hover p {
+  color: rgb(60 211 134);
 }
-
-.popular-health:hover {
-  background: var(--health-bg);
-  color: black;
+.mask-div:hover img {
+  /* transform: perspective(200px) translateZ(200px); */
+  /* transform: scale(1); */
 }
 
 .popular-secnew {
