@@ -6,11 +6,11 @@ import HomeHeader from "../../components/homeheadercompo/Homeheader";
 import Homelifestyle from "../../components/homelifestyle/Homelifestyle";
 import LastNews from "../../components/lastviedo/LastNews";
 import Viedo from "../../components/Vedio/Viedo";
+import "./home.css";
 
 export default function Home() {
   return (
-    <>
-      <Header />
+    <div className="HomePageDiv">
       <HomeHeader />
       <LastNews />
       <Homelifestyle />
@@ -19,6 +19,6 @@ export default function Home() {
       <Viedo />
       <Categorieslider />
       <Footer />
-    </>
+    </div>
   );
 }
