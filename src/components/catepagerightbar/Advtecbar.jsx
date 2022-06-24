@@ -18,7 +18,7 @@ export default function Advtecbar() {
           </div>
           <div className="adv-button">
             <button className="advbuynow">
-              Buy Now
+              <span> Buy Now</span>
             </button>
           </div>
 
