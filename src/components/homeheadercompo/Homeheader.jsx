@@ -62,19 +62,7 @@ const HomeHeader = () => {
           <span className="popular-now-line"></span>
         </div>
         <div className="popular-p">
-          <Popularslider />
-          {/* <p>
-            "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
-            consectetur, adipisci velit..."
-          </p>
-          <div className="popular-arrow">
-            <button className="popular-arrow-btn">
-              <i class="uil uil-arrow-left"></i>
-            </button>
-            <button className="popular-arrow-btn">
-              <i class="uil uil-arrow-right"></i>
-            </button>
-          </div> */}
+          <Popularslider />  
         </div>
       </section>
       <section className="popular-body container">
