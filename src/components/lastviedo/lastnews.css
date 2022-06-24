@@ -141,14 +141,14 @@ span.headerline {
 }
 .today {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 1fr 1fr;
   gap: 1rem;
   padding: 0 1rem;
   align-items: center;
 }
 .foreignmoney {
   display: flex;
-  gap: 1rem;
+  gap: 5px;
   align-items: center;
 }
 .foreignmoney img {
@@ -188,7 +188,7 @@ span.headerline {
 .goldprices {
   font-size: 1em;
   text-align: left;
-  padding-left: 1.5rem;
+  /* padding-left: 1.5rem; */
 }
 .FuelPrice {
   border: 2px solid #090e6a;
@@ -211,10 +211,11 @@ span.headerline {
   background-color: rgb(238, 239, 245);
   font-weight: 800;
   transition: all 0.5s ease-in-out;
+  padding: 0.5rem 1rem;
 }
 .btnlast:hover {
-  background-color: rgb(249, 250, 251);
-  color: rgb(4, 55, 99);
+  color: rgb(249, 250, 251);
+  background-color: rgb(4, 55, 99);
 }
 /* .underline1 {
   display: block;

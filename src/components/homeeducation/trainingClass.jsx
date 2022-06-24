@@ -11,18 +11,12 @@ export default function TrainingClass() {
           <img src="./images/homeimgs/school1.jpg" alt="" />
         </div>
         <h4>Where can I get some?</h4>
-        <div className="authTitle">
-          <div className="authimg">
-            <img
-              className="authorimg"
-              src="./images/homeimgs/viedo4.jpg"
-              alt=""
-            />
-          </div>
-          <h5 className="authorname">Paing Ta kon</h5>
-          <span>20.3.2022</span>
+        <div className="postman1">
+          <img src="./images/homeimgs/viedo4.jpg" alt="" />
+          <span className="profileName1">Paina Ta Kon</span>
+          <span className="profileDate1">20.3.2022</span>
         </div>
-        <p>
+        <p className="justify">
           There are many variations of passages of Lorem Ipsum available, but
           the majority have suffered alteration in some form, by injected
           humour, or randomised words which don't look even slightly believable.
@@ -33,18 +27,12 @@ export default function TrainingClass() {
           <img src="./images/homeimgs/school3.jpg" alt="" />
         </div>
         <h4>Where can I get some?</h4>
-        <div className="authTitle">
-          <div className="authimg">
-            <img
-              className="authorimg"
-              src="./images/homeimgs/viedo4.jpg"
-              alt=""
-            />
-          </div>
-          <h5 className="authorname">Paing Ta kon</h5>
-          <span>20.3.2022</span>
+        <div className="postman1">
+          <img src="./images/homeimgs/viedo4.jpg" alt="" />
+          <span className="profileName1">Paina Ta Kon</span>
+          <span className="profileDate1">20.3.2022</span>
         </div>
-        <p>
+        <p className="justify">
           There are many variations of passages of Lorem Ipsum available, but
           the majority have suffered alteration in some form, by injected
           humour, or randomised words which don't look even slightly believable.

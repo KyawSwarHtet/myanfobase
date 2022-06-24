@@ -25,34 +25,15 @@ img {
   color: #00a79d;
 }
 
-.classTop .authTitle {
-  display: flex;
-  gap: 6px;
-  align-items: center;
-}
-.classTop .authimg {
-  width: 25px;
-  height: 25px;
-}
-.classTop .authorimg {
-  border-radius: 50%;
-}
-.authTitle span {
-  font-size: 13px;
-  margin-left: 1rem;
-}
-
-.authTitle .authorname {
-  color: rgb(231, 25, 25);
-}
-.authTitle .authorname:hover {
-  color: #00a79d;
-}
-
 article p::first-letter {
   font-size: 22px;
 }
 
 article p:hover {
   color: #00a79d;
+}
+
+.homeclass1 h4,
+.homeclass2 h4 {
+  padding-top: 8px;
 }
