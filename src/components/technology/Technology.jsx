@@ -19,7 +19,7 @@ export default function Technology() {
         <div className="sectop">
           <h1>TECHNOLOGY</h1>
         </div>
-        <div className="button">
+        <div className="Catabutton">
           <button className="tec">Computer</button>
           <button className="tec">Electronics</button>
           <button className="tec">Innovation</button>
