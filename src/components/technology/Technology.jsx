@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./technology.css";
 
 export default function Technology() {
@@ -20,7 +21,9 @@ export default function Technology() {
           <h1>TECHNOLOGY</h1>
         </div>
         <div className="Catabutton">
-          <button className="tec">Computer</button>
+          <Link to="/computer">
+            <button className="tec">Computer</button>
+          </Link>
           <button className="tec">Electronics</button>
           <button className="tec">Innovation</button>
           <button className="tec">Smartphone</button>
