@@ -16,7 +16,7 @@ export default function Homelifestyle() {
                     src="images/homeimgs/lifestyle.jpeg"
                     alt=""
                   />
-                  <button className="life-exbtn">Exercise</button>
+                  <button className="life-exbtn">Lifestyle</button>
                 </div>
                 <div className="paragraph">
                   <h2>

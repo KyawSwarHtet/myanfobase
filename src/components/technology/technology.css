@@ -35,9 +35,9 @@
   color: #777;
   margin-top: 18px;
 }
-.para:hover {
+/* .para:hover {
   color: #262e67;
-}
+} */
 .firstphoto {
   position: relative;
 }
@@ -50,25 +50,25 @@
   background-color: var(--technology-bg);
   color: white;
 }
-.technologypart:hover {
+/* .technologypart:hover {
   background-color: #262e67;
   color: white;
-}
+} */
 .firstpara h4 {
   color: white;
   font-size: 25px;
 }
-.firstpara h4:hover {
+/* .firstpara h4:hover {
   color: #262e67;
-}
+} */
 .firstpara p {
   font-size: 15px;
   color: white;
   width: 80%;
 }
-.firstpara p:hover {
+/* .firstpara p:hover {
   color: #262e67;
-}
+} */
 .fbphoto {
   height: 480px;
   width: 97%;
@@ -97,9 +97,9 @@
   font-size: 20px;
   color: white;
 }
-.robotpara h4:hover {
+/* .robotpara h4:hover {
   color: #262e67;
-}
+} */
 .secair {
   position: relative;
 }
@@ -113,9 +113,9 @@
   color: black;
   margin-right: 100px;
 }
-.airbudpara h4:hover {
+/* .airbudpara h4:hover {
   color: #262e67;
-}
+} */
 .airbudphoto {
   height: 210px;
   width: 100%;

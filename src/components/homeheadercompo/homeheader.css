@@ -168,14 +168,19 @@
   bottom: 1rem;
   left: 40px;
 }
+/* 
+.mask-div .popular-bignew p:hover {
+  color: var(--health-bg);
+} */
+
 .popular-bignew p {
   color: white;
   width: 50%;
 }
-
-.popular-bignew p:hover {
+/* 
+.popular-bignew:hover {
   color: var(--health-bg);
-}
+} */
 
 .popular-health:hover {
   background: var(--health-bg);
@@ -193,10 +198,10 @@
   /* margin-top: 1rem; */
   font-family: "Ultra";
 }
-
+/* 
 .popular-secnew p:hover {
   color: var(--health-bg);
-}
+} */
 .popular-thirdnew {
   position: absolute;
   bottom: 1rem;
@@ -208,9 +213,9 @@
   font-family: "Ultra";
 }
 
-.popular-thirdnew p:hover {
+/* .popular-thirdnew p:hover {
   color: var(--health-bg);
-}
+} */
 .popular-fouthnew {
   position: absolute;
   bottom: 1rem;
@@ -222,9 +227,9 @@
   font-family: "Ultra";
 }
 
-.popular-fouthnew p:hover {
+/* .popular-fouthnew p:hover {
   color: var(--health-bg);
-}
+} */
 .first-grid {
   display: grid;
   grid-template-columns: 60% 40%;

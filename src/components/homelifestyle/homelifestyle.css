@@ -1,9 +1,7 @@
 .LifestyleSect {
   max-width: 1600px;
 }
-.LifestyleSect h2:hover {
-  color: #8f43d5;
-}
+
 .lifestyles h1 {
   font-size: 15px;
   border-bottom: #f18510 3px solid;
@@ -22,9 +20,9 @@
   color: red;
   margin: 0 25px 0 10px;
 }
-.profileName1:hover {
+/* .profileName1:hover {
   color: #bb93e1;
-}
+} */
 .postman1 img {
   width: 30px;
   height: 30px;
@@ -59,15 +57,10 @@
 .life-exbtn {
   position: absolute;
   left: 2rem;
-  bottom: 30px;
-  background-color: black;
-  color: white;
-  padding: 0.2rem 0.5rem;
-}
-
-.life-exbtn:hover {
-  background: #8f43d5;
+  bottom: 20px;
+  background-color: var(--lifestyles-bg);
   color: black;
+  padding: 0.1rem 0.4rem;
 }
 
 .paragraph h2 {
@@ -75,7 +68,7 @@
   width: 90%;
 }
 .paragraph h2:hover {
-  color: #8f43d5;
+  color: var(--lifestyles-bg);
 }
 
 .paragraph h4 {
@@ -87,9 +80,9 @@
   width: 85%;
 }
 
-.paragraph p:hover {
+/* .paragraph p:hover {
   color: #8f43d5;
-}
+} */
 
 #lifestyles-New {
   display: grid;
@@ -109,7 +102,7 @@
   font-size: 15px;
 }
 .honey-paragraph h1:hover {
-  color: #8f43d5;
+  color: var(--lifestyles-bg);
 }
 
 .honey-paragraph p {
@@ -117,9 +110,9 @@
   width: 80%;
   margin-left: 0rem;
 }
-.honey-paragraph p:hover {
+/* .honey-paragraph p:hover {
   color: #8f43d5;
-}
+} */
 
 .food-photo {
   width: 95%;
@@ -130,16 +123,16 @@
   font-size: 15px;
 }
 .food-paragraph h1:hover {
-  color: #8f43d5;
+  color: var(--lifestyles-bg);
 }
 
 .food-paragraph p {
   font-size: 12px;
   width: 80%;
 }
-.food-paragraph p:hover {
+/* .food-paragraph p:hover {
   color: #8f43d5;
-}
+} */
 
 .camera-photo {
   width: 95%;
@@ -150,15 +143,16 @@
   font-size: 15px;
 }
 .camera-paragraph h1:hover {
-  color: #8f43d5;
+  color: var(--lifestyles-bg);
 }
+
 .camera-paragraph p {
   font-size: 12px;
   width: 80%;
 }
-.camera-paragraph p:hover {
+/* .camera-paragraph p:hover {
   color: #8f43d5;
-}
+} */
 
 .beauty-photo {
   width: 95%;
@@ -220,32 +214,30 @@
   margin-right: 20rem;
   margin-left: 0rem;
 }
-.content h1:hover {
+/* .content h1:hover {
   color: #8f43d5;
-}
+} */
 
 .sponsered-1 p {
   font-size: 1rem;
   margin-top: 1rem;
   margin-left: 0.5rem;
 }
-.sponsered-1 p:hover {
-  color: #8f43d5;
-}
+
 .sponsered-2 p {
   margin-top: 1rem;
 }
-.sponsered-2 p:hover {
+/* .sponsered-2 p:hover {
   color: #8f43d5;
-}
+} */
 
 .sponsered-3 p {
   margin-top: 1rem;
 }
 
-.sponsered-3 p:hover {
+/* .sponsered-3 p:hover {
   color: #8f43d5;
-}
+} */
 
 .sponsered-1 h6 {
   margin-top: 1.5rem;
@@ -253,9 +245,9 @@
   font-size: 0.8rem;
   color: red;
 }
-.sponsered-1 h6:hover {
+/* .sponsered-1 h6:hover {
   color: #8f43d5;
-}
+} */
 
 #icon-1 {
   color: black;
@@ -267,9 +259,9 @@
   font-size: 0.8rem;
   color: red;
 }
-.sponsered-2 h6:hover {
+/* .sponsered-2 h6:hover {
   color: #8f43d5;
-}
+} */
 
 #icon-2 {
   color: black;
@@ -281,9 +273,9 @@
   font-size: 0.8rem;
   color: red;
 }
-.sponsered-3 h6:hover {
+/* .sponsered-3 h6:hover {
   color: #8f43d5;
-}
+} */
 
 #icon-3 {
   color: black;
@@ -295,15 +287,13 @@
   font-size: 0.8rem;
   color: black;
 }
-.sponsered-2 h3:hover {
-  color: #8f43d5;
-}
+
 .sponsered-3 h3 {
   margin-top: -1.5rem;
   margin-left: 8rem;
   font-size: 0.8rem;
   color: black;
 }
-.sponsered-3 h3:hover {
+/* .sponsered-3 h3:hover {
   color: #8f43d5;
-}
+} */
