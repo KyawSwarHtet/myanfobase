@@ -19,6 +19,27 @@ img {
   width: 100%;
   height: 280px;
   position: relative;
+  display: block;
+  /* overflow: hidden; */
+  transition: all 0.5s ease-in-out;
+  object-fit: cover;
+}
+.advTop {
+  overflow: hidden;
+}
+.advTop .advimg:hover {
+  transform: perspective(1500px) translateZ(100px);
+}
+/* .Advwrapper .advimg {
+  width: 100%;
+  height: 14.5rem;
+  overflow: hidden;
+} */
+.advBot {
+  overflow: hidden;
+}
+.advBot .advimg:hover {
+  transform: perspective(1500px) translateZ(100px);
 }
 .advimg span {
   position: absolute;
@@ -34,9 +55,9 @@ img {
   margin-top: 0.8rem;
   margin-left: 3px;
 }
-.Advwrapper h4:hover {
+/* .Advwrapper h4:hover {
   color: #00a79d;
-}
+} */
 .advertisetitle h4 {
   font-size: 1.5rem;
 
@@ -51,6 +72,6 @@ img {
   background-color: #f18510;
   /* margin-bottom: 1rem; */
 }
-.advTop h4:hover {
+/* .advTop h4:hover {
   color: #00a79d;
-}
+} */
