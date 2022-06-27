@@ -1,11 +1,21 @@
 import "./technology.css";
+import { Link } from "react-router-dom";
 
 export default function Technology() {
   return (
     <>
       <section className="technology">
         <div className="top">
-          <h4>Home</h4>
+          <div className="homelink">
+            <ul>
+              <li>
+                <Link to="/" className="homelink1">
+                  Home
+                </Link>
+              </li>
+            </ul>
+          </div>
+          {/* <h4>Home</h4> */}
           <div className="icon">
             <i className="uil uil-angle-right-b"></i>
           </div>
@@ -37,7 +47,7 @@ export default function Technology() {
       <section className="photo">
         <div className="firstphoto">
           <div className="firstpara">
-            <button className="technologypart">Technology</button>
+            <button className="cateTechnology">Technology</button>
             <h4>How to Mark yourself 'Safe' on Socials Media</h4>
             <p>
               Modern technology has become a total phenomenon for civilization,
@@ -59,13 +69,13 @@ export default function Technology() {
               alt=""
             />
             <div className="robotpara">
-              <button className="technologypart">Technology</button>
+              <button className="cateTechnology">Technology</button>
               <h4>Corsair HS80 RGB Wireless Gaming Headset Review</h4>
             </div>
           </div>
           <div className="secair">
             <div className="airbudpara">
-              <button className="technologypart">Technology</button>
+              <button className="cateTechnology">Technology</button>
               <h4>Corsair HS80 RGB Wirless Gaming Headset Review</h4>
             </div>
             <img
