@@ -141,11 +141,10 @@
 }
 .popular-p {
   display: flex;
-  margin-left: 23rem;
+  margin-left: 0rem;
 }
 .popular-p p {
-  background-color: rgb(235, 234, 232);
-
+  margin-top: 0.5rem;
   padding: 5px 10px 0px 10px;
 }
 
@@ -158,34 +157,52 @@
   width: 100%;
   height: 100%;
 }
+
 .mask-div {
   margin-right: 0.5rem;
   overflow: hidden;
   position: relative;
+
 }
 .mask-div .popular-bignew {
-  position: absolute;
-  bottom: 1rem;
-  left: 40px;
+
+    position: absolute;
+    bottom: 0rem;
+    /* left: 40px; */
+    padding-top: 6rem;
+    box-shadow: inset 10px -123px 81px -28px rgb(14 13 13 / 81%);
+    padding-bottom: 1rem;
+    padding-left: 40px;
+
 }
+/* .mask-div .popular-bignew:hover{
+  background-color: rgba(194, 246, 245, 0.205);
+} */
 .popular-bignew p {
   color: white;
-  width: 50%;
+  width: 100%;
 }
-
-.popular-bignew p:hover {
-  color: var(--health-bg);
+.mask-div:hover p {
+  color: rgb(140, 231, 184);
 }
-
-.popular-health:hover {
-  background: var(--health-bg);
-  color: black;
+.mask-div:hover img {
+  /* transform: perspective(200px) translateZ(200px); */
+  /* transform: scale(1); */
 }
 
 .popular-secnew {
   position: absolute;
-  bottom: 1rem;
-  left: 20px;
+  bottom: 0rem;
+  /* left: 20px; */
+  width: 100%;
+  padding-top: 4rem;
+    box-shadow: inset 10px -123px 81px -28px rgb(14 13 13 / 81%);
+    padding-bottom: 1rem;
+    padding-left: 30px;
+}
+.popularsec-bg {
+  width: 100%;
+  background-color: #3d3b3b8f;
 }
 .popular-secnew p {
   color: white;
@@ -199,8 +216,13 @@
 }
 .popular-thirdnew {
   position: absolute;
-  bottom: 1rem;
-  left: 20px;
+  bottom: 0rem;
+  /* left: 20px; */
+  width: 100%;
+  padding-top: 3rem;
+  box-shadow: inset 2px -48px 24px 13px rgb(14 13 13 / 81%);
+  padding-bottom: 1rem;
+  padding-left: 30px;
 }
 .popular-thirdnew p {
   color: white;
@@ -213,8 +235,13 @@
 }
 .popular-fouthnew {
   position: absolute;
-  bottom: 1rem;
-  left: 20px;
+  bottom: 0rem;
+  /* left: 20px; */
+   width: 100%;
+  padding-top: 3rem;
+  box-shadow: inset -3px -44px 26px 12px rgb(14 13 13 / 81%);
+  padding-bottom: 1rem;
+  padding-left: 30px;
 }
 .popular-fouthnew p {
   color: white;
