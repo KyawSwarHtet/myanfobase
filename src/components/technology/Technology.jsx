@@ -35,46 +35,53 @@ export default function Technology() {
         </div>
       </section>
       <section className="photo">
-        <div className="firstphoto">
-          <div className="firstpara">
-            <button className="technologypart">Technology</button>
-            <h4>How to Mark yourself 'Safe' on Socials Media</h4>
-            <p>
-              Modern technology has become a total phenomenon for civilization,
-              the defining force of a new social order in which efficiency is no
-              longer an option but a necessity imposed on all human activity.
-            </p>
-          </div>
-          <img
-            className="fbphoto"
-            src="./images/homeimgs/technology.jpg"
-            alt=""
-          />
-        </div>
-        <div className="secphoto">
-          <div className="secrobot">
-            <img
-              className="robotphoto"
-              src="./images/homeimgs/techhyperx.jpg"
-              alt=""
-            />
-            <div className="robotpara">
+          <div className="firstphoto">
+            <div className="firstpara">
               <button className="technologypart">Technology</button>
-              <h4>Corsair HS80 RGB Wireless Gaming Headset Review</h4>
+              <h4>How to Mark yourself 'Safe' on Socials Media</h4>
+              <p>
+                Modern technology has become a total phenomenon for
+                civilization, the defining force of a new social order in which
+                efficiency is no longer an option but a necessity imposed on all
+                human activity.
+              </p>
+            </div>
+            <div className="tech-firstphoto">
+              <img
+                className="fbphoto"
+                src="./images/homeimgs/technology.jpg"
+                alt=""
+              />
             </div>
           </div>
-          <div className="secair">
-            <div className="airbudpara">
-              <button className="technologypart">Technology</button>
-              <h4>Corsair HS80 RGB Wirless Gaming Headset Review</h4>
+          <div className="secphoto">
+            <div className="secrobot">
+              <div className="tecsecdiv-firstphoto">
+                <img
+                  className="robotphoto"
+                  src="./images/homeimgs/techhyperx.jpg"
+                  alt=""
+                />
+              </div>
+              <div className="robotpara">
+                <button className="technologypart">Technology</button>
+                <h4>Corsair HS80 RGB Wireless Gaming Headset Review</h4>
+              </div>
             </div>
-            <img
-              className="airbudphoto"
-              src="./images/homeimgs/techkeyboard.jpg"
-              alt=""
-            />
+            <div className="secair">
+              <div className="airbudpara">
+                <button className="technologypart">Technology</button>
+                <h4>Corsair HS80 RGB Wirless Gaming Headset Review</h4>
+              </div>
+              <div className="tec-lastbannerphotos">
+                <img
+                  className="airbudphoto"
+                  src="./images/homeimgs/techkeyboard.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
           </div>
-        </div>
       </section>
     </>
   );
