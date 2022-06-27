@@ -1,13 +1,13 @@
 .Vedionav {
   margin-top: 2rem;
-  background: #e78332;
+  background: #358da1;
   height: 3rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .navsect {
-  padding-bottom: 2rem;
+  /* padding-bottom: 2rem; */
 }
 .Vedionav h2 {
   margin-left: 1rem;

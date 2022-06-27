@@ -2,7 +2,12 @@
   display: flex;
   color: #747474;
 }
-
+.homelink1 {
+  display: flex;
+  color: #747474;
+  line-height: 18px;
+  padding: 0px 0px 0px 0px;
+}
 .top h4 {
   font-size: 15px;
 }
@@ -35,9 +40,9 @@
   color: #777;
   margin-top: 18px;
 }
-.para:hover {
+/* .para:hover {
   color: #262e67;
-}
+} */
 .firstphoto {
   position: relative;
   margin-right: 1rem;
@@ -53,29 +58,29 @@
   padding-bottom: 1rem;
   padding-left: 40px;
 }
-.technologypart {
+/* .technologypart {
   background-color: var(--technology-bg);
   color: white;
-}
-.technologypart:hover {
+} */
+/* .technologypart:hover {
   background-color: #262e67;
   color: white;
-}
+} */
 .firstpara h4 {
   color: white;
   font-size: 25px;
 }
-.firstpara h4:hover {
+/* .firstpara h4:hover {
   color: #262e67;
-}
+} */
 .firstpara p {
   font-size: 15px;
   color: white;
   width: 80%;
 }
-.firstpara p:hover {
+/* .firstpara p:hover {
   color: #262e67;
-}
+} */
 
 .fbphoto .fbphoto:hover {
   transition: 1s;
@@ -117,7 +122,6 @@
 
 .robotpara {
   position: absolute;
-  /* left: 20px; */
   bottom: 0px;
   width: 100%;
   padding-top: 4rem;
@@ -129,16 +133,15 @@
   font-size: 20px;
   color: white;
 }
-.robotpara h4:hover {
+/* .robotpara h4:hover {
   color: #262e67;
-}
+} */
 .secair {
   position: relative;
 }
 .airbudpara {
   position: absolute;
   bottom: 0px;
-  /* left: 20px; */
   width: 100%;
   padding-top: 4rem;
   box-shadow: inset 10px -123px 51px -28px rgb(14 13 13 / 81%);
@@ -150,9 +153,9 @@
   color: white;
   margin-right: 100px;
 }
-.airbudpara h4:hover {
+/* .airbudpara h4:hover {
   color: #262e67;
-}
+} */
 .secair .tec-lastbannerphotos .airbudphoto {
   display: block;
   height: 100%;
