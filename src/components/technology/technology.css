@@ -69,6 +69,7 @@
 .firstpara h4 {
   color: white;
   font-size: 25px;
+  margin-top: .5rem;
 }
 /* .firstpara h4:hover {
   color: #262e67;
@@ -105,20 +106,12 @@
   width: 100%;
   height: 100%;
 }
-.firstphoto .tech-firstphoto .fbphoto {
-  width: 100%;
-  height: 100%;
-  display: block;
-}
+
 .secphoto .tecsecdiv-firstphoto {
   width: 100%;
   height: 100%;
 }
-.secphoto .tecsecdiv-firstphoto .robotphoto {
-  height: 100%;
-  width: 100%;
-  display: block;
-}
+
 
 .robotpara {
   position: absolute;
@@ -130,8 +123,9 @@
   padding-left: 30px;
 }
 .robotpara h4 {
-  font-size: 20px;
+  font-size: 18px;
   color: white;
+  margin-top: .5rem;
 }
 /* .robotpara h4:hover {
   color: #262e67;
@@ -149,19 +143,57 @@
   padding-left: 30px;
 }
 .airbudpara h4 {
-  font-size: 20px;
+  font-size: 18px;
   color: white;
   margin-right: 100px;
+  margin-top: .5rem;
 }
 /* .airbudpara h4:hover {
   color: #262e67;
 } */
-.secair .tec-lastbannerphotos .airbudphoto {
-  display: block;
-  height: 100%;
-  width: 100%;
-}
+
 .secair .tec-lastbannerphotos {
   width: 100%;
   height: 100%;
 }
+
+.tech-firstphoto img,
+.secrobot img
+{
+   transition: all .5s ease-in-out;
+ display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.tec-lastbannerphotos img{
+  transition: all .5s ease-in-out;
+ display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.tech-firstphoto img:hover,
+.secrobot img:hover
+{
+  transform: perspective(1000px) translateZ(150px);
+}
+.tec-lastbannerphotos img:hover{
+    transform: perspective(1000px) translateZ(150px);
+
+}
+.firstphoto .tech-firstphoto,
+.secphoto .secrobot
+{
+  overflow: hidden;
+}
+.secair .tec-lastbannerphotos{
+    overflow: hidden;
+
+}
+.firstphoto:hover .firstpara h4,
+.secphoto:hover .robotpara h4,
+.secair:hover .airbudpara h4{
+  color: var(--technology-bg);
+}
+
