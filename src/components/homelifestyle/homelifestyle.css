@@ -47,6 +47,7 @@
 }
 .photo-ex1 {
   width: 90%;
+  height: 280px;
 }
 .exercise-photo {
   position: relative;
@@ -64,8 +65,10 @@
 }
 
 .paragraph h2 {
-  font-size: 1.5rem;
+  padding-top: 8px;
+  font-size: 1.3rem;
   width: 90%;
+  line-height: 1.3;
 }
 .paragraph h2:hover {
   color: var(--lifestyles-bg);
@@ -78,6 +81,7 @@
 .paragraph p {
   font-size: 12px;
   width: 85%;
+  text-align: justify;
 }
 
 /* .paragraph p:hover {
@@ -87,6 +91,7 @@
 #lifestyles-New {
   display: grid;
   grid-template-columns: 70% 30%;
+  gap: 1rem;
 }
 
 .sunset-photo {
@@ -189,19 +194,19 @@
 
 .thaw-1 {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 1fr 1fr;
 }
 
-.honey-1 {
-  display: grid;
-  grid-template-columns: 50% 50%;
+.honey-1 img,
+.honey-2 img,
+.honey-3 img {
+  display: block;
+  width: 90%;
+  height: 100%;
+  object-fit: cover;
 }
-
-.honey-2 {
-  display: grid;
-  grid-template-columns: 50% 50%;
-}
-
+.honey-1,
+.honey-2,
 .honey-3 {
   display: grid;
   grid-template-columns: 50% 50%;

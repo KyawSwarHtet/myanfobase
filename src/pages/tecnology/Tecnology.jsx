@@ -7,10 +7,9 @@ import Footer from "../../components/footer/Footer";
 export default function Tecnology() {
   return (
     <>
-      <Header />
       <section className="container">
         <Technology />
-        <section className="tecbody ">
+        <section className="tecbody">
           <Tecmain />
           <Latestbar />
         </section>

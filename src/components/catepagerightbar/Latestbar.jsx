@@ -13,12 +13,12 @@ export default function Latestbar() {
           <div className="lastnewbar-body">
             <div className="article-lastest">
               <div className="lastnewimg">
-                <img src="./images/homeimgs/school2.jpg" alt="" />
+                <img src="./images/technology/robothand.jpg" alt="" />
               </div>
               <div className="lastnewinfo">
                 <h4>Where does it come from effective from Exercise ?</h4>
                 <div className="lastnewbuttondate">
-                  <span>Education</span>
+                  <span className="Technology2 cateTechnology">Technology</span>
                   <h5>32.4.2021</h5>
                 </div>
               </div>
@@ -26,12 +26,12 @@ export default function Latestbar() {
 
             <div className="article-lastest">
               <div className="lastnewimg">
-                <img src="./images/homeimgs/school2.jpg" alt="" />
+                <img src="./images/technology/smarttech.jpg" alt="" />
               </div>
               <div className="lastnewinfo">
                 <h4>Where does it come from effective from Exercise ?</h4>
                 <div className="lastnewbuttondate">
-                  <span>Education</span>
+                  <span className="Technology2 cateTechnology">Technology</span>
                   <h5>32.4.2021</h5>
                 </div>
               </div>
@@ -39,12 +39,12 @@ export default function Latestbar() {
 
             <div className="article-lastest">
               <div className="lastnewimg">
-                <img src="./images/homeimgs/school2.jpg" alt="" />
+                <img src="./images/technology/techvideoimg.png" alt="" />
               </div>
               <div className="lastnewinfo">
                 <h4>Where does it come from effective from Exercise ?</h4>
                 <div className="lastnewbuttondate">
-                  <span>Education</span>
+                  <span className="Technology2 cateTechnology">Technology</span>
                   <h5>32.4.2021</h5>
                 </div>
               </div>
@@ -52,12 +52,12 @@ export default function Latestbar() {
 
             <div className="article-lastest">
               <div className="lastnewimg">
-                <img src="./images/homeimgs/school2.jpg" alt="" />
+                <img src="./images/technology/techcamera.jpg" alt="" />
               </div>
               <div className="lastnewinfo">
                 <h4>Where does it come from effective from Exercise ?</h4>
                 <div className="lastnewbuttondate">
-                  <span>Education</span>
+                  <span className="Technology2 cateTechnology">Technology</span>
                   <h5>32.4.2021</h5>
                 </div>
               </div>
@@ -65,12 +65,12 @@ export default function Latestbar() {
 
             <div className="article-lastest">
               <div className="lastnewimg">
-                <img src="./images/homeimgs/school2.jpg" alt="" />
+                <img src="./images/technology/samsung.jpg" alt="" />
               </div>
               <div className="lastnewinfo">
                 <h4>Where does it come from effective from Exercise ?</h4>
                 <div className="lastnewbuttondate">
-                  <span>Education</span>
+                  <span className="Technology2 cateTechnology">Technology</span>
                   <h5>32.4.2021</h5>
                 </div>
               </div>

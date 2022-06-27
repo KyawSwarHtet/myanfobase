@@ -2,38 +2,39 @@ import "./technology.css";
 
 export default function Technology() {
   return (
-    <section className="technology">
-      <div className="top">
-        <h4>Home</h4>
-        <div className="icon">
-          <i className="uil uil-angle-right-b"></i>
-        </div>
-        {/* <ul>
+    <>
+      <section className="technology">
+        <div className="top">
+          <h4>Home</h4>
+          <div className="icon">
+            <i className="uil uil-angle-right-b"></i>
+          </div>
+          {/* <ul>
         <li>
           <Link to="/Home">Home</Link>
         </li>
       </ul> */}
-        <h4>Technology</h4>
-      </div>
-      <div className="sectop">
-        <h1>TECHNOLOGY</h1>
-      </div>
-      <div className="button">
-        <button className="tec">Computer</button>
-        <button className="tec">Electronics</button>
-        <button className="tec">Innovation</button>
-        <button className="tec">Smartphone</button>
-        <button className="tec">Software</button>
-      </div>
-      <div className="para">
-        <p>
-          Modern technology has become a total phenomenon for civilization, the
-          defining force of a new social order in which efficiency is no longer
-          an option but a necessity imposed on all human activity.
-        </p>
-      </div>
-
-      <div className="photo">
+          <h4>Technology</h4>
+        </div>
+        <div className="sectop">
+          <h1>TECHNOLOGY</h1>
+        </div>
+        <div className="Catabutton">
+          <button className="tec">Computer</button>
+          <button className="tec">Electronics</button>
+          <button className="tec">Innovation</button>
+          <button className="tec">Smartphone</button>
+          <button className="tec">Software</button>
+        </div>
+        <div className="para">
+          <p>
+            Modern technology has become a total phenomenon for civilization,
+            the defining force of a new social order in which efficiency is no
+            longer an option but a necessity imposed on all human activity.
+          </p>
+        </div>
+      </section>
+      <section className="photo">
         <div className="firstphoto">
           <div className="firstpara">
             <button className="technologypart">Technology</button>
@@ -74,7 +75,7 @@ export default function Technology() {
             />
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 }
