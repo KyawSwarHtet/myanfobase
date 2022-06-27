@@ -46,6 +46,8 @@
 .firstphoto {
   position: relative;
   margin-right: 1rem;
+  overflow: hidden;
+  height: inherit;
 }
 .firstpara {
   position: absolute;
@@ -79,34 +81,47 @@
 /* .firstpara p:hover {
   color: #262e67;
 } */
-.fbphoto {
-  height: 480px;
-  width: 100%;
-}
-.fbphoto:hover {
+
+.fbphoto .fbphoto:hover {
   transition: 1s;
 }
+
 .photo {
   display: grid;
   grid-template-columns: 65% 35%;
+  height: 480px;
+  margin-bottom: 3rem;
 }
 .secphoto {
   display: grid;
-  grid-template-rows: 50% 50%;
-  gap: 0.5rem;
+  grid-template-rows: 49% 49%;
+  height: inherit;
+  gap: 2%;
 }
 .secrobot {
   position: relative;
 }
-.robotphoto {
-  height: 230px;
+.firstphoto .tech-firstphoto {
   width: 100%;
-  position: relative;
+  height: 100%;
+}
+.firstphoto .tech-firstphoto .fbphoto {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.secphoto .tecsecdiv-firstphoto {
+  width: 100%;
+  height: 100%;
+}
+.secphoto .tecsecdiv-firstphoto .robotphoto {
+  height: 100%;
+  width: 100%;
+  display: block;
 }
 
 .robotpara {
   position: absolute;
-  /* left: 20px; */
   bottom: 0px;
   width: 100%;
   padding-top: 4rem;
@@ -127,7 +142,6 @@
 .airbudpara {
   position: absolute;
   bottom: 0px;
-  /* left: 20px; */
   width: 100%;
   padding-top: 4rem;
   box-shadow: inset 10px -123px 51px -28px rgb(14 13 13 / 81%);
@@ -142,7 +156,12 @@
 /* .airbudpara h4:hover {
   color: #262e67;
 } */
-.airbudphoto {
-  height: 230px;
+.secair .tec-lastbannerphotos .airbudphoto {
+  display: block;
+  height: 100%;
   width: 100%;
+}
+.secair .tec-lastbannerphotos {
+  width: 100%;
+  height: 100%;
 }

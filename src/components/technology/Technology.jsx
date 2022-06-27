@@ -55,19 +55,23 @@ export default function Technology() {
               longer an option but a necessity imposed on all human activity.
             </p>
           </div>
-          <img
-            className="fbphoto"
-            src="./images/homeimgs/technology.jpg"
-            alt=""
-          />
+          <div className="tech-firstphoto">
+            <img
+              className="fbphoto"
+              src="./images/homeimgs/technology.jpg"
+              alt=""
+            />
+          </div>
         </div>
         <div className="secphoto">
           <div className="secrobot">
-            <img
-              className="robotphoto"
-              src="./images/homeimgs/techhyperx.jpg"
-              alt=""
-            />
+            <div className="tecsecdiv-firstphoto">
+              <img
+                className="robotphoto"
+                src="./images/homeimgs/techhyperx.jpg"
+                alt=""
+              />
+            </div>
             <div className="robotpara">
               <button className="cateTechnology">Technology</button>
               <h4>Corsair HS80 RGB Wireless Gaming Headset Review</h4>
@@ -78,11 +82,13 @@ export default function Technology() {
               <button className="cateTechnology">Technology</button>
               <h4>Corsair HS80 RGB Wirless Gaming Headset Review</h4>
             </div>
-            <img
-              className="airbudphoto"
-              src="./images/homeimgs/techkeyboard.jpg"
-              alt=""
-            />
+            <div className="tec-lastbannerphotos">
+              <img
+                className="airbudphoto"
+                src="./images/homeimgs/techkeyboard.jpg"
+                alt=""
+              />
+            </div>
           </div>
         </div>
       </section>
