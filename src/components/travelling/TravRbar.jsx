@@ -1,16 +1,14 @@
-import Advtecbar from "./Advtecbar";
-import "./latestbar.css";
-import StaySocial from "./StaySocial";
-import Subscribeform from "./Subscribeform";
+import React from "react";
+import Advtecbar from "../catepagerightbar/Advtecbar";
 
-export default function Latestbar() {
+const TravRbar = () => {
   return (
     <>
       <div className="allrightbar">
         <div>
           <div className="lastnewbar-title">
-            <h2>Latest Article</h2>
-            <span className="lasttitleline"></span>
+            <h2>Most Travel Place</h2>
+            <span className="lasttitleline travel-line"></span>
           </div>
           <div className="lastnewbar-body">
             <div className="article-lastest">
@@ -20,7 +18,7 @@ export default function Latestbar() {
               <div className="lastnewinfo">
                 <h4>Where does it come from effective from Exercise ?</h4>
                 <div className="lastnewbuttondate">
-                  <span className="Technology2 cateTechnology">Technology</span>
+                  <span className="Catebutton2 cateTravel">Travel</span>
                   <h5>32.4.2021</h5>
                 </div>
               </div>
@@ -33,7 +31,7 @@ export default function Latestbar() {
               <div className="lastnewinfo">
                 <h4>Where does it come from effective from Exercise ?</h4>
                 <div className="lastnewbuttondate">
-                  <span className="Technology2 cateTechnology">Technology</span>
+                  <span className="Catebutton2 cateTravel">Travel</span>
                   <h5>32.4.2021</h5>
                 </div>
               </div>
@@ -46,7 +44,7 @@ export default function Latestbar() {
               <div className="lastnewinfo">
                 <h4>Where does it come from effective from Exercise ?</h4>
                 <div className="lastnewbuttondate">
-                  <span className="Technology2 cateTechnology">Technology</span>
+                  <span className="Catebutton2 cateTravel">Travel</span>
                   <h5>32.4.2021</h5>
                 </div>
               </div>
@@ -59,7 +57,7 @@ export default function Latestbar() {
               <div className="lastnewinfo">
                 <h4>Where does it come from effective from Exercise ?</h4>
                 <div className="lastnewbuttondate">
-                  <span className="Technology2 cateTechnology">Technology</span>
+                  <span className="Catebutton2 cateTravel">Travel</span>
                   <h5>32.4.2021</h5>
                 </div>
               </div>
@@ -72,18 +70,18 @@ export default function Latestbar() {
               <div className="lastnewinfo">
                 <h4>Where does it come from effective from Exercise ?</h4>
                 <div className="lastnewbuttondate">
-                  <span className="Technology2 cateTechnology">Technology</span>
+                  <span className="Catebutton2 cateTravel">Travel</span>
                   <h5>32.4.2021</h5>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <span className="lastestbottomline"></span>
+        <span className="lastestbottomline "></span>
         <Advtecbar />
-        <StaySocial />
-        <Subscribeform />
       </div>
     </>
   );
-}
+};
+
+export default TravRbar;
