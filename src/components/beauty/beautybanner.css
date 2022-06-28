@@ -1,0 +1,132 @@
+.beauty-firstrow {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  
+}
+.beauty-banner{
+    display: grid;
+    grid-template-rows: 70% 30%;
+   
+}
+.firstrow-seccol {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+
+.firstrow-firstdiv .blogger-img {
+  width: 100%;
+  height: 100%;
+
+}
+
+.firstrow-secdiv .skincare-img {
+  width: 100%;
+  height: 100%;
+
+}
+.firstrow-thirddiv .makeup-img{
+    width: 100%;
+  height: 100%;
+
+}
+.secrow-firstdiv .beauty-img{
+    width: 100%;
+  height: 100%;
+  
+
+}
+.secrow-secdiv .clinic-img{
+    width: 100%;
+  height: 100%;
+
+}
+.secrow-thirddiv .natural-img{
+    width: 100%;
+  height: 100%;
+}
+.skincare-img img{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.beauty-img img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.clinic-img img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.natural-img img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.blogger-img img {
+  width: 100%;
+  height: 100% ;
+  display: block;
+  
+    opacity: 0.6;
+
+}
+.makeup-img img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.firstrow-firstdiv {
+  position: relative;
+}
+.blogger-para {
+  position: absolute;
+  top: 1rem;
+  left: 2rem;
+}
+.firstrow-secdiv {
+  position: relative;
+}
+.skincare-para h4 {
+  position: absolute;
+  top: 1rem;
+  left: 2rem;
+}
+.firstrow-thirddiv {
+  position: relative;
+}
+.makeup-para h4 {
+  position: absolute;
+  top: 1rem;
+  left: 2rem;
+}
+.secrow-firstdiv{
+    position: relative;
+}
+.beauty-para h4{
+ position: absolute;
+  top: 1rem;
+  left: 2rem;
+}
+.secrow-secdiv{
+    position: relative;
+}
+.clinic-para h4{
+    position: absolute;
+  top: 1rem;
+  left: 2rem;
+}
+.secrow-thirddiv{
+    position: relative;
+}
+.natural-para h4{
+     position: absolute;
+  top: 1rem;
+  left: 2rem;
+}
+.ban-secrow {
+    display: grid;
+    grid-template-columns: 35% 35% 30%;
+}
