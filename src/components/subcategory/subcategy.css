@@ -6,7 +6,7 @@
   width: 100%;
   position: absolute;
   /* left: 20px; */
-  bottom: 0px;
+  bottom: -70px;
   padding-top: 6rem;
   box-shadow: inset 10px -123px 51px -28px rgb(14 13 13 / 81%);
   padding-bottom: 1rem;
@@ -15,10 +15,25 @@
 }
 .leftBanner {
   position: relative;
+  overflow: hidden;
 }
 .rightBanner {
   position: relative;
+  overflow: hidden;
 }
 .bannerPara .leftparaText {
-  display: none;
+  /* display: none; */
+  opacity: 0;
+}
+.bannerPara .rightparaText {
+  /* display: none; */
+  opacity: 0;
+}
+.rightBanner:hover .rightparaText {
+  display: block;
+
+  color: red;
+}
+.leftBanner:hover .leftparaText {
+  display: block;
 }
