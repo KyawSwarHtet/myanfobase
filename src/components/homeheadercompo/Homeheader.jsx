@@ -68,23 +68,18 @@ const HomeHeader = () => {
       <section className="popular-body container">
         <div className="first-grid">
           <div className="mask-div">
+            <div className="maskimgdiv">
+              <img src="/images/homeimgs/Wear-Mask-2.jpg" alt="" />
+            </div>
             <div className="popular-bignew">
               <Link to="/health" className="cateHealth">
-                Health
+                <span className="health_button">Health</span>
               </Link>
               <p>
                 popular-health Lorem Ipsum is simply dummy text of the printing
                 and typesetting industry. Lorem Ipsum has been the industry's
                 standard dummy text ever since the 1500s,
               </p>
-              <h5>Author name. 31.5.2022</h5>
-            </div>
-            <div className="maskimgdiv">
-                <img
-                  className="maskimg"
-                  src="/images/homeimgs/Wear-Mask-2.jpg"
-                  alt=""
-                />
             </div>
           </div>
           <div className="SecondDiv">

@@ -12,7 +12,7 @@ export default function Lifestylenew() {
               src="images/homeimgs/lifestyle.jpeg"
               alt=""
             />
-            <button className="life-exbtn">Exercise</button>
+            <button className="life-exbtn cateLifestyles ">Lifestyles</button>
           </div>
           <div className="paragraph">
             <h2>

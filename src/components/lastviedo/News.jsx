@@ -5,7 +5,7 @@ const News = () => {
     <>
       <div className="newspart">
         <div className="news">
-          <div className="news_info">
+          <div className="news_info ent_hover">
             <h4>18 Top Fall Fashion Trends from New York Fashion</h4>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -28,8 +28,9 @@ const News = () => {
           </div>
         </div>
         <div className="news">
-          <div className="news_info">
+          <div className="news_info science_hover">
             <h4>18 Top Fall Fashion Trends from New York Fashion</h4>
+
             <p>
               All of the Best Looks From New York Fashion Week Fall/Winter
               2021.…
@@ -51,7 +52,7 @@ const News = () => {
           </div>
         </div>
         <div className="news">
-          <div className="news_info">
+          <div className="news_info government_hover">
             <h4>18 Top Fall Fashion Trends from New York Fashion</h4>
             <p>
               All of the Best Looks From New York Fashion Week Fall/Winter
@@ -74,7 +75,7 @@ const News = () => {
           </div>
         </div>
         <div className="news">
-          <div className="news_info">
+          <div className="news_info technology_hover">
             <h4>18 Top Fall Fashion Trends from New York Fashion</h4>
             <p>
               All of the Best Looks From New York Fashion Week Fall/Winter
