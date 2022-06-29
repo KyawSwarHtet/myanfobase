@@ -3,7 +3,6 @@ import "./beautybanner.css";
 export default function Beautybanner () {
   return (
     <section className="beauty-banner container">
-      
       <div className="beauty-firstrow">
         <div className="firstrow-firstdiv">
           <div className="blogger-img">
@@ -20,7 +19,7 @@ export default function Beautybanner () {
             <span className="first-overlawyer"></span>
           </div>
         </div>
-        <div className="firstrow-seccol">
+        <div className="low-photos">
           <div className="firstrow-secdiv">
             <div className="skincare-img">
               <img src="./images/homeimgs/skincare.jpg" alt="" />
@@ -41,6 +40,7 @@ export default function Beautybanner () {
       </div>
 
       <div className="ban-secrow">
+        <div className="secrow-first">
           <div className="secrow-firstdiv">
             <div className="beauty-img">
               <img src="./images/homeimgs/beauty-salon.jpg" alt="" />
@@ -58,14 +58,15 @@ export default function Beautybanner () {
               <h4>Lorem ipsum dolor sit amet.</h4>
             </div>
           </div>
-          <div className="secrow-thirddiv">
-            <div className="natural-img">
-              <img src="./images/homeimgs/natural.jpg" alt="" />
-            </div>
-            <div className="natural-para">
-              <h4>Lorem ipsum dolor sit amet.</h4>
-            </div>
+        </div>
+        <div className="secrow-thirddiv">
+          <div className="natural-img">
+            <img src="./images/homeimgs/natural.jpg" alt="" />
           </div>
+          <div className="natural-para">
+            <h4>Lorem ipsum dolor sit amet.</h4>
+          </div>
+        </div>
       </div>
     </section>
   );
