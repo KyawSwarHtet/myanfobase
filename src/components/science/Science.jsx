@@ -1,7 +1,8 @@
+import React from "react";
 import { Link } from "react-router-dom";
-import "./technology.css";
+import "../technology/technology.css";
 
-export default function Technology() {
+export default function Science() {
   return (
     <>
       <section className="technology">
@@ -20,25 +21,31 @@ export default function Technology() {
             <i className="uil uil-angle-right-b"></i>
           </div>
 
-          <h4>Technology</h4>
+          <h4>Science</h4>
         </div>
         <div className="sectop">
-          <h1>TECHNOLOGY</h1>
+          <h1>Science</h1>
         </div>
         <div className="Catabutton">
-          <Link to="/computer">
-            <button className="tec">Computer</button>
+          <Link to="/Astronomy">
+            <button className="tec">Astronomy</button>
           </Link>
-          <button className="tec">Electronics</button>
-          <button className="tec">Innovation</button>
-          <button className="tec">Smartphone</button>
-          <button className="tec">Software</button>
+          <button className="tec">Biology</button>
+          <button className="tec">Chemistry</button>
+          <button className="tec">Earth Science</button>
+          <button className="tec">Mathematics</button>
+          <button className="tec">Plants</button>
+          <button className="tec">Physics</button>
+          <button className="tec">Mammals</button>
         </div>
         <div className="para">
           <p>
-            Modern technology has become a total phenomenon for civilization,
-            the defining force of a new social order in which efficiency is no
-            longer an option but a necessity imposed on all human activity.
+            How can the sky be blue one day and stormy the next? Why do heavy
+            objects tend to fall downwards when dropped? How are birds able to
+            fly (and why can't I do the same?)? Human beings have long been
+            curious about the world in which we live, striving to identify
+            connections among the phenomenons we witness and to understand how
+            it all works.
           </p>
         </div>
       </section>

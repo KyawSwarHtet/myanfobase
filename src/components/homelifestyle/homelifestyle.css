@@ -59,9 +59,6 @@
   position: absolute;
   left: 2rem;
   bottom: 20px;
-  background-color: var(--lifestyles-bg);
-  color: black;
-  padding: 0.1rem 0.4rem;
 }
 
 .paragraph h2 {

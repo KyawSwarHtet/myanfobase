@@ -1,14 +1,19 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Computer() {
   return (
     <section className="technology">
       <div className="top">
-        <h4>Home</h4>
+        <Link to="/" className="link1">
+          <h4>Home</h4>
+        </Link>
         <div className="icon">
           <i className="uil uil-angle-right-b"></i>
         </div>
-        <h4>Technology</h4>
+        <Link to="/technology" className="link1">
+          <h4>Technology</h4>
+        </Link>
         <div className="icon">
           <i className="uil uil-angle-right-b"></i>
         </div>
