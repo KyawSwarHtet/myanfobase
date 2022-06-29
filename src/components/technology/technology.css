@@ -2,11 +2,13 @@
   display: flex;
   color: #747474;
 }
-.homelink1 {
+.link1 {
   display: flex;
   color: #747474;
-  line-height: 18px;
-  padding: 0px 0px 0px 0px;
+  /* line-height: 18px; */
+  /* padding: 0px 0px 0px 0px; */
+}
+.iconRightArrow {
 }
 .top h4 {
   font-size: 15px;
@@ -15,6 +17,7 @@
   font-size: 30px;
   line-height: 38px;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .tec {
@@ -25,6 +28,7 @@
   background-color: #262e67;
   color: white;
   letter-spacing: 2px;
+  font-weight: bold;
   top: 8px;
 }
 .tec:hover {
@@ -69,7 +73,7 @@
 .firstpara h4 {
   color: white;
   font-size: 25px;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 /* .firstpara h4:hover {
   color: #262e67;
@@ -112,7 +116,6 @@
   height: 100%;
 }
 
-
 .robotpara {
   position: absolute;
   bottom: 0px;
@@ -125,7 +128,7 @@
 .robotpara h4 {
   font-size: 18px;
   color: white;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 /* .robotpara h4:hover {
   color: #262e67;
@@ -146,7 +149,7 @@
   font-size: 18px;
   color: white;
   margin-right: 100px;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 /* .airbudpara h4:hover {
   color: #262e67;
@@ -158,42 +161,36 @@
 }
 
 .tech-firstphoto img,
-.secrobot img
-{
-   transition: all .5s ease-in-out;
- display: block;
+.secrobot img {
+  transition: all 0.5s ease-in-out;
+  display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.tec-lastbannerphotos img{
-  transition: all .5s ease-in-out;
- display: block;
+.tec-lastbannerphotos img {
+  transition: all 0.5s ease-in-out;
+  display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 .tech-firstphoto img:hover,
-.secrobot img:hover
-{
+.secrobot img:hover {
   transform: perspective(1000px) translateZ(150px);
 }
-.tec-lastbannerphotos img:hover{
-    transform: perspective(1000px) translateZ(150px);
-
+.tec-lastbannerphotos img:hover {
+  transform: perspective(1000px) translateZ(150px);
 }
 .firstphoto .tech-firstphoto,
-.secphoto .secrobot
-{
+.secphoto .secrobot {
   overflow: hidden;
 }
-.secair .tec-lastbannerphotos{
-    overflow: hidden;
-
+.secair .tec-lastbannerphotos {
+  overflow: hidden;
 }
 .firstphoto:hover .firstpara h4,
 .secphoto:hover .robotpara h4,
-.secair:hover .airbudpara h4{
+.secair:hover .airbudpara h4 {
   color: var(--technology-bg);
 }
-
