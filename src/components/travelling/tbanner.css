@@ -1,6 +1,7 @@
 .trvel-ban {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
+  height: 25rem;
 }
 .ban-travel {
   position: relative;
