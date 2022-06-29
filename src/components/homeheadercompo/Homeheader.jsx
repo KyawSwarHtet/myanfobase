@@ -70,7 +70,7 @@ const HomeHeader = () => {
           <div className="mask-div">
             <div className="popular-bignew">
               <Link to="/health" className="cateHealth">
-                Health
+                <span className="health_button">Health</span>
               </Link>
               <p>
                 popular-health Lorem Ipsum is simply dummy text of the printing

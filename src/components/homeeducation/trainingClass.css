@@ -4,15 +4,18 @@ img {
   display: block;
   object-fit: cover;
 }
-/* .container {
+.container {
   width: var(--container-width-lg);
   margin: 0 auto;
-} */
+}
 
 .classTop {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
+}
+.classTop h4:hover {
+  color: var(--technology-bg);
 }
 .classTop .classimg {
   width: 100%;
@@ -21,19 +24,14 @@ img {
 
   transition: all 1s;
 }
-.classTop h2:hover {
+/* .classTop h2:hover {
   color: #00a79d;
-}
+} */
 
 article p::first-letter {
   font-size: 22px;
 }
 
-article p:hover {
+/* article p:hover {
   color: #00a79d;
-}
-
-.homeclass1 h4,
-.homeclass2 h4 {
-  padding-top: 8px;
-}
+} */

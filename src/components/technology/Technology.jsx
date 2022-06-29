@@ -6,7 +6,16 @@ export default function Technology() {
     <>
       <section className="technology">
         <div className="top">
-          <h4>Home</h4>
+          <div className="homelink">
+            <ul>
+              <li>
+                <Link to="/" className="homelink1">
+                  Home
+                </Link>
+              </li>
+            </ul>
+          </div>
+          {/* <h4>Home</h4> */}
           <div className="icon">
             <i className="uil uil-angle-right-b"></i>
           </div>
@@ -40,7 +49,7 @@ export default function Technology() {
       <section className="photo">
         <div className="firstphoto">
           <div className="firstpara">
-            <button className="technologypart">Technology</button>
+            <button className="cateTechnology">Technology</button>
             <h4>How to Mark yourself 'Safe' on Socials Media</h4>
             <p>
               Modern technology has become a total phenomenon for civilization,
@@ -48,34 +57,40 @@ export default function Technology() {
               longer an option but a necessity imposed on all human activity.
             </p>
           </div>
-          <img
-            className="fbphoto"
-            src="./images/homeimgs/technology.jpg"
-            alt=""
-          />
+          <div className="tech-firstphoto">
+            <img
+              className="fbphoto"
+              src="./images/homeimgs/technology.jpg"
+              alt=""
+            />
+          </div>
         </div>
         <div className="secphoto">
           <div className="secrobot">
-            <img
-              className="robotphoto"
-              src="./images/homeimgs/techhyperx.jpg"
-              alt=""
-            />
+            <div className="tecsecdiv-firstphoto">
+              <img
+                className="robotphoto"
+                src="./images/homeimgs/techhyperx.jpg"
+                alt=""
+              />
+            </div>
             <div className="robotpara">
-              <button className="technologypart">Technology</button>
+              <button className="cateTechnology">Technology</button>
               <h4>Corsair HS80 RGB Wireless Gaming Headset Review</h4>
             </div>
           </div>
           <div className="secair">
             <div className="airbudpara">
-              <button className="technologypart">Technology</button>
+              <button className="cateTechnology">Technology</button>
               <h4>Corsair HS80 RGB Wirless Gaming Headset Review</h4>
             </div>
-            <img
-              className="airbudphoto"
-              src="./images/homeimgs/techkeyboard.jpg"
-              alt=""
-            />
+            <div className="tec-lastbannerphotos">
+              <img
+                className="airbudphoto"
+                src="./images/homeimgs/techkeyboard.jpg"
+                alt=""
+              />
+            </div>
           </div>
         </div>
       </section>

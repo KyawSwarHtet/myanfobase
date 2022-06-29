@@ -15,7 +15,7 @@ export default function Computer() {
         <h4>Computer</h4>
       </div>
       <div className="sectop">
-        <h1>TECHNOLOGY</h1>
+        <h1>Computer</h1>
       </div>
       <div className="Catabutton">
         <button className="tec">Computer</button>

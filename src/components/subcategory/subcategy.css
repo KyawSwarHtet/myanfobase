@@ -1,0 +1,24 @@
+.catebannerImg {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.bannerPara {
+  width: 100%;
+  position: absolute;
+  /* left: 20px; */
+  bottom: 0px;
+  padding-top: 6rem;
+  box-shadow: inset 10px -123px 51px -28px rgb(14 13 13 / 81%);
+  padding-bottom: 1rem;
+  padding-left: 40px;
+  color: white;
+}
+.leftBanner {
+  position: relative;
+}
+.rightBanner {
+  position: relative;
+}
+.bannerPara .leftparaText {
+  display: none;
+}

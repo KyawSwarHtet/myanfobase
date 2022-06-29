@@ -22,7 +22,8 @@ img {
 }
 .wrapperinfo span {
   display: inline-block;
-  margin: 0.4rem 0;
+  margin: 0.8rem 0;
+  /* background-color: aqua; */
 }
 .wrapperinfo span:hover {
   background-color: #00a79d;
@@ -31,6 +32,6 @@ img {
 .wrapperinfo h5 {
   font-weight: 700;
 }
-.wrapperinfo h5:hover {
+/* .wrapperinfo h5:hover {
   color: #00a79d;
-}
+} */
