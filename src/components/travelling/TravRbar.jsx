@@ -1,5 +1,7 @@
 import React from "react";
 import Advtecbar from "../catepagerightbar/Advtecbar";
+import StaySocial from "../catepagerightbar/StaySocial";
+import Subscribeform from "../catepagerightbar/Subscribeform";
 
 const TravRbar = () => {
   return (
@@ -79,6 +81,8 @@ const TravRbar = () => {
         </div>
         <span className="lastestbottomline "></span>
         <Advtecbar />
+        <StaySocial />
+        <Subscribeform />
       </div>
     </>
   );
