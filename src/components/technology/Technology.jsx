@@ -46,6 +46,13 @@ export default function Technology() {
       </section>
       <section className="photo">
         <div className="firstphoto">
+          <div className="tech-firstphoto">
+            <img
+              className="fbphoto"
+              src="./images/homeimgs/technology.jpg"
+              alt=""
+            />
+          </div>
           <div className="firstpara">
             <button className="cateTechnology">Technology</button>
             <h4>How to Mark yourself 'Safe' on Socials Media</h4>
@@ -54,13 +61,6 @@ export default function Technology() {
               the defining force of a new social order in which efficiency is no
               longer an option but a necessity imposed on all human activity.
             </p>
-          </div>
-          <div className="tech-firstphoto">
-            <img
-              className="fbphoto"
-              src="./images/homeimgs/technology.jpg"
-              alt=""
-            />
           </div>
         </div>
         <div className="secphoto">
@@ -78,16 +78,16 @@ export default function Technology() {
             </div>
           </div>
           <div className="secair">
-            <div className="airbudpara">
-              <button className="cateTechnology">Technology</button>
-              <h4>Corsair HS80 RGB Wirless Gaming Headset Review</h4>
-            </div>
             <div className="tec-lastbannerphotos">
               <img
                 className="airbudphoto"
                 src="./images/homeimgs/techkeyboard.jpg"
                 alt=""
               />
+            </div>
+            <div className="airbudpara">
+              <button className="cateTechnology">Technology</button>
+              <h4>Corsair HS80 RGB Wirless Gaming Headset Review</h4>
             </div>
           </div>
         </div>
