@@ -1,7 +1,7 @@
 import React from "react";
-import "./beautybanner.css";
-import "animate.css"
-export default function Beautybanner () {
+import "./lifestylebanner.css";
+import "animate.css";
+export default function Lifestylebanner() {
   return (
     <section className="beauty-banner container">
       <div className="beauty-firstrow">
@@ -75,9 +75,7 @@ export default function Beautybanner () {
           </div>
           <div className="natural-p">
             <div className="natural-para">
-              <h4 className="animate__fadeOut">
-                Lorem ipsum dolor sit amet.
-              </h4>
+              <h4 className="animate__fadeOut">Lorem ipsum dolor sit amet.</h4>
             </div>
           </div>
         </div>

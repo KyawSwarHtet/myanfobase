@@ -1,8 +1,7 @@
 import React from "react";
 import "../technology/technology.css";
 import { Link } from "react-router-dom";
-
-const Beautyheader = () => {
+const Healthheader = () => {
   return (
     <>
       <section className="technology container">
@@ -25,17 +24,17 @@ const Beautyheader = () => {
           <Link to="/Home">Home</Link>
         </li>
       </ul> */}
-          <h4>Beauty</h4>
+          <h4>Health</h4>
         </div>
         <div className="sectop">
-          <h1>BEAUTY</h1>
+          <h1>HEALTH</h1>
         </div>
         <div className="Catabutton">
-          <button className="tec">Make-up</button>
-          <button className="tec">Beauty Blogger</button>
-          <button className="tec">Skin care</button>
-          <button className="tec">Beauty clinic</button>
-          <button className="tec">Natural</button>
+          <button className="tec">Info Doctor</button>
+          <button className="tec">Clinic</button>
+          <button className="tec">Yoga</button>
+          <button className="tec">Healty Foods</button>
+          <button className="tec">Medicine</button>
         </div>
         <div className="para">
           <p>
@@ -45,8 +44,9 @@ const Beautyheader = () => {
           </p>
         </div>
       </section>
+     
     </>
   );
 };
 
-export default Beautyheader;
+export default Healthheader;

@@ -16,6 +16,12 @@
   line-height: 38px;
   font-weight: 700;
 }
+.technology{
+padding-top: 6rem;}
+
+ol, ul {
+    padding-left: 0rem;
+}
 
 .tec {
   /* position: relative; */
@@ -53,7 +59,7 @@
   position: absolute;
   /* left: 20px; */
   bottom: 0px;
-  padding-top: 6rem;
+  padding-top: 1rem;
   box-shadow: inset 10px -123px 51px -28px rgb(14 13 13 / 81%);
   padding-bottom: 1rem;
   padding-left: 40px;
@@ -117,7 +123,7 @@
   position: absolute;
   bottom: 0px;
   width: 100%;
-  padding-top: 4rem;
+  padding-top: 1rem;
   box-shadow: inset 10px -123px 51px -28px rgb(14 13 13 / 81%);
   padding-bottom: 1rem;
   padding-left: 30px;
@@ -127,6 +133,7 @@
   color: white;
   margin-top: .5rem;
 }
+
 /* .robotpara h4:hover {
   color: #262e67;
 } */
@@ -134,13 +141,13 @@
   position: relative;
 }
 .airbudpara {
-  position: absolute;
-  bottom: 0px;
-  width: 100%;
-  padding-top: 4rem;
-  box-shadow: inset 10px -123px 51px -28px rgb(14 13 13 / 81%);
-  padding-bottom: 1rem;
-  padding-left: 30px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding-top: 1rem;
+    box-shadow: inset 4px -56px 25px 9px rgb(14 13 13 / 81%);
+    padding-bottom: 1rem;
+    padding-left: 30px;
 }
 .airbudpara h4 {
   font-size: 18px;
@@ -195,5 +202,7 @@
 .secphoto:hover .robotpara h4,
 .secair:hover .airbudpara h4{
   color: var(--technology-bg);
+     transition: all .3s ease-in-out;
+
 }
 
