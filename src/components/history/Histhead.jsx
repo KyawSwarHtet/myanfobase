@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-export default function Goverhead() {
+export default function Histhead() {
   return (
     <>
       <section className="container travel">
@@ -12,18 +12,18 @@ export default function Goverhead() {
             <i className="uil uil-angle-right-b"></i>
           </div>
           <Link to="/" className="link1">
-            <h4>Government</h4>
+            <h4>History</h4>
           </Link>
         </div>
         <div className="travel-main">
-          <h1>Government</h1>
+          <h1>History</h1>
         </div>
         <div className="button">
-          <button className="tec">Ministry</button>
-          <button className="tec">Police Station</button>
-          <button className="tec">Electric-Station</button>
-          <button className="tec">Passport</button>
-          <button className="tec">SomeOne</button>
+          <button className="tec">Culture</button>
+          <button className="tec">Dynasty</button>
+          <button className="tec">Religion</button>
+          <button className="tec">Dress Code</button>
+          <button className="tec">Region & State</button>
         </div>
         <div className="para">
           <p>
