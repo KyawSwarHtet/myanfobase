@@ -1,7 +1,9 @@
+import React from "react";
 import { Link } from "react-router-dom";
-import "./technology.css";
+import "../technology/technology.css";
+import "./science.css";
 
-export default function Technology() {
+export default function Science() {
   return (
     <>
       <section className="technology">
@@ -20,25 +22,31 @@ export default function Technology() {
             <i className="uil uil-angle-right-b"></i>
           </div>
 
-          <h4>Technology</h4>
+          <h4>Science</h4>
         </div>
         <div className="sectop">
-          <h1>TECHNOLOGY</h1>
+          <h1>Science</h1>
         </div>
         <div className="Catabutton">
-          <Link to="/computer">
-            <button className="tec">Computer</button>
+          <Link to="/Astronomy">
+            <button className="tec">Astronomy</button>
           </Link>
-          <button className="tec">Electronics</button>
-          <button className="tec">Innovation</button>
-          <button className="tec">Smartphone</button>
-          <button className="tec">Software</button>
+          <button className="tec">Biology</button>
+          <button className="tec">Chemistry</button>
+          <button className="tec">Earth Science</button>
+          <button className="tec">Mathematics</button>
+          <button className="tec">Plants</button>
+          <button className="tec">Physics</button>
+          <button className="tec">Mammals</button>
         </div>
         <div className="para">
           <p>
-            Modern technology has become a total phenomenon for civilization,
-            the defining force of a new social order in which efficiency is no
-            longer an option but a necessity imposed on all human activity.
+            How can the sky be blue one day and stormy the next? Why do heavy
+            objects tend to fall downwards when dropped? How are birds able to
+            fly (and why can't I do the same?)? Human beings have long been
+            curious about the world in which we live, striving to identify
+            connections among the phenomenons we witness and to understand how
+            it all works.
           </p>
         </div>
       </section>
@@ -47,13 +55,13 @@ export default function Technology() {
           <div className="tech-firstphoto">
             <img
               className="fbphoto"
-              src="./images/homeimgs/technology.jpg"
+              src="./images/science/sciencebanner1.jpg"
               alt=""
             />
           </div>
           <div className="firstpara">
-            <button className="cateTechnology">Technology</button>
-            <h4 className="technoloColor">
+            <button className="cateScience">Science</button>
+            <h4 className="sciencecolor">
               How to Mark yourself 'Safe' on Socials Media
             </h4>
             <p>
@@ -68,13 +76,13 @@ export default function Technology() {
             <div className="tecsecdiv-firstphoto">
               <img
                 className="robotphoto"
-                src="./images/homeimgs/techhyperx.jpg"
+                src="./images/science/scienceinfo9.jpg"
                 alt=""
               />
             </div>
             <div className="robotpara">
-              <button className="cateTechnology">Technology</button>
-              <h4 className="technoloColor">
+              <button className="cateScience">Science</button>
+              <h4 className="sciencecolor">
                 Corsair HS80 RGB Wireless Gaming Headset Review
               </h4>
             </div>
@@ -83,13 +91,13 @@ export default function Technology() {
             <div className="tec-lastbannerphotos">
               <img
                 className="airbudphoto"
-                src="./images/homeimgs/techkeyboard.jpg"
+                src="./images/science/sciencebanner11.jpg"
                 alt=""
               />
             </div>
             <div className="airbudpara">
-              <button className="cateTechnology">Technology</button>
-              <h4 className="technoloColor">
+              <button className="cateScience">science</button>
+              <h4 className="sciencecolor">
                 Corsair HS80 RGB Wirless Gaming Headset Review
               </h4>
             </div>

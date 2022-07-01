@@ -5,7 +5,8 @@ import Header from "./components/header/Header";
 import Beauty from "./pages/beauty/Beauty";
 import Health from "./pages/healthpage/Health";
 import Home from "./pages/home/Home";
-import Lifestyle from "./pages/lifestylepage/Lifestyle";
+import SciencePage from "./pages/science/SciencePage";
+import ComputerPage from "./pages/tecnology/ComputerPage";
 import Tecnology from "./pages/tecnology/Tecnology";
 import Travel from "./pages/travelling/Travel";
 function App() {
@@ -16,9 +17,9 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/technology" element={<Tecnology />} />
         <Route path="/travel" element={<Travel />} />
+        <Route path="/computer" element={<ComputerPage />} />
         <Route path="/beauty" element={<Beauty />} />
-        <Route path="/lifestyles" element={<Lifestyle />} />
-        <Route path="/health" element={<Health />} />
+        <Route path="/science" element={<SciencePage />} />
       </Routes>
     </div>
   );
