@@ -17,7 +17,7 @@
   --beauty-bg: rgb(211 128 166);
   --history-bg: rgb(163 69 28);
   --government-bg: rgb(159 65 136);
-  --science-bg: rgb(87 97 173 / 78%);
+  --science-bg: rgb(29 210 221 / 78%);
   --travel-bg: rgb(116, 104, 213);
   --sports-bg: rgb(36, 9, 9, 0.94);
   --arts-bg: rgb(12, 47, 105);
@@ -101,6 +101,7 @@ h5 {
   font-weight: 500;
   color: white;
   padding: 1px 8px;
+  text-transform: capitalize;
 }
 .cateTechnology {
   background-color: var(--technology-bg);
@@ -108,10 +109,11 @@ h5 {
   font-weight: 500;
   color: white;
   padding: 1px 8px;
+  text-transform: capitalize;
 }
 .cateHistory {
   background-color: var(--history-bg);
-
+  text-transform: capitalize;
   padding: 1px 8px;
   font-size: 0.9rem;
   font-weight: 500;
@@ -123,10 +125,11 @@ h5 {
   color: white;
   padding: 1px 8px;
   font-size: 0.9rem;
+  text-transform: capitalize;
 }
 .cateBeauty {
   background-color: var(--beauty-bg);
-
+  text-transform: capitalize;
   font-weight: 500;
   color: #fff;
   padding: 1px 8px;
@@ -134,7 +137,7 @@ h5 {
 }
 .cateHealth {
   background-color: var(--health-bg);
-
+  text-transform: capitalize;
   font-weight: 500;
   color: white;
   padding: 1px 8px;
@@ -146,6 +149,7 @@ h5 {
   font-weight: 500;
   color: white;
   padding: 1px 8px;
+  text-transform: capitalize;
 }
 .cateScience {
   background-color: var(--science-bg);
@@ -153,10 +157,11 @@ h5 {
   font-weight: 500;
   color: white;
   padding: 1px 12px;
+  text-transform: capitalize;
 }
 .cateLiterature {
   background-color: var(--literature-bg);
-
+  text-transform: capitalize;
   font-weight: 500;
   color: white;
   padding: 1px 8px;
@@ -164,7 +169,7 @@ h5 {
 }
 .cateSports {
   background-color: var(--sports-bg);
-
+  text-transform: capitalize;
   font-weight: 500;
   color: white;
   padding: 1px 8px;
@@ -172,7 +177,7 @@ h5 {
 }
 .cateLifestyles {
   background-color: var(--lifestyles-bg);
-
+  text-transform: capitalize;
   font-weight: 500;
   color: white;
   padding: 1px 8px;
@@ -180,7 +185,7 @@ h5 {
 }
 .cateArts {
   background-color: var(--arts-bg);
-
+  text-transform: capitalize;
   font-weight: 500;
   color: white;
   padding: 1px 8px;
@@ -188,7 +193,7 @@ h5 {
 }
 .cateEducation {
   background-color: var(--education-bg);
-
+  text-transform: capitalize;
   font-weight: 500;
   color: white;
   padding: 1px 8px;

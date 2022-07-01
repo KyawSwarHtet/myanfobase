@@ -8,8 +8,8 @@
   /* line-height: 18px; */
   /* padding: 0px 0px 0px 0px; */
 }
-.iconRightArrow {
-}
+/* .iconRightArrow {
+} */
 .top h4 {
   font-size: 15px;
 }
@@ -36,7 +36,7 @@
   color: black;
 }
 .para {
-  padding-right: 280px;
+  /* padding-right: 280px; */
   font-family: "Open Sans", "Open Sans Regular", sans-serif;
   font-size: 16px;
   font-style: italic;
@@ -189,8 +189,8 @@
 .secair .tec-lastbannerphotos {
   overflow: hidden;
 }
-.firstphoto:hover .firstpara h4,
-.secphoto:hover .robotpara h4,
-.secair:hover .airbudpara h4 {
+.firstphoto:hover .firstpara h4.technoloColor,
+.secphoto:hover .robotpara h4.technoloColor,
+.secair:hover .airbudpara h4.technoloColor {
   color: var(--technology-bg);
 }

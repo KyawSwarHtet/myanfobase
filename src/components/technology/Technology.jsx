@@ -53,7 +53,9 @@ export default function Technology() {
           </div>
           <div className="firstpara">
             <button className="cateTechnology">Technology</button>
-            <h4>How to Mark yourself 'Safe' on Socials Media</h4>
+            <h4 className="technoloColor">
+              How to Mark yourself 'Safe' on Socials Media
+            </h4>
             <p>
               Modern technology has become a total phenomenon for civilization,
               the defining force of a new social order in which efficiency is no
@@ -72,7 +74,9 @@ export default function Technology() {
             </div>
             <div className="robotpara">
               <button className="cateTechnology">Technology</button>
-              <h4>Corsair HS80 RGB Wireless Gaming Headset Review</h4>
+              <h4 className="technoloColor">
+                Corsair HS80 RGB Wireless Gaming Headset Review
+              </h4>
             </div>
           </div>
           <div className="secair">
@@ -85,7 +89,9 @@ export default function Technology() {
             </div>
             <div className="airbudpara">
               <button className="cateTechnology">Technology</button>
-              <h4>Corsair HS80 RGB Wirless Gaming Headset Review</h4>
+              <h4 className="technoloColor">
+                Corsair HS80 RGB Wirless Gaming Headset Review
+              </h4>
             </div>
           </div>
         </div>
