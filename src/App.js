@@ -9,8 +9,12 @@ import Home from "./pages/home/Home";
 import SciencePage from "./pages/science/SciencePage";
 import ComputerPage from "./pages/tecnology/ComputerPage";
 import Tecnology from "./pages/tecnology/Tecnology";
+import Advanture from "./pages/travelling/Advanture";
+import Beach from "./pages/travelling/Beach";
+import Mountain from "./pages/travelling/Mountain";
 import Pagoda from "./pages/travelling/Pagoda";
 import Travel from "./pages/travelling/Travel";
+import Waterfall from "./pages/travelling/Waterfall";
 function App() {
   return (
     <div className="App">
@@ -20,6 +24,10 @@ function App() {
         <Route path="/technology" element={<Tecnology />} />
         <Route path="/travel" element={<Travel />} />
         <Route path="/pagoda" element={<Pagoda />} />
+        <Route path="/beach" element={<Beach />} />
+        <Route path="/waterfall" element={<Waterfall />} />
+        <Route path="/mountains" element={<Mountain />} />
+        <Route path="/Advanture_trip" element={<Advanture />} />
         <Route path="/computer" element={<ComputerPage />} />
         <Route path="/beauty" element={<Beauty />} />
         <Route path="/govenment" element={<Govenment />} />

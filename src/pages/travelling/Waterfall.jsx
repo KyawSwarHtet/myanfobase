@@ -1,20 +1,20 @@
 import React from "react";
 import Footer from "../../components/footer/Footer";
-import Pagobanner from "../../components/travelling/Pagoda/Pagobanner";
-import Pagohead from "../../components/travelling/Pagoda/Pagohead";
 import TravRbar from "../../components/travelling/TravRbar";
 import TravSidebar from "../../components/travelling/TravSidebar";
+import Waterbanner from "../../components/travelling/Waterfall/Waterbanner";
+import Waterhead from "../../components/travelling/Waterfall/Waterhead";
 
-export default function Pagoda() {
+export default function Waterfall() {
   return (
-    <>
-      <Pagohead />
-      <Pagobanner />
+    <div>
+      <Waterhead />
+      <Waterbanner />
       <section className="container travel1">
         <TravSidebar />
         <TravRbar />
       </section>
       <Footer />
-    </>
+    </div>
   );
 }
