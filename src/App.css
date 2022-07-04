@@ -231,7 +231,12 @@ dl {
   position: sticky;
   top: 50px;
 }
-
+.sidebar1 {
+  height: calc(70vh - 50px);
+  overflow-y: scroll;
+  position: sticky;
+  top: 50px;
+}
 ::-webkit-scrollbar {
   width: 0px;
 }
