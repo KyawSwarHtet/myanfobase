@@ -7,9 +7,10 @@
   width: 100%;
   position: absolute;
   /* left: 20px; */
-  bottom: -70px;
+  bottom: -80px;
   padding-top: 1rem;
-  box-shadow: inset 10px -123px 51px -28px rgba(16, 15, 15, 0.81);
+  /* box-shadow: inset 10px -123px 51px -28px rgba(16, 15, 15, 0.81); */
+  box-shadow: inset 11px -120px 515px -70px rgb(16 15 15 / 81%);
   padding-bottom: 1rem;
   padding-left: 40px;
   color: white;
@@ -25,6 +26,7 @@
 .rightBanner {
   position: relative;
   overflow: hidden;
+  /* height: 23rem; */
 }
 
 .bannerPara .leftparaText {
@@ -41,6 +43,7 @@
 .leftBanner:hover .bannerPara,
 .rightBanner:hover .bannerPara {
   bottom: 0px;
+  box-shadow: inset 10px -123px 51px -28px rgba(16, 15, 15, 0.81);
 }
 
 .leftBanner:hover .leftparaText,
