@@ -28,18 +28,28 @@ export default function Literature() {
           <h1>Literature</h1>
         </div>
         <div className="Catabutton">
-          <Link to="/Astronomy">
+          <Link to="/poetry">
             <button className="tec">Poetry</button>
           </Link>
-          <button className="tec">Fiction</button>
-          <button className="tec">nonfiction</button>
-          <button className="tec">drama</button>
-          <button className="tec">comedy</button>
-          <button className="tec">tragedy</button>
-          <button className="tec">short-Story</button>
-          <button className="tec">novel</button>
-          <button className="tec">romance</button>
-          <button className="tec">thriller</button>
+          <Link to="/fiction">
+            <button className="tec">Fiction</button>
+          </Link>
+          <Link to="/drama">
+            <button className="tec">Drama</button>
+          </Link>
+          <Link to="/comedy">
+            <button className="tec">Comedy</button>
+          </Link>
+
+          <Link to="/novel">
+            <button className="tec">Novel</button>
+          </Link>
+          <Link to="/shortstory">
+            <button className="tec">Short-Story</button>
+          </Link>
+          <Link to="/romance">
+            <button className="tec">Romance</button>
+          </Link>
         </div>
         <div className="para">
           <p>

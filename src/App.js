@@ -6,10 +6,21 @@ import Beauty from "./pages/beauty/Beauty";
 import Govenment from "./pages/government/Govenment";
 import History from "./pages/history/History";
 import Home from "./pages/home/Home";
+import ComedyPage from "./pages/literature/ComedyPage";
+import DramaPage from "./pages/literature/DramaPage";
+import FictionPage from "./pages/literature/FictionPage";
 import LiteraturePage from "./pages/literature/LiteraturePage";
+import NovelPage from "./pages/literature/NovelPage";
+import PoetryPage from "./pages/literature/PoetryPage";
+import RomancePage from "./pages/literature/RomancePage";
+import ShortstoryPage from "./pages/literature/ShortstoryPage";
 import AstronomyPage from "./pages/science/AstronomyPage";
 import BilologyPage from "./pages/science/BilologyPage";
 import ChemistryPage from "./pages/science/ChemistryPage";
+import EarthSciencePage from "./pages/science/EarthSciencePage";
+import MammalsPage from "./pages/science/MammalsPage";
+import PhysicsPage from "./pages/science/PhysicsPage";
+import PlantsPage from "./pages/science/PlantsPage";
 import SciencePage from "./pages/science/SciencePage";
 import ComputerPage from "./pages/tecnology/ComputerPage";
 import ElectronicPage from "./pages/tecnology/ElectronicPage";
@@ -51,8 +62,19 @@ function App() {
         <Route path="/astronomy" element={<AstronomyPage />} />
         <Route path="/biology" element={<BilologyPage />} />
         <Route path="/chemistry" element={<ChemistryPage />} />
+        <Route path="/earthscience" element={<EarthSciencePage />} />
+        <Route path="/plants" element={<PlantsPage />} />
+        <Route path="/physics" element={<PhysicsPage />} />
+        <Route path="/mammals" element={<MammalsPage />} />
 
         <Route path="/literature" element={<LiteraturePage />} />
+        <Route path="/poetry" element={<PoetryPage />} />
+        <Route path="/fiction" element={<FictionPage />} />
+        <Route path="/drama" element={<DramaPage />} />
+        <Route path="/comedy" element={<ComedyPage />} />
+        <Route path="/novel" element={<NovelPage />} />
+        <Route path="/shortstory" element={<ShortstoryPage />} />
+        <Route path="/romance" element={<RomancePage />} />
       </Routes>
     </div>
   );

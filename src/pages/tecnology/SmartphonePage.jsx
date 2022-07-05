@@ -4,6 +4,7 @@ import Footer from "../../components/footer/Footer";
 import Subcatemain from "../../components/subcategory/Subcatemain";
 import Smartphone from "../../components/technology/SubcateTechno/Smartphone";
 import SmartphoneBanner from "../../components/technology/SubcateTechno/SmartphoneBanner";
+import TechnologyPopular from "../../components/technology/TechnologyPopular";
 
 export default function SmartphonePage() {
   return (
@@ -13,7 +14,10 @@ export default function SmartphonePage() {
         <SmartphoneBanner />
         <section className="tecbody">
           <Subcatemain />
-          <Latestbar />
+          <div className="allRightBar">
+            <TechnologyPopular />
+            <Latestbar />
+          </div>
         </section>
       </section>
       <Footer />

@@ -4,6 +4,7 @@ import Tecmain from "../../components/catepagerightbar/Tecmain";
 import "./tecnologyPage.css";
 
 import Footer from "../../components/footer/Footer";
+import TechnologyPopular from "../../components/technology/TechnologyPopular";
 export default function TecnologyPages() {
   return (
     <>
@@ -11,7 +12,10 @@ export default function TecnologyPages() {
         <Technology />
         <section className="tecbody">
           <Tecmain />
-          <Latestbar />
+          <div className="allRightBar">
+            <TechnologyPopular />
+            <Latestbar />
+          </div>
         </section>
       </section>
       <Footer />
