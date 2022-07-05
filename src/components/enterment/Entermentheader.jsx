@@ -32,9 +32,11 @@ export default function Entermentheader() {
         <div className="Catabutton">
           <button className="tec">Korean</button>
           <button className="tec">Movie</button>
-          <button className="tec">Inrenational</button>
+          <button className="tec">Cartoon</button>
           <button className="tec">Cinema</button>
           <button className="tec">Music</button>
+          <button className="tec">Asian</button>
+          <button className="tec">Myanmar</button>
         </div>
         <div className="para">
           <p>
