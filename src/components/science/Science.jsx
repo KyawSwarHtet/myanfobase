@@ -28,16 +28,30 @@ export default function Science() {
           <h1>Science</h1>
         </div>
         <div className="Catabutton">
-          <Link to="/Astronomy">
+          <Link to="/astronomy">
             <button className="tec">Astronomy</button>
           </Link>
-          <button className="tec">Biology</button>
-          <button className="tec">Chemistry</button>
-          <button className="tec">Earth Science</button>
-          <button className="tec">Mathematics</button>
-          <button className="tec">Plants</button>
-          <button className="tec">Physics</button>
-          <button className="tec">Mammals</button>
+          <Link to="/biology">
+            <button className="tec">Biology</button>
+          </Link>
+          <Link to="/chemistry">
+            <button className="tec">Chemistry</button>
+          </Link>
+          <Link to="/earthscience">
+            <button className="tec">Earth science</button>
+          </Link>
+          {/* <Link to="/mathematics">
+            <button className="tec">Mathematics</button>
+          </Link> */}
+          <Link to="/plants">
+            <button className="tec">Plants</button>
+          </Link>
+          <Link to="/physics">
+            <button className="tec">Physics</button>
+          </Link>
+          <Link to="/mammels">
+            <button className="tec">Mammals</button>
+          </Link>
         </div>
         <div className="para">
           <p>
@@ -48,60 +62,6 @@ export default function Science() {
             connections among the phenomenons we witness and to understand how
             it all works.
           </p>
-        </div>
-      </section>
-      <section className="photo">
-        <div className="firstphoto">
-          <div className="tech-firstphoto">
-            <img
-              className="fbphoto"
-              src="./images/science/sciencebanner1.jpg"
-              alt=""
-            />
-          </div>
-          <div className="firstpara">
-            <button className="cateScience">Science</button>
-            <h4 className="sciencecolor">
-              How to Mark yourself 'Safe' on Socials Media
-            </h4>
-            <p>
-              Modern technology has become a total phenomenon for civilization,
-              the defining force of a new social order in which efficiency is no
-              longer an option but a necessity imposed on all human activity.
-            </p>
-          </div>
-        </div>
-        <div className="secphoto">
-          <div className="secrobot">
-            <div className="tecsecdiv-firstphoto">
-              <img
-                className="robotphoto"
-                src="./images/science/scienceinfo9.jpg"
-                alt=""
-              />
-            </div>
-            <div className="robotpara">
-              <button className="cateScience">Science</button>
-              <h4 className="sciencecolor">
-                Corsair HS80 RGB Wireless Gaming Headset Review
-              </h4>
-            </div>
-          </div>
-          <div className="secair">
-            <div className="tec-lastbannerphotos">
-              <img
-                className="airbudphoto"
-                src="./images/science/sciencebanner11.jpg"
-                alt=""
-              />
-            </div>
-            <div className="airbudpara">
-              <button className="cateScience">science</button>
-              <h4 className="sciencecolor">
-                Corsair HS80 RGB Wirless Gaming Headset Review
-              </h4>
-            </div>
-          </div>
         </div>
       </section>
     </>

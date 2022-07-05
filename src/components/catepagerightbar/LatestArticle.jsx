@@ -3,12 +3,12 @@ import "./latestbar.css";
 
 export default function LatestArticle() {
   return (
-    <div className="">
+    <div className="lastArt">
       <div className="lastnewbar-title">
         <h2>Latest Article</h2>
         <span className="lasttitleline"></span>
       </div>
-      <div className="lastnewbar-body sidebar">
+      <div className="lastnewbar-body sidebar1">
         <div className="article-lastest">
           <div className="lastnewimg">
             <img src="./images/technology/robothand.jpg" alt="" />

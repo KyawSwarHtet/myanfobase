@@ -21,7 +21,7 @@
   --travel-bg: rgb(116, 104, 213);
   --sports-bg: rgb(36, 9, 9, 0.94);
   --arts-bg: rgb(12, 47, 105);
-  --literature-bg: rgb(13, 222, 230);
+  --literature-bg: rgb(131 106 55);
   --health-bg: rgb(60 211 134);
   --lifestyles-bg: rgb(163, 184, 250);
   --education-bg: rgb(144, 240, 18);
@@ -50,6 +50,9 @@ a {
 }
 .capital {
   text-transform: uppercase;
+}
+.capitalize {
+  text-transform: capitalize;
 }
 section {
   padding: 3rem 0 0 0;
@@ -228,7 +231,12 @@ dl {
   position: sticky;
   top: 50px;
 }
-
+.sidebar1 {
+  height: calc(70vh - 50px);
+  overflow-y: scroll;
+  position: sticky;
+  top: 50px;
+}
 ::-webkit-scrollbar {
   width: 0px;
 }
@@ -237,4 +245,9 @@ dl {
 }
 ::-webkit-scrollbar-thumb {
   background-color: rgb(179, 179, 179);
+}
+
+.btnactive {
+  background-color: var(--technology-bg) !important;
+  color: black !important;
 }

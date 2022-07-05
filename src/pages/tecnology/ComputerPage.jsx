@@ -1,5 +1,5 @@
 import React from "react";
-import "./tecnology.css";
+import "./tecnologyPage.css";
 import Footer from "../../components/footer/Footer";
 
 import Computer from "../../components/subcategory/Computer";

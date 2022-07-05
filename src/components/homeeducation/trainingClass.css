@@ -24,8 +24,9 @@ img {
 
   transition: all 1s;
 }
-.homeclass1 h4{
-margin-top: .5rem;
+.homeclass1 h4,
+.homeclass2 h4 {
+  margin-top: 0.5rem;
 }
 .homeclass2 h4{
   margin-top: .5rem;
