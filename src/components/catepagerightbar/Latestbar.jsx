@@ -7,13 +7,12 @@ import Subscribeform from "./Subscribeform";
 export default function Latestbar() {
   return (
     <>
-      <div className="allrightbar ">
-        <LatestArticle />
-        <span className="lastestbottomline"></span>
-        <Advtecbar />
-        <StaySocial />
-        <Subscribeform />
-      </div>
+      <span className="lastestbottomline"></span>
+      <Advtecbar />
+      <LatestArticle />
+      <span className="lastestbottomline"></span>
+      <StaySocial />
+      <Subscribeform />
     </>
   );
 }

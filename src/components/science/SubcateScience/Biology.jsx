@@ -42,7 +42,7 @@ export default function Biology() {
         <Link to="/physics">
           <button className="tec">Physics</button>
         </Link>
-        <Link to="/mammels">
+        <Link to="/mammals">
           <button className="tec">Mammals</button>
         </Link>
       </div>
