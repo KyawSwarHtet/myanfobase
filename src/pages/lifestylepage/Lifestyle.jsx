@@ -9,11 +9,13 @@ import Lifestylesidebar from "../../components/lifestyle/Lifestylesidebar";
 export default function Lifestyle() {
   return (
     <>
-      <Lifestyleheader />
-      <Lifestylebanner />
-          <section className="tecbody container">
-              <Lifestylesidebar />
-       <Lifestylerightbar />
+      <section className="container">
+        <Lifestyleheader />
+        <Lifestylebanner />
+        <section className="tecbody">
+          <Lifestylesidebar />
+          <Lifestylerightbar />
+        </section>
       </section>
       <Footer />
     </>

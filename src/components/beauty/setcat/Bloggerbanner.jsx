@@ -1,9 +1,9 @@
 import React from "react";
-import "./lifestylebanner.css";
+import "../beautybanner.css";
 import "animate.css";
-export default function Lifestylebanner() {
+export default function Bloggerbanner() {
   return (
-    <section className="beauty-banner">
+    <section className="beauty-banner ">
       <div className="beauty-firstrow">
         <div className="firstrow-firstdiv">
           <div className="blogger-img">

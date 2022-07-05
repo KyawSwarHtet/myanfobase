@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function Salon() {
+export default function Exercise() {
   return (
     <section className="technology">
       <div className="top">
@@ -11,31 +11,31 @@ export default function Salon() {
         <div className="icon">
           <i className="uil uil-angle-right-b"></i>
         </div>
-        <Link to="/beauty" className="link1">
-          <h4>Beauty</h4>
+        <Link to="/lifestyle" className="link1">
+          <h4>Lifestyle</h4>
         </Link>
         <div className="icon">
           <i className="uil uil-angle-right-b"></i>
         </div>
-        <h4>Beauty Salon</h4>
+        <h4>Exercise</h4>
       </div>
       <div className="sectop">
-        <h1>Beauty Salon</h1>
+        <h1>Lifestyle</h1>
       </div>
       <div className="Catabutton">
-        <Link to="/makeup">
-          <button className="tec">Make-up</button>
+        <button className="tec">Exercise</button>
+        <Link to="/healthy">
+          <button className="tec">Healthy Life</button>
         </Link>
-        <Link to="/Blogger">
-          <button className="tec">Beauty Blogger</button>
+        <Link to="/Laxury">
+          <button className="tec">Laxury</button>
         </Link>
-        <Link to="/skincare">
-          <button className="tec">Skin Care</button>
+        <Link to="/Family">
+          <button className="tec">Family</button>
         </Link>
-        <Link to="/clinic">
-          <button className="tec">Beauty clinic</button>
+        <Link to="/Modern">
+          <button className="tec">Modern</button>
         </Link>
-        <button className="tec">Beauty Salon</button>
       </div>
       {/* <div className="para">
         

@@ -10,12 +10,14 @@ import Footer from "../../components/footer/Footer";
 export default function Beauty() {
   return (
     <>
-      <Beautyheader />
-      <Beautybanner />
+      <section className="container">
+        <Beautyheader />
+        <Beautybanner />
 
-      <section className="tecbody container">
-        <BeautySidebar />
-        <BeautyRighrbar />
+        <section className="tecbody">
+          <BeautySidebar />
+          <BeautyRighrbar />
+        </section>
       </section>
       <Footer />
     </>

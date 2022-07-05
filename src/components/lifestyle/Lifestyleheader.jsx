@@ -4,13 +4,13 @@ import { Link } from "react-router-dom";
 const Lifestyleheader = () => {
   return (
     <>
-      <section className="technology container">
+      <section className="technology">
         <div className="top">
           <div className="homelink">
             <ul>
               <li>
                 <Link to="/" className="homelink1">
-                  Home
+                  <h4>Home</h4>
                 </Link>
               </li>
             </ul>
@@ -30,11 +30,21 @@ const Lifestyleheader = () => {
           <h1>LIFESTYLE</h1>
         </div>
         <div className="Catabutton">
-          <button className="tec">Exercise</button>
-          <button className="tec">Healthy Life</button>
-          <button className="tec">Luxury</button>
-          <button className="tec">Family</button>
-          <button className="tec">Modern</button>
+          <Link to="/exercise">
+            <button className="tec">Exercise</button>
+          </Link>
+          <Link to="/healthy">
+            <button className="tec">Healthy Life</button>
+          </Link>
+          <Link to="/Laxury">
+            <button className="tec">Laxury</button>
+          </Link>
+          <Link to="/Family">
+            <button className="tec">Family</button>
+          </Link>
+          <Link to="/Modern">
+            <button className="tec">Modern</button>
+          </Link>
         </div>
         <div className="para">
           <p>

@@ -5,13 +5,13 @@ import { Link } from "react-router-dom";
 const Beautyheader = () => {
   return (
     <>
-      <section className="technology container">
+      <section className="technology">
         <div className="top">
           <div className="homelink">
             <ul>
               <li>
                 <Link to="/" className="homelink1">
-                  Home
+                  <h4>Home</h4>
                 </Link>
               </li>
             </ul>
@@ -31,11 +31,21 @@ const Beautyheader = () => {
           <h1>BEAUTY</h1>
         </div>
         <div className="Catabutton">
-          <button className="tec">Make-up</button>
-          <button className="tec">Beauty Blogger</button>
-          <button className="tec">Skin care</button>
-          <button className="tec">Beauty clinic</button>
-          <button className="tec">Natural</button>
+             <Link to="/makeup">
+            <button className="tec">Make-up</button>
+            </Link>
+          <Link to="/Blogger">
+            <button className="tec">Beauty Blogger</button>
+          </Link>
+             <Link to="/skincare">
+            <button className="tec">Skin care</button>
+            </Link>
+          <Link to="/clinic">
+            <button className="tec">Beauty Clinic</button>
+          </Link>
+             <Link to="/salon">
+            <button className="tec">Beauty Salon</button>
+            </Link>
         </div>
         <div className="para">
           <p>
