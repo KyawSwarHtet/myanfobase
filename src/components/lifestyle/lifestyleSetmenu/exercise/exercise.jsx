@@ -20,7 +20,7 @@ export default function Exercise() {
         <h4>Exercise</h4>
       </div>
       <div className="sectop">
-        <h1>Lifestyle</h1>
+        <h1>exercise</h1>
       </div>
       <div className="Catabutton">
         <button className="tec">Exercise</button>

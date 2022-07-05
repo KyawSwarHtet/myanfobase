@@ -65,12 +65,8 @@ ol, ul {
   /* left: 20px; */
   bottom: 0px;
   padding-top: 1rem;
-<<<<<<< HEAD
-  box-shadow: inset 10px -123px 51px -28px rgb(14 13 13 / 81%);
-=======
   /* box-shadow: inset 10px -123px 51px -28px rgba(73, 72, 72, 0.81); */
   box-shadow: inset 10px -109px 30px 4px rgba(24 23 23 / 81%);
->>>>>>> master
   padding-bottom: 1rem;
   padding-left: 40px;
 }
@@ -133,12 +129,8 @@ ol, ul {
   bottom: 0px;
   width: 100%;
   padding-top: 1rem;
-<<<<<<< HEAD
-  box-shadow: inset 10px -123px 51px -28px rgb(14 13 13 / 81%);
-=======
   /* box-shadow: inset 10px -123px 51px -28px rgb(73 72 72 / 81%); */
   box-shadow: inset 10px -62px 30px 4px rgb(24 23 23 / 81%);
->>>>>>> master
   padding-bottom: 1rem;
   padding-left: 30px;
 }
@@ -155,15 +147,6 @@ ol, ul {
   position: relative;
 }
 .airbudpara {
-<<<<<<< HEAD
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-    padding-top: 1rem;
-    box-shadow: inset 4px -56px 25px 9px rgb(14 13 13 / 81%);
-    padding-bottom: 1rem;
-    padding-left: 30px;
-=======
   position: absolute;
   bottom: 0px;
   width: 100%;
@@ -172,7 +155,6 @@ ol, ul {
   box-shadow: inset 10px -62px 30px 4px rgb(24 23 23 / 81%);
   padding-bottom: 1rem;
   padding-left: 30px;
->>>>>>> master
 }
 .airbudpara h4 {
   font-size: 18px;

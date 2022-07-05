@@ -4,10 +4,10 @@ img {
   display: block;
   object-fit: cover;
 }
-.container {
+/* .container {
   width: var(--container-width-lg);
   margin: 0 auto;
-}
+} */
 
 .classTop {
   display: grid;

@@ -36,7 +36,7 @@ const Lifestyleheader = () => {
           <Link to="/healthy">
             <button className="tec">Healthy Life</button>
           </Link>
-          <Link to="/Laxury">
+          <Link to="/Luxury">
             <button className="tec">Laxury</button>
           </Link>
           <Link to="/Family">

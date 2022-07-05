@@ -6,11 +6,8 @@
 .beauty-banner {
   display: grid;
   grid-template-columns: 70% 30%;
-<<<<<<< HEAD
-=======
   height: 40rem;
   width: 100%;
->>>>>>> master
 }
 .low-photos {
   display: grid;
@@ -24,7 +21,6 @@
 
 .firstrow-secdiv .skincare-img {
   width: 100%;
-<<<<<<< HEAD
   height: 190px;
 }
 .firstrow-thirddiv .makeup-img {
@@ -35,18 +31,6 @@
   width: 100%;
   height: 100%;
 }
-=======
-  height: 100%;
-}
-.firstrow-thirddiv .makeup-img {
-  width: 100%;
-  height: 100%;
-}
-.secrow-firstdiv .beauty-img {
-  width: 100%;
-  height: 100%;
-}
->>>>>>> master
 .secrow-secdiv .clinic-img {
   width: 100%;
   height: 100%;
@@ -92,7 +76,6 @@
   position: absolute;
   bottom: 1rem;
   left: 2rem;
-<<<<<<< HEAD
 }
 
 .firstrow-firstdiv:hover .blogger-para h4{
@@ -199,8 +182,6 @@ background: linear-gradient(6deg,#0cbcb294 0%,#fffc315e 100%);
    0 0 80px #fff,
    0 0 120px #fff,
    0 0 160px #fff;
-=======
->>>>>>> master
 }
 .firstrow-secdiv {
   position: relative;
@@ -250,7 +231,6 @@ background: linear-gradient(6deg,#0cbcb294 0%,#fffc315e 100%);
 .ban-secrow {
   display: grid;
   grid-template-rows: 70% 30%;
-<<<<<<< HEAD
   height: 40rem;
 }
 .seccol-firstdiv{
@@ -258,10 +238,3 @@ background: linear-gradient(6deg,#0cbcb294 0%,#fffc315e 100%);
   grid-template-rows: 50% 50%;
 }
 
-=======
-}
-.secrow-first {
-  display: grid;
-  grid-template-rows: 50% 50%;
-}
->>>>>>> master

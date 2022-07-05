@@ -14,7 +14,6 @@ import ExercisePage from "./pages/lifestylepage/exercisePage";
 import Lifestyle from "./pages/lifestylepage/Lifestyle";
 import Govenment from "./pages/government/Govenment";
 import History from "./pages/history/History";
-import Home from "./pages/home/Home";
 import LiteraturePage from "./pages/literature/LiteraturePage";
 import AstronomyPage from "./pages/science/AstronomyPage";
 import BilologyPage from "./pages/science/BilologyPage";
@@ -33,6 +32,9 @@ import Mountain from "./pages/travelling/Mountain";
 import Pagoda from "./pages/travelling/Pagoda";
 import Travel from "./pages/travelling/Travel";
 import Waterfall from "./pages/travelling/Waterfall";
+import FamilyPage from "./pages/lifestylepage/familyPage";
+import HealthyPage from "./pages/lifestylepage/healthyPage";
+import LuxuryPage from "./pages/lifestylepage/luxuryPage";
 function App() {
   return (
     <div className="App">
@@ -72,6 +74,9 @@ function App() {
         <Route path="/chemistry" element={<ChemistryPage />} />
 
         <Route path="/literature" element={<LiteraturePage />} />
+        <Route path="/family" element={<FamilyPage />} />
+        <Route path="/healthy" element={<HealthyPage />} />
+        <Route path="/luxury" element={<LuxuryPage />} />
       </Routes>
     </div>
   );
