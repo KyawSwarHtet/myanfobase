@@ -5,6 +5,7 @@ import Footer from "../../components/footer/Footer";
 import Subcatemain from "../../components/subcategory/Subcatemain";
 import Electronic from "../../components/technology/SubcateTechno/Electronic";
 import ElectronicBanner from "../../components/technology/SubcateTechno/ElectronicBanner";
+import TechnologyPopular from "../../components/technology/TechnologyPopular";
 
 export default function ElectronicPage() {
   return (
@@ -14,7 +15,10 @@ export default function ElectronicPage() {
         <ElectronicBanner />
         <section className="tecbody">
           <Subcatemain />
-          <Latestbar />
+          <div className="allRightBar">
+            <TechnologyPopular />
+            <Latestbar />
+          </div>
         </section>
       </section>
       <Footer />

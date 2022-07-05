@@ -4,6 +4,7 @@ import Footer from "../../components/footer/Footer";
 import Subcatemain from "../../components/subcategory/Subcatemain";
 import Innovation from "../../components/technology/SubcateTechno/Innovation";
 import InnovationBanner from "../../components/technology/SubcateTechno/InnovationBanner";
+import TechnologyPopular from "../../components/technology/TechnologyPopular";
 
 export default function InnovationPage() {
   return (
@@ -13,7 +14,10 @@ export default function InnovationPage() {
         <InnovationBanner />
         <section className="tecbody">
           <Subcatemain />
-          <Latestbar />
+          <div className="allRightBar">
+            <TechnologyPopular />
+            <Latestbar />
+          </div>
         </section>
       </section>
       <Footer />
