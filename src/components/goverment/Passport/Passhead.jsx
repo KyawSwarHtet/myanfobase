@@ -32,7 +32,7 @@ const Passhead = () => {
           <button className="tec">Leader</button>
         </Link>
         <Link to="/passport">
-          <button className="tec">Passport</button>
+          <button className="tec btnactive">Passport</button>
         </Link>
         <Link to="/law">
           <button className="tec">Law</button>

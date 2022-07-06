@@ -29,7 +29,7 @@ export default function Leadhead() {
           <button className="tec">Police Station</button>
         </Link>
         <Link to="/leader">
-          <button className="tec">Leader</button>
+          <button className="tec btnactive">Leader</button>
         </Link>
         <Link to="/passport">
           <button className="tec">Passport</button>

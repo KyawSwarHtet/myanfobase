@@ -26,7 +26,7 @@ export default function Dynahead() {
           <button className="tec">Culture</button>
         </Link>
         <Link to="/dynasty">
-          <button className="tec">Dynasty</button>
+          <button className="tec btnactive">Dynasty</button>
         </Link>
         <Link to="/religion">
           <button className="tec">Religion</button>
