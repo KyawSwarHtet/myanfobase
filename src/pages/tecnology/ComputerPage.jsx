@@ -6,6 +6,7 @@ import Computer from "../../components/subcategory/Computer";
 import Subcategorybanner from "../../components/subcategory/Subcategorybanner";
 import Subcatemain from "../../components/subcategory/Subcatemain";
 import Latestbar from "../../components/catepagerightbar/Latestbar";
+import TechnologyPopular from "../../components/technology/TechnologyPopular";
 
 export default function ComputerPage() {
   return (
@@ -15,7 +16,10 @@ export default function ComputerPage() {
         <Subcategorybanner />
         <section className="tecbody">
           <Subcatemain />
-          <Latestbar />
+          <div className="allRightBar">
+            <TechnologyPopular />
+            <Latestbar />
+          </div>
         </section>
       </section>
       <Footer />
