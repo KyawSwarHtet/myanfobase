@@ -7,7 +7,7 @@ const HisLast = () => {
         <h2>Most Travel Place</h2>
         <span className="lasttitleline travel-line"></span>
       </div>
-      <div className="lastnewbar-body sidebar">
+      <div className="lastnewbar-body sidebar1">
         <div className="article-lastest">
           <div className="lastnewimg">
             <img src="./images/technology/robothand.jpg" alt="" />
