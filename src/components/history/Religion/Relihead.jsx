@@ -29,7 +29,7 @@ export default function Relihead() {
           <button className="tec">Dynasty</button>
         </Link>
         <Link to="/religion">
-          <button className="tec">Religion</button>
+          <button className="tec btnactive">Religion</button>
         </Link>
         <Link to="/dress">
           <button className="tec">Dress Code</button>

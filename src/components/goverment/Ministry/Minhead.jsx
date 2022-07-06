@@ -23,7 +23,7 @@ export default function Minhead() {
       </div>
       <div className="Catabutton">
         <Link to="/ministry">
-          <button className="tec">Ministry</button>
+          <button className="tec btnactive">Ministry</button>
         </Link>
         <Link to="/police_station">
           <button className="tec">Police Station</button>
