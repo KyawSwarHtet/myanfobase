@@ -19,11 +19,21 @@ export default function Histhead() {
           <h1>History</h1>
         </div>
         <div className="button">
-          <button className="tec">Culture</button>
-          <button className="tec">Dynasty</button>
-          <button className="tec">Religion</button>
-          <button className="tec">Dress Code</button>
-          <button className="tec">Region & State</button>
+          <Link to="/culture">
+            <button className="tec">Culture</button>
+          </Link>
+          <Link to="/dynasty">
+            <button className="tec">Dynasty</button>
+          </Link>
+          <Link to="/religion">
+            <button className="tec">Religion</button>
+          </Link>
+          <Link to="/dress">
+            <button className="tec">Dress Code</button>
+          </Link>
+          <Link to="/region">
+            <button className="tec">Region & State</button>
+          </Link>
         </div>
         <div className="para">
           <p>
