@@ -2,12 +2,14 @@
   display: flex;
   color: #747474;
 }
-.homelink1 {
+.link1 {
   display: flex;
   color: #747474;
-  line-height: 18px;
-  padding: 0px 0px 0px 0px;
+  /* line-height: 18px; */
+  /* padding: 0px 0px 0px 0px; */
 }
+/* .iconRightArrow {
+} */
 .top h4 {
   font-size: 15px;
 }
@@ -15,24 +17,27 @@
   font-size: 30px;
   line-height: 38px;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .tec {
   /* position: relative; */
-  font-size: 11px;
+  font-size: 14px;
   margin: 10px 15px 10px 0;
   padding: 4px 8px 5px 8px;
   background-color: #262e67;
   color: white;
   letter-spacing: 2px;
+  font-weight: bold;
   top: 8px;
+  text-transform: capitalize;
 }
 .tec:hover {
   background-color: var(--technology-bg);
   color: black;
 }
 .para {
-  padding-right: 280px;
+  /* padding-right: 280px; */
   font-family: "Open Sans", "Open Sans Regular", sans-serif;
   font-size: 16px;
   font-style: italic;
@@ -53,8 +58,9 @@
   position: absolute;
   /* left: 20px; */
   bottom: 0px;
-  padding-top: 6rem;
-  box-shadow: inset 10px -123px 51px -28px rgb(14 13 13 / 81%);
+  padding-top: 1rem;
+  /* box-shadow: inset 10px -123px 51px -28px rgba(73, 72, 72, 0.81); */
+  box-shadow: inset 10px -109px 30px 4px rgba(24 23 23 / 81%);
   padding-bottom: 1rem;
   padding-left: 40px;
 }
@@ -69,7 +75,7 @@
 .firstpara h4 {
   color: white;
   font-size: 25px;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 /* .firstpara h4:hover {
   color: #262e67;
@@ -112,20 +118,20 @@
   height: 100%;
 }
 
-
 .robotpara {
   position: absolute;
   bottom: 0px;
   width: 100%;
-  padding-top: 4rem;
-  box-shadow: inset 10px -123px 51px -28px rgb(14 13 13 / 81%);
+  padding-top: 1rem;
+  /* box-shadow: inset 10px -123px 51px -28px rgb(73 72 72 / 81%); */
+  box-shadow: inset 10px -62px 30px 4px rgb(24 23 23 / 81%);
   padding-bottom: 1rem;
   padding-left: 30px;
 }
 .robotpara h4 {
   font-size: 18px;
   color: white;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 /* .robotpara h4:hover {
   color: #262e67;
@@ -137,8 +143,9 @@
   position: absolute;
   bottom: 0px;
   width: 100%;
-  padding-top: 4rem;
-  box-shadow: inset 10px -123px 51px -28px rgb(14 13 13 / 81%);
+  padding-top: 1rem;
+  /* box-shadow: inset 10px -123px 51px -28px rgb(73 72 72 / 81%); */
+  box-shadow: inset 10px -62px 30px 4px rgb(24 23 23 / 81%);
   padding-bottom: 1rem;
   padding-left: 30px;
 }
@@ -146,7 +153,7 @@
   font-size: 18px;
   color: white;
   margin-right: 100px;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 /* .airbudpara h4:hover {
   color: #262e67;
@@ -158,42 +165,36 @@
 }
 
 .tech-firstphoto img,
-.secrobot img
-{
-   transition: all .5s ease-in-out;
- display: block;
+.secrobot img {
+  transition: all 0.5s ease-in-out;
+  display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.tec-lastbannerphotos img{
-  transition: all .5s ease-in-out;
- display: block;
+.tec-lastbannerphotos img {
+  transition: all 0.5s ease-in-out;
+  display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 .tech-firstphoto img:hover,
-.secrobot img:hover
-{
+.secrobot img:hover {
   transform: perspective(1000px) translateZ(150px);
 }
-.tec-lastbannerphotos img:hover{
-    transform: perspective(1000px) translateZ(150px);
-
+.tec-lastbannerphotos img:hover {
+  transform: perspective(1000px) translateZ(150px);
 }
 .firstphoto .tech-firstphoto,
-.secphoto .secrobot
-{
+.secphoto .secrobot {
   overflow: hidden;
 }
-.secair .tec-lastbannerphotos{
-    overflow: hidden;
-
+.secair .tec-lastbannerphotos {
+  overflow: hidden;
 }
-.firstphoto:hover .firstpara h4,
-.secphoto:hover .robotpara h4,
-.secair:hover .airbudpara h4{
+.firstphoto:hover .firstpara h4.technoloColor,
+.secphoto:hover .robotpara h4.technoloColor,
+.secair:hover .airbudpara h4.technoloColor {
   color: var(--technology-bg);
 }
-

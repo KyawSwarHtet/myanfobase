@@ -26,8 +26,8 @@
 }
 .lastnewbar-body .article-lastest {
   display: grid;
-  grid-template-columns: 30% 70%;
-  gap: 2rem;
+  grid-template-columns: 30% 60%;
+  gap: 10%;
 }
 .lastnewinfo {
   display: grid;
@@ -57,5 +57,8 @@
   margin-bottom: 0;
 }
 .travel-line {
-  width: 260px;
+  width: 330px;
+}
+.lastArt {
+  padding-top: 2rem;
 }

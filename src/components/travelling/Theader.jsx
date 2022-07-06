@@ -1,25 +1,40 @@
 import React from "react";
 import "./theader.css";
+import { Link } from "react-router-dom";
 const Theader = () => {
   return (
     <>
       <section className="container travel">
-        <div className="travel-top">
-          <h4>Home</h4>
+        <div className="top">
+          <Link to="/" className="link1">
+            <h4>Home</h4>
+          </Link>
           <div className="travel-icon">
             <i className="uil uil-angle-right-b"></i>
           </div>
-          <h4>Travel</h4>
+          <Link to="/" className="link1">
+            <h4>Travel</h4>
+          </Link>
         </div>
         <div className="travel-main">
           <h1>Travel</h1>
         </div>
         <div className="button">
-          <button className="tec">Pagoda</button>
-          <button className="tec">Beach</button>
-          <button className="tec">Waterfall</button>
-          <button className="tec">Mountains</button>
-          <button className="tec">Advanture trip</button>
+          <Link to="/pagoda">
+            <button className="tec">Pagoda</button>
+          </Link>
+          <Link to="/beach">
+            <button className="tec">Beach</button>
+          </Link>
+          <Link to="/waterfall">
+            <button className="tec">Waterfall</button>
+          </Link>
+          <Link to="/mountains">
+            <button className="tec">Mountains</button>
+          </Link>
+          <Link to="/Advanture_trip">
+            <button className="tec">Advanture trip</button>
+          </Link>
         </div>
         <div className="para">
           <p>
