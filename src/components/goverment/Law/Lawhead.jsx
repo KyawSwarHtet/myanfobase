@@ -35,7 +35,7 @@ export default function Lawhead() {
           <button className="tec">Passport</button>
         </Link>
         <Link to="/law">
-          <button className="tec">Law</button>
+          <button className="tec btnactive">Law</button>
         </Link>
       </div>
       {/* <div className="para">

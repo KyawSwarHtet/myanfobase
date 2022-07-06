@@ -35,7 +35,7 @@ export default function Regionhead() {
           <button className="tec">Dress Code</button>
         </Link>
         <Link to="/region">
-          <button className="tec">Region & State</button>
+          <button className="tec btnactive">Region & State</button>
         </Link>
       </div>
       {/* <div className="para">

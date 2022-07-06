@@ -32,7 +32,7 @@ export default function Dresshead() {
           <button className="tec">Religion</button>
         </Link>
         <Link to="/dress">
-          <button className="tec">Dress Code</button>
+          <button className="tec btnactive">Dress Code</button>
         </Link>
         <Link to="/region">
           <button className="tec">Region & State</button>
