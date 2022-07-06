@@ -1,5 +1,5 @@
-import "./technology.css";
 import { Link } from "react-router-dom";
+import "./technology.css";
 
 export default function Technology() {
   return (
@@ -9,32 +9,38 @@ export default function Technology() {
           <div className="homelink">
             <ul>
               <li>
-                <Link to="/" className="homelink1">
-                  Home
+                <Link to="/" className="link1">
+                  <h4>Home</h4>
                 </Link>
               </li>
             </ul>
           </div>
-          {/* <h4>Home</h4> */}
-          <div className="icon">
+
+          <div className="iconRightArrow">
             <i className="uil uil-angle-right-b"></i>
           </div>
-          {/* <ul>
-        <li>
-          <Link to="/Home">Home</Link>
-        </li>
-      </ul> */}
+
           <h4>Technology</h4>
         </div>
         <div className="sectop">
           <h1>TECHNOLOGY</h1>
         </div>
         <div className="Catabutton">
-          <button className="tec">Computer</button>
-          <button className="tec">Electronics</button>
-          <button className="tec">Innovation</button>
-          <button className="tec">Smartphone</button>
-          <button className="tec">Software</button>
+          <Link to="/computer">
+            <button className="tec">Computer</button>
+          </Link>
+          <Link to="/electronic">
+            <button className="tec">Electronics</button>
+          </Link>
+          <Link to="/innovation">
+            <button className="tec">Innovation</button>
+          </Link>
+          <Link to="/smartphone">
+            <button className="tec">Smartphone</button>
+          </Link>
+          <Link to="/software">
+            <button className="tec">Software</button>
+          </Link>
         </div>
         <div className="para">
           <p>
@@ -55,7 +61,9 @@ export default function Technology() {
           </div>
           <div className="firstpara">
             <button className="cateTechnology">Technology</button>
-            <h4>How to Mark yourself 'Safe' on Socials Media</h4>
+            <h4 className="technoloColor">
+              How to Mark yourself 'Safe' on Socials Media
+            </h4>
             <p>
               Modern technology has become a total phenomenon for civilization,
               the defining force of a new social order in which efficiency is no
@@ -74,7 +82,9 @@ export default function Technology() {
             </div>
             <div className="robotpara">
               <button className="cateTechnology">Technology</button>
-              <h4>Corsair HS80 RGB Wireless Gaming Headset Review</h4>
+              <h4 className="technoloColor">
+                Corsair HS80 RGB Wireless Gaming Headset Review
+              </h4>
             </div>
           </div>
           <div className="secair">
@@ -87,7 +97,9 @@ export default function Technology() {
             </div>
             <div className="airbudpara">
               <button className="cateTechnology">Technology</button>
-              <h4>Corsair HS80 RGB Wirless Gaming Headset Review</h4>
+              <h4 className="technoloColor">
+                Corsair HS80 RGB Wirless Gaming Headset Review
+              </h4>
             </div>
           </div>
         </div>

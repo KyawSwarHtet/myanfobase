@@ -1,52 +1,45 @@
 .beauty-firstrow {
   display: grid;
   grid-template-rows: 70% 30%;
-  
+  height: 40rem;
 }
-.beauty-banner{
-    display: grid;
-    grid-template-columns: 70% 30%;
-   
+.beauty-banner {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  height: 40rem;
+  width: 100%;
 }
-.low-photos{
+.low-photos {
   display: grid;
   grid-template-columns: 50% 50%;
 }
 
-
-
 .firstrow-firstdiv .blogger-img {
   width: 100%;
   height: 100%;
-
 }
 
 .firstrow-secdiv .skincare-img {
   width: 100%;
   height: 100%;
-
 }
-.firstrow-thirddiv .makeup-img{
-    width: 100%;
-  height: 100%;
-
-}
-.secrow-firstdiv .beauty-img{
-    width: 100%;
-  height: 100%;
-  
-
-}
-.secrow-secdiv .clinic-img{
-    width: 100%;
-  height: 100%;
-
-}
-.secrow-thirddiv .natural-img{
-    width: 100%;
+.firstrow-thirddiv .makeup-img {
+  width: 100%;
   height: 100%;
 }
-.skincare-img img{
+.secrow-firstdiv .beauty-img {
+  width: 100%;
+  height: 100%;
+}
+.secrow-secdiv .clinic-img {
+  width: 100%;
+  height: 100%;
+}
+.secrow-thirddiv .natural-img {
+  width: 100%;
+  height: 100%;
+}
+.skincare-img img {
   width: 100%;
   height: 100%;
   display: block;
@@ -68,9 +61,8 @@
 }
 .blogger-img img {
   width: 100%;
-  height: 100% ;
+  height: 100%;
   display: block;
-  
 }
 .makeup-img img {
   width: 100%;
@@ -84,7 +76,6 @@
   position: absolute;
   bottom: 1rem;
   left: 2rem;
-  
 }
 .firstrow-secdiv {
   position: relative;
@@ -104,36 +95,35 @@
   bottom: 1rem;
   left: 2rem;
 }
-.secrow-firstdiv{
-    position: relative;
+.secrow-firstdiv {
+  position: relative;
 }
-.beauty-para h4{
- position: absolute;
+.beauty-para h4 {
+  position: absolute;
   bottom: 1rem;
   left: 2rem;
 }
-.secrow-secdiv{
-    position: relative;
+.secrow-secdiv {
+  position: relative;
 }
-.clinic-para h4{
-    position: absolute;
+.clinic-para h4 {
+  position: absolute;
   bottom: 1rem;
   left: 2rem;
 }
-.secrow-thirddiv{
-    position: relative;
+.secrow-thirddiv {
+  position: relative;
 }
-.natural-para h4{
-     position: absolute;
+.natural-para h4 {
+  position: absolute;
   bottom: 1rem;
   left: 2rem;
 }
 .ban-secrow {
-    display: grid;
-    grid-template-rows: 70% 30%;
-    
+  display: grid;
+  grid-template-rows: 70% 30%;
 }
-.secrow-first{
+.secrow-first {
   display: grid;
   grid-template-rows: 50% 50%;
 }
