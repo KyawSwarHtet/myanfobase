@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Header from "./components/header/Header";
 import Beauty from "./pages/beauty/Beauty";
+import Business from "./pages/business/Business";
+import Education from "./pages/education/Education";
 import Govenment from "./pages/government/Govenment";
 import Law from "./pages/government/Law";
 import Leader from "./pages/government/Leader";
@@ -80,6 +82,10 @@ function App() {
         <Route path="/religion" element={<Religous />} />
         <Route path="/dress" element={<Dress />} />
         <Route path="/region" element={<Region />} />
+
+        <Route path="/business" element={<Business />} />
+
+        <Route path="/education" element={<Education />} />
 
         <Route path="/science" element={<SciencePage />} />
         <Route path="/astronomy" element={<AstronomyPage />} />
