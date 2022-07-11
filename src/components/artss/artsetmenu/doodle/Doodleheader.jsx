@@ -12,8 +12,8 @@ export default function Doodleheader() {
         <div className="icon">
           <i className="uil uil-angle-right-b"></i>
         </div>
-        <Link to="/art" className="link1">
-          <h4 className="capitalize">art</h4>
+        <Link to="/arts" className="link1">
+          <h4 className="capitalize">arts</h4>
         </Link>
         <div className="icon">
           <i className="uil uil-angle-right-b"></i>

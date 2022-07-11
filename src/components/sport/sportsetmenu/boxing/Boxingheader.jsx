@@ -12,7 +12,7 @@ export default function Boxingheader() {
         <div className="icon">
           <i className="uil uil-angle-right-b"></i>
         </div>
-        <Link to="/sport" className="link1">
+        <Link to="/sports" className="link1">
           <h4 className="capitalize">Sports</h4>
         </Link>
         <div className="icon">

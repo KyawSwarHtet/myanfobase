@@ -17,8 +17,20 @@ import Koreanpage from "./pages/entertainment/Koreanpage";
 import Moviepage from "./pages/entertainment/Moviepage";
 import Music from "./pages/entertainment/Music";
 import Myanmar from "./pages/entertainment/Myanmar";
+import Business from "./pages/business/Business";
+import Education from "./pages/education/Education";
 import Govenment from "./pages/government/Govenment";
+import Law from "./pages/government/Law";
+import Leader from "./pages/government/Leader";
+import Ministry from "./pages/government/Ministry";
+import Passport from "./pages/government/Passport";
+import Police from "./pages/government/Police";
+import Culture from "./pages/history/Culture";
+import Dress from "./pages/history/Dress";
+import Dynasty from "./pages/history/Dynasty";
 import History from "./pages/history/History";
+import Region from "./pages/history/Region";
+import Religous from "./pages/history/Religous";
 import Home from "./pages/home/Home";
 import ComedyPage from "./pages/literature/ComedyPage";
 import DramaPage from "./pages/literature/DramaPage";
@@ -62,6 +74,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/technology" element={<TecnologyPages />} />
+
         <Route path="/travel" element={<Travel />} />
         <Route path="/beauty" element={<Beauty />} />
         <Route path="/entertainment" element={<Entertainment />} />
@@ -72,7 +85,7 @@ function App() {
         <Route path="/boxing" element={<Boxingpage />} />
         <Route path="/chess" element={<Chesspage />} />
         <Route path="/cane" element={<Caneballpage />} />
-        <Route path="/gamming" element={<Gammingpage/>}/>
+        <Route path="/gamming" element={<Gammingpage />} />
 
         <Route path="/arts" element={<Art />} />
         <Route path="/anime" element={<Animepage />} />
@@ -102,8 +115,25 @@ function App() {
         <Route path="/myanmar" element={<Myanmar />} />
 
         <Route path="/beauty" element={<Beauty />} />
+
         <Route path="/govenment" element={<Govenment />} />
+        <Route path="/ministry" element={<Ministry />} />
+        <Route path="/police_station" element={<Police />} />
+        <Route path="/leader" element={<Leader />} />
+        <Route path="/passport" element={<Passport />} />
+        <Route path="/law" element={<Law />} />
+
         <Route path="/history" element={<History />} />
+        <Route path="/culture" element={<Culture />} />
+        <Route path="/dynasty" element={<Dynasty />} />
+        <Route path="/religion" element={<Religous />} />
+        <Route path="/dress" element={<Dress />} />
+        <Route path="/region" element={<Region />} />
+
+        <Route path="/business" element={<Business />} />
+
+        <Route path="/education" element={<Education />} />
+
         <Route path="/science" element={<SciencePage />} />
         <Route path="/astronomy" element={<AstronomyPage />} />
         <Route path="/biology" element={<BilologyPage />} />
