@@ -9,8 +9,21 @@ import SalonPage from "./pages/beauty/SalonPage";
 import Skinpage from "./pages/beauty/Skinpage";
 import ExercisePage from "./pages/lifestylepage/exercisePage";
 import Lifestyle from "./pages/lifestylepage/Lifestyle";
+import DetailPage from "./pages/detailpage/DetailPage";
+import Business from "./pages/business/Business";
+import Education from "./pages/education/Education";
 import Govenment from "./pages/government/Govenment";
+import Law from "./pages/government/Law";
+import Leader from "./pages/government/Leader";
+import Ministry from "./pages/government/Ministry";
+import Passport from "./pages/government/Passport";
+import Police from "./pages/government/Police";
+import Culture from "./pages/history/Culture";
+import Dress from "./pages/history/Dress";
+import Dynasty from "./pages/history/Dynasty";
 import History from "./pages/history/History";
+import Region from "./pages/history/Region";
+import Religous from "./pages/history/Religous";
 import Home from "./pages/home/Home";
 import ComedyPage from "./pages/literature/ComedyPage";
 import DramaPage from "./pages/literature/DramaPage";
@@ -20,6 +33,7 @@ import NovelPage from "./pages/literature/NovelPage";
 import PoetryPage from "./pages/literature/PoetryPage";
 import RomancePage from "./pages/literature/RomancePage";
 import ShortstoryPage from "./pages/literature/ShortstoryPage";
+import PostformPage from "./pages/post/PostformPage";
 import AstronomyPage from "./pages/science/AstronomyPage";
 import BilologyPage from "./pages/science/BilologyPage";
 import ChemistryPage from "./pages/science/ChemistryPage";
@@ -84,7 +98,23 @@ function App() {
         <Route path="/beautyclinic" element={<BeautyClinicpage />} />
 
         <Route path="/govenment" element={<Govenment />} />
+        <Route path="/ministry" element={<Ministry />} />
+        <Route path="/police_station" element={<Police />} />
+        <Route path="/leader" element={<Leader />} />
+        <Route path="/passport" element={<Passport />} />
+        <Route path="/law" element={<Law />} />
+
         <Route path="/history" element={<History />} />
+        <Route path="/culture" element={<Culture />} />
+        <Route path="/dynasty" element={<Dynasty />} />
+        <Route path="/religion" element={<Religous />} />
+        <Route path="/dress" element={<Dress />} />
+        <Route path="/region" element={<Region />} />
+
+        <Route path="/business" element={<Business />} />
+
+        <Route path="/education" element={<Education />} />
+
         <Route path="/science" element={<SciencePage />} />
         <Route path="/astronomy" element={<AstronomyPage />} />
         <Route path="/biology" element={<BilologyPage />} />
@@ -111,6 +141,10 @@ function App() {
         <Route path="/infodoctor" element={<InfodoctorPage />} />
         <Route path="/medicine" element={<MedicinePage />} />
         <Route path="/yoga" element={<Yogapage />} />
+
+        <Route path="/post" element={<PostformPage />} />
+
+        <Route path="/detail/:id" element={<DetailPage />} />
       </Routes>
     </div>
   );

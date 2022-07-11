@@ -23,7 +23,7 @@ export default function Pagohead() {
       </div>
       <div className="Catabutton">
         <Link to="/pagoda">
-          <button className="tec">Pagoda</button>
+          <button className="tec btnactive">Pagoda</button>
         </Link>
         <Link to="/beach">
           <button className="tec">Beach</button>

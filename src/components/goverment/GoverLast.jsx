@@ -4,10 +4,10 @@ export default function GoverLast() {
   return (
     <div>
       <div className="lastnewbar-title">
-        <h2>Most Travel Place</h2>
-        <span className="lasttitleline travel-line"></span>
+        <h2>Hot News</h2>
+        <span className="lasttitleline gover-line"></span>
       </div>
-      <div className="lastnewbar-body sidebar">
+      <div className="lastnewbar-body sidebar1">
         <div className="article-lastest">
           <div className="lastnewimg">
             <img src="./images/technology/robothand.jpg" alt="" />
