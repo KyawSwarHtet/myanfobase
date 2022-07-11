@@ -31,7 +31,7 @@ export default function Skincare() {
         </Link>
         
           <button className="tec">Skin Care</button>
-        <Link to="/clinic">
+        <Link to="/beautyclinic">
           <button className="tec">Beauty clinic</button>
           </Link>
           <Link to="/salon">

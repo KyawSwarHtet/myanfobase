@@ -1,21 +1,24 @@
+import Latestbar from "../../components/catepagerightbar/Latestbar";
 import Footer from "../../components/footer/Footer";
-import Healthbanner from "../../components/health/Healthbanner";
-import Healthrightbar from "../../components/health/Healthrightbar";
-import Healthsidebar from "../../components/health/Healthsidebar";
-import Healthy from "../../components/lifestyle/lifestyleSetmenu/healthyLife/healthy";
-import HealthyRightbar from "../../components/lifestyle/lifestyleSetmenu/healthyLife/healthyRightbar";
+import HealthyLife from "../../components/lifestyle/lifestyleSetmenu/healthyLife/healthy";
+import HealthyLifeBanner from "../../components/lifestyle/lifestyleSetmenu/healthyLife/healthyBanner";
+import HealthyLifePopular from "../../components/lifestyle/lifestyleSetmenu/healthyLife/healthyPopular";
+import HealthyLifeSidebar from "../../components/lifestyle/lifestyleSetmenu/healthyLife/healthySidebar";
 
 
 
-export default function HealthyPage() {
+export default function HealthyLifePage() {
   return (
     <>
       <section className="container">
-        <Healthy/>
-        <Healthbanner />
+        <HealthyLife />
+        <HealthyLifeBanner />
         <section className="tecbody">
-          <Healthsidebar />
-          <HealthyRightbar />
+          <HealthyLifeSidebar />
+          <div className="allRightBar">
+            <HealthyLifePopular />
+            <Latestbar />
+          </div>
         </section>
       </section>
       <Footer />

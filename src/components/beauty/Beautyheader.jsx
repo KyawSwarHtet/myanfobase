@@ -40,7 +40,7 @@ const Beautyheader = () => {
              <Link to="/skincare">
             <button className="tec">Skin care</button>
             </Link>
-          <Link to="/clinic">
+          <Link to="/beautyclinic">
             <button className="tec">Beauty Clinic</button>
           </Link>
              <Link to="/salon">

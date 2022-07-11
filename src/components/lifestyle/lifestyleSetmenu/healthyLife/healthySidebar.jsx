@@ -2,7 +2,7 @@ import React from "react";
 import Paginate from "../../../catepagerightbar/Paginate";
 import "../../../technology/technology.css";
 
-export default function HealthySidebar() {
+export default function HealthyLifeSidebar() {
   return (
     <div className="sidebar">
       <div className="cate-main">

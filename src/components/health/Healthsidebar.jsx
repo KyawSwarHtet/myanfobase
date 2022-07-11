@@ -1,6 +1,6 @@
 import Paginate from "../catepagerightbar/Paginate";
 import "../catepagerightbar/tecmain.css";
-export default function Healthsidebar() {
+export default function HealthSidebar() {
   return (
     <div className="sidebar">
       <div className="cate-main">

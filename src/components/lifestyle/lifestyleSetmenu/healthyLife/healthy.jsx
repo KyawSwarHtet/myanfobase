@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function Healthy() {
+export default function HealthyLife() {
   return (
     <section className="technology">
       <div className="top">
@@ -11,7 +11,7 @@ export default function Healthy() {
         <div className="icon">
           <i className="uil uil-angle-right-b"></i>
         </div>
-        <Link to="/lifestyle" className="link1">
+        <Link to="/lifestyles" className="link1">
           <h4>Lifestyle</h4>
         </Link>
         <div className="icon">
@@ -28,10 +28,10 @@ export default function Healthy() {
         </Link>
         
           <button className="tec">Healthy Life</button>
-        <Link to="/Laxury">
-          <button className="tec">Laxury</button>
+        <Link to="/Luxury">
+          <button className="tec">Luxury</button>
         </Link>
-         <Link to="/healthy">
+         <Link to="/family">
         <button className="tec">Family</button>
          </Link>
         <Link to="/Modern">

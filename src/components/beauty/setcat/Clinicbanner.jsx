@@ -1,7 +1,7 @@
 import React from "react";
 import "../beautybanner.css";
 import "animate.css";
-export default function ClinicBanner() {
+export default function BeautyClinicBanner() {
   return (
     <section className="beauty-banner ">
       <div className="beauty-firstrow">

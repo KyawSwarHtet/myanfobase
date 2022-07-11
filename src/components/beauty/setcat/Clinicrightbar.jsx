@@ -6,7 +6,7 @@ import Subscribeform from "../../catepagerightbar/Subscribeform";
 import Travlast from "../../travelling/Travlast";
 
 
-export default function ClinicRightbar() {
+export default function BeautyClinicRightbar() {
   return (
     <>
       <div className="allrightbar">

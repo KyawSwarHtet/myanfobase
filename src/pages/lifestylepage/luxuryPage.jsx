@@ -1,7 +1,8 @@
+import Latestbar from "../../components/catepagerightbar/Latestbar";
 import Footer from "../../components/footer/Footer";
 import Luxury from "../../components/lifestyle/lifestyleSetmenu/luxury/luxury";
 import LuxuryBanner from "../../components/lifestyle/lifestyleSetmenu/luxury/luxuryBanner";
-import LuxuryRightbar from "../../components/lifestyle/lifestyleSetmenu/luxury/luxuryRightbar";
+import LuxuryPopular from "../../components/lifestyle/lifestyleSetmenu/luxury/luxurypopular";
 import LuxurySidebar from "../../components/lifestyle/lifestyleSetmenu/luxury/luxurySidebar";
 
 
@@ -14,7 +15,10 @@ export default function LuxuryPage() {
         <LuxuryBanner />
         <section className="tecbody">
           <LuxurySidebar />
-          <LuxuryRightbar />
+          <div className="allRightBar">
+            <LuxuryPopular />
+            <Latestbar />
+          </div>
         </section>
       </section>
       <Footer />

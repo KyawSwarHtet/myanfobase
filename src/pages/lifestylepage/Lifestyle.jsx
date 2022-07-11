@@ -2,9 +2,10 @@ import React from "react";
 import "./lifestyle.css"
 import Lifestyleheader from "../../components/lifestyle/Lifestyleheader";
 import Lifestylebanner from "../../components/lifestyle/Lifestylebanner";
-import Lifestylerightbar from "../../components/lifestyle/Lifestylerightbar";
 import Footer from "../../components/footer/Footer";
 import Lifestylesidebar from "../../components/lifestyle/Lifestylesidebar";
+import LifestyPopular from "../../components/lifestyle/Lifestylerightbar";
+import Latestbar from "../../components/catepagerightbar/Latestbar";
 
 export default function Lifestyle() {
   return (
@@ -14,7 +15,10 @@ export default function Lifestyle() {
         <Lifestylebanner />
         <section className="tecbody">
           <Lifestylesidebar />
-          <Lifestylerightbar />
+          <div className="allRightBar">
+            <LifestyPopular />
+            <Latestbar />
+          </div>
         </section>
       </section>
       <Footer />

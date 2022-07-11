@@ -1,7 +1,7 @@
 import React from "react";
 import "./healthbanner.css";
 import "animate.css";
-export default function Healthbanner() {
+export default function HealthBanner() {
   return (
     <section className="beauty-banner container">
       <div className="beauty-firstrow">

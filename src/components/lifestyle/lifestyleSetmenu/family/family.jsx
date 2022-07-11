@@ -11,7 +11,7 @@ export default function Family() {
         <div className="icon">
           <i className="uil uil-angle-right-b"></i>
         </div>
-        <Link to="/lifestyle" className="link1">
+        <Link to="/lifestyles" className="link1">
           <h4>Lifestyle</h4>
         </Link>
         <div className="icon">
@@ -26,11 +26,11 @@ export default function Family() {
         <Link to="/exercise">
           <button className="tec">Exercise</button>
         </Link>
-        <Link to="/healthy">
+        <Link to="/healthylife">
           <button className="tec">Healthy Life</button>
         </Link>
-        <Link to="/Laxury">
-          <button className="tec">Laxury</button>
+        <Link to="/Luxury">
+          <button className="tec">Luxury</button>
         </Link>
 
         <button className="tec">Family</button>

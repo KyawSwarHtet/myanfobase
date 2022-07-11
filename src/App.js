@@ -4,12 +4,9 @@ import "./App.css";
 import Header from "./components/header/Header";
 import Beauty from "./pages/beauty/Beauty";
 import Beautyblogger from "./pages/beauty/Beautyblogger";
-import Clinicpage from "./pages/beauty/Clinicpage";
 import Makeuppage from "./pages/beauty/makeupPage";
 import SalonPage from "./pages/beauty/SalonPage";
 import Skinpage from "./pages/beauty/Skinpage";
-import Health from "./pages/healthpage/Health";
-import Home from "./pages/home/Home";
 import ExercisePage from "./pages/lifestylepage/exercisePage";
 import Lifestyle from "./pages/lifestylepage/Lifestyle";
 import Govenment from "./pages/government/Govenment";
@@ -45,8 +42,16 @@ import Pagoda from "./pages/travelling/Pagoda";
 import Travel from "./pages/travelling/Travel";
 import Waterfall from "./pages/travelling/Waterfall";
 import FamilyPage from "./pages/lifestylepage/familyPage";
-import HealthyPage from "./pages/lifestylepage/healthyPage";
 import LuxuryPage from "./pages/lifestylepage/luxuryPage";
+import ModernPage from "./pages/lifestylepage/modernPage";
+import HealthyLifePage from "./pages/lifestylepage/healthyPage";
+import BeautyClinicpage from "./pages/beauty/Clinicpage";
+import Healthpage from "./pages/healthpage/HealthPage";
+import HealthClinicPage from "./pages/healthpage/HealthClinicPage";
+import Hfoodspage from "./pages/healthpage/HfoodsPage";
+import InfodoctorPage from "./pages/healthpage/InfodoctorPage";
+import MedicinePage from "./pages/healthpage/MedicinePage";
+import Yogapage from "./pages/healthpage/YogaPage";
 function App() {
   return (
     <div className="App">
@@ -68,15 +73,15 @@ function App() {
         <Route path="/software" element={<SoftwarePage />} />
 
         <Route path="/beauty" element={<Beauty />} />
-        <Route path="/health" element={<Health />} />
+        <Route path="/healthylife" element={<HealthyLifePage />} />
         <Route path="/science" element={<SciencePage />} />
         <Route path="/lifestyles" element={<Lifestyle />} />
         <Route path="/Blogger" element={<Beautyblogger />} />
-        <Route path="/clinic" element={<Clinicpage />} />
         <Route path="/makeup" element={<Makeuppage />} />
         <Route path="/salon" element={<SalonPage />} />
         <Route path="/skincare" element={<Skinpage />} />
         <Route path="/exercise" element={<ExercisePage />} />
+        <Route path="/beautyclinic" element={<BeautyClinicpage />} />
 
         <Route path="/govenment" element={<Govenment />} />
         <Route path="/history" element={<History />} />
@@ -91,7 +96,6 @@ function App() {
 
         <Route path="/literature" element={<LiteraturePage />} />
         <Route path="/family" element={<FamilyPage />} />
-        <Route path="/healthy" element={<HealthyPage />} />
         <Route path="/luxury" element={<LuxuryPage />} />
         <Route path="/poetry" element={<PoetryPage />} />
         <Route path="/fiction" element={<FictionPage />} />
@@ -100,6 +104,13 @@ function App() {
         <Route path="/novel" element={<NovelPage />} />
         <Route path="/shortstory" element={<ShortstoryPage />} />
         <Route path="/romance" element={<RomancePage />} />
+        <Route path="/modern" element={<ModernPage />} />
+        <Route path="/health" element={<Healthpage />} />
+        <Route path="/healthclinic" element={<HealthClinicPage />} />
+        <Route path="/hfoods" element={<Hfoodspage />} />
+        <Route path="/infodoctor" element={<InfodoctorPage />} />
+        <Route path="/medicine" element={<MedicinePage />} />
+        <Route path="/yoga" element={<Yogapage />} />
       </Routes>
     </div>
   );

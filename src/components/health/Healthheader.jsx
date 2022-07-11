@@ -1,16 +1,16 @@
 import React from "react";
 import "../technology/technology.css";
 import { Link } from "react-router-dom";
-const Healthheader = () => {
+const HealthHeader = () => {
   return (
     <>
-      <section className="technology container">
+      <section className="technology">
         <div className="top">
           <div className="homelink">
             <ul>
               <li>
                 <Link to="/" className="homelink1">
-                  Home
+                  <h4>Home</h4>
                 </Link>
               </li>
             </ul>
@@ -24,17 +24,27 @@ const Healthheader = () => {
           <Link to="/Home">Home</Link>
         </li>
       </ul> */}
-          <h4>Health</h4>
+          <h4>Health & medicine</h4>
         </div>
         <div className="sectop">
-          <h1>HEALTH</h1>
+          <h1>Health & medicine</h1>
         </div>
         <div className="Catabutton">
-          <button className="tec">Info Doctor</button>
-          <button className="tec">Clinic</button>
-          <button className="tec">Yoga</button>
-          <button className="tec">Healty Foods</button>
-          <button className="tec">Medicine</button>
+          <Link to="/infodoctor">
+            <button className="tec">Info Doctor</button>
+          </Link>
+          <Link to="/healthclinic">
+            <button className="tec">Clinic</button>
+          </Link>
+          <Link to="/yoga">
+            <button className="tec">Yoga</button>
+          </Link>
+          <Link to="/hfoods">
+            <button className="tec">Healthy Foods</button>
+          </Link>
+          <Link to="/medicine">
+            <button className="tec">medicine</button>
+          </Link>
         </div>
         <div className="para">
           <p>
@@ -44,9 +54,8 @@ const Healthheader = () => {
           </p>
         </div>
       </section>
-     
     </>
   );
 };
 
-export default Healthheader;
+export default HealthHeader;
