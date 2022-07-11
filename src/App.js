@@ -48,14 +48,13 @@ import Mountain from "./pages/travelling/Mountain";
 import Pagoda from "./pages/travelling/Pagoda";
 import Travel from "./pages/travelling/Travel";
 import Waterfall from "./pages/travelling/Waterfall";
-import Technology from "./components/technology/Technology";
 function App() {
   return (
     <div className="App">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        
+       
         <Route path="/travel" element={<Travel />} />
         <Route path="/beauty" element={<Beauty />} />
         <Route path="/entertainment" element={<Entertainment />} />
