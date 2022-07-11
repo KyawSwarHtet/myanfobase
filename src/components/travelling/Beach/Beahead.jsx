@@ -26,7 +26,7 @@ const Beahead = () => {
           <button className="tec">Pagoda</button>
         </Link>
         <Link to="/beach">
-          <button className="tec">Beach</button>
+          <button className="tec btnactive">Beach</button>
         </Link>
         <Link to="/waterfall">
           <button className="tec">Waterfall</button>

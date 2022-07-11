@@ -19,11 +19,21 @@ export default function Goverhead() {
           <h1>Government</h1>
         </div>
         <div className="button">
-          <button className="tec">Ministry</button>
-          <button className="tec">Police Station</button>
-          <button className="tec">Electric-Station</button>
-          <button className="tec">Passport</button>
-          <button className="tec">SomeOne</button>
+          <Link to="/ministry">
+            <button className="tec">Ministry</button>
+          </Link>
+          <Link to="/police_station">
+            <button className="tec">Police Station</button>
+          </Link>
+          <Link to="/leader">
+            <button className="tec">Leader</button>
+          </Link>
+          <Link to="/passport">
+            <button className="tec">Passport</button>
+          </Link>
+          <Link to="/law">
+            <button className="tec">Law</button>
+          </Link>
         </div>
         <div className="para">
           <p>
