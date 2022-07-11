@@ -1,0 +1,9 @@
+.postbg {
+  background-color: rgb(18, 161, 161);
+}
+.formDiv {
+  width: 80%;
+  height: 300px;
+  margin: auto;
+  background-color: aqua;
+}

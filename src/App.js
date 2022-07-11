@@ -3,7 +3,11 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Header from "./components/header/Header";
 import Beauty from "./pages/beauty/Beauty";
+<<<<<<< HEAD
 import Entertainment from "./pages/entertainment/Entertainment";
+=======
+import DetailPage from "./pages/detailpage/DetailPage";
+>>>>>>> e4f52cc52e7b4f5637e2065d459af752d0258db1
 import Business from "./pages/business/Business";
 import Education from "./pages/education/Education";
 import Govenment from "./pages/government/Govenment";
@@ -27,6 +31,7 @@ import NovelPage from "./pages/literature/NovelPage";
 import PoetryPage from "./pages/literature/PoetryPage";
 import RomancePage from "./pages/literature/RomancePage";
 import ShortstoryPage from "./pages/literature/ShortstoryPage";
+import PostformPage from "./pages/post/PostformPage";
 import AstronomyPage from "./pages/science/AstronomyPage";
 import BilologyPage from "./pages/science/BilologyPage";
 import ChemistryPage from "./pages/science/ChemistryPage";
@@ -109,6 +114,10 @@ function App() {
         <Route path="/novel" element={<NovelPage />} />
         <Route path="/shortstory" element={<ShortstoryPage />} />
         <Route path="/romance" element={<RomancePage />} />
+
+        <Route path="/post" element={<PostformPage />} />
+
+        <Route path="/detail/:id" element={<DetailPage />} />
       </Routes>
     </div>
   );
