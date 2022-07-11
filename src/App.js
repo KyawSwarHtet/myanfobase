@@ -3,9 +3,24 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Header from "./components/header/Header";
 import Beauty from "./pages/beauty/Beauty";
+<<<<<<< HEAD
 import Entertainment from "./pages/entertainment/Entertainment";
+=======
+import Business from "./pages/business/Business";
+import Education from "./pages/education/Education";
+>>>>>>> f60300353c8f6ec4e354b57347c9d6fed0bd6302
 import Govenment from "./pages/government/Govenment";
+import Law from "./pages/government/Law";
+import Leader from "./pages/government/Leader";
+import Ministry from "./pages/government/Ministry";
+import Passport from "./pages/government/Passport";
+import Police from "./pages/government/Police";
+import Culture from "./pages/history/Culture";
+import Dress from "./pages/history/Dress";
+import Dynasty from "./pages/history/Dynasty";
 import History from "./pages/history/History";
+import Region from "./pages/history/Region";
+import Religous from "./pages/history/Religous";
 import Home from "./pages/home/Home";
 import ComedyPage from "./pages/literature/ComedyPage";
 import DramaPage from "./pages/literature/DramaPage";
@@ -61,8 +76,25 @@ function App() {
         <Route path="/software" element={<SoftwarePage />} />
 
         <Route path="/beauty" element={<Beauty />} />
+
         <Route path="/govenment" element={<Govenment />} />
+        <Route path="/ministry" element={<Ministry />} />
+        <Route path="/police_station" element={<Police />} />
+        <Route path="/leader" element={<Leader />} />
+        <Route path="/passport" element={<Passport />} />
+        <Route path="/law" element={<Law />} />
+
         <Route path="/history" element={<History />} />
+        <Route path="/culture" element={<Culture />} />
+        <Route path="/dynasty" element={<Dynasty />} />
+        <Route path="/religion" element={<Religous />} />
+        <Route path="/dress" element={<Dress />} />
+        <Route path="/region" element={<Region />} />
+
+        <Route path="/business" element={<Business />} />
+
+        <Route path="/education" element={<Education />} />
+
         <Route path="/science" element={<SciencePage />} />
         <Route path="/astronomy" element={<AstronomyPage />} />
         <Route path="/biology" element={<BilologyPage />} />
