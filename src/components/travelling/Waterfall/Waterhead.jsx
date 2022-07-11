@@ -29,7 +29,7 @@ export default function Waterhead() {
           <button className="tec">Beach</button>
         </Link>
         <Link to="/waterfall">
-          <button className="tec">Waterfall</button>
+          <button className="tec btnactive">Waterfall</button>
         </Link>
         <Link to="/mountains">
           <button className="tec">Mountains</button>
