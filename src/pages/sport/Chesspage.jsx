@@ -19,9 +19,6 @@ export default function Chesspage() {
           <div className="allRightBar">
             <SportPopular />
             <Latestbar />
-            <h1>sldflsdafklsdjf</h1>
-            <h1>sldflsdafklsdjf</h1>
-            <h1>sldflsdafklsdjf</h1>
           </div>
         </div>
       </section>
