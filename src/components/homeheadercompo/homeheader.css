@@ -153,16 +153,24 @@
   max-width: 1600px;
 }
 
-
+.popular-bignew h4{
+  color: white;
+    font-size: 25px;
+    margin-top: 0.5rem;
+}
+.mask-div:hover .popular-bignew h4{
+  color: var(--health-bg);
+ transition: all .3s ease-in-out;
+}
 .mask-div {
   margin-right: 0.5rem;
   overflow: hidden;
   position: relative;
 }
-.mask-div:hover .popular-bignew p{
+/* .mask-div:hover .popular-bignew p{
  color: var(--health-bg);
-
-}
+ transition: all .3s ease-in-out;
+} */
 .mask-div .maskimgdiv{
   overflow: hidden;
 }
@@ -178,13 +186,13 @@ transition: all .5s ease-in-out;
 
 }
 .mask-div .popular-bignew {
-  position: absolute;
-  bottom: 0rem;
-  /* left: 40px; */
-  padding-top: 6rem;
-  box-shadow: inset 10px -123px 81px -28px rgb(14 13 13 / 81%);
-  padding-bottom: 1rem;
-  padding-left: 40px;
+    position: absolute;
+    bottom: 0rem;
+    /* left: 40px; */
+    padding-top: 1rem;
+    box-shadow: inset 29px -106px 49px -28px rgb(14 13 13 / 81%);
+    padding-bottom: 1rem;
+    padding-left: 40px;
 }
 /* 
 .mask-div .popular-bignew p:hover {
@@ -206,14 +214,14 @@ transition: all .5s ease-in-out;
 }
 
 .popular-secnew {
-  position: absolute;
-  bottom: 0rem;
-  /* left: 20px; */
-  width: 100%;
-  padding-top: 4rem;
-  box-shadow: inset 10px -123px 81px -28px rgb(14 13 13 / 81%);
-  padding-bottom: 1rem;
-  padding-left: 30px;
+    position: absolute;
+    bottom: 0rem;
+    /* left: 20px; */
+    width: 100%;
+    padding-top: 1rem;
+    box-shadow: inset 5px -134px 56px -77px rgb(14 13 13 / 81%);
+    padding-bottom: 1rem;
+    padding-left: 30px;
 }
 .popularsec-bg {
   width: 100%;
@@ -273,14 +281,14 @@ transform: perspective(1000px) translateZ(150px);
   color: var(--health-bg);
 } */
 .popular-thirdnew {
-  position: absolute;
-  bottom: 0rem;
-  /* left: 20px; */
-  width: 100%;
-  padding-top: 3rem;
-  box-shadow: inset 2px -48px 24px 13px rgb(14 13 13 / 81%);
-  padding-bottom: 1rem;
-  padding-left: 30px;
+    position: absolute;
+    bottom: 0rem;
+    /* left: 20px; */
+    width: 100%;
+    padding-top: 1rem;
+    box-shadow: inset 2px -48px 22px 0px rgb(14 13 13 / 81%);
+    padding-bottom: 1rem;
+    padding-left: 30px;
 }
 .popular-thirdnew p {
   color: white;
@@ -292,14 +300,14 @@ transform: perspective(1000px) translateZ(150px);
   color: var(--health-bg);
 } */
 .popular-fouthnew {
-  position: absolute;
-  bottom: 0rem;
-  /* left: 20px; */
-  width: 100%;
-  padding-top: 3rem;
-  box-shadow: inset -3px -44px 26px 12px rgb(14 13 13 / 81%);
-  padding-bottom: 1rem;
-  padding-left: 30px;
+    position: absolute;
+    bottom: 0rem;
+    /* left: 20px; */
+    width: 100%;
+    padding-top: 1rem;
+    box-shadow: inset -3px -44px 18px 4px rgb(14 13 13 / 81%);
+    padding-bottom: 1rem;
+    padding-left: 30px;
 }
 .popular-fouthnew p {
   color: white;
@@ -336,12 +344,18 @@ transform: perspective(1000px) translateZ(150px);
 
 .secGridfistphoto:hover .popular-secnew p {
   color: var(--travel-bg);
+     transition: all .3s ease-in-out;
+
 }
 .secGrid2ndphoto:hover .popular-thirdnew p{
   color: var(--beauty-bg);
+       transition: all .3s ease-in-out;
+
 }
 .secondGrid3rdphoto:hover .popular-fouthnew p{
   color: var(--history-bg);
+       transition: all .3s ease-in-out;
+
 }
 .SecondDiv .secGridfistphoto {
   position: relative;

@@ -2,6 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import Latestbar from "../../components/catepagerightbar/Latestbar";
 import Detailbanner from "../../components/detailpagecompo/Detailbanner";
+import DetailMustRead from "../../components/detailpagecompo/DetailMustRead";
 import Footer from "../../components/footer/Footer";
 import LiteraturePopular from "../../components/literature/LiteraturePopular";
 import "./detailpage.css";
@@ -20,6 +21,9 @@ export default function DetailPage() {
           <Latestbar />
         </div>
       </section>
+      <div className="container">
+        <DetailMustRead />
+      </div>
       <Footer />
     </>
   );

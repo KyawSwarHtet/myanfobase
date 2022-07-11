@@ -19,6 +19,12 @@
   font-weight: 700;
   text-transform: uppercase;
 }
+.technology{
+padding-top: 3rem;}
+
+ol, ul {
+    padding-left: 0rem;
+}
 
 .tec {
   /* position: relative; */
@@ -133,6 +139,7 @@
   color: white;
   margin-top: 0.5rem;
 }
+
 /* .robotpara h4:hover {
   color: #262e67;
 } */
@@ -197,4 +204,6 @@
 .secphoto:hover .robotpara h4.technoloColor,
 .secair:hover .airbudpara h4.technoloColor {
   color: var(--technology-bg);
+     transition: all .3s ease-in-out;
+
 }
