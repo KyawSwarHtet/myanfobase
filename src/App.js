@@ -5,6 +5,7 @@ import Header from "./components/header/Header";
 import Beauty from "./pages/beauty/Beauty";
 import Business from "./pages/business/Business";
 import Education from "./pages/education/Education";
+import University from "./pages/education/University";
 import Govenment from "./pages/government/Govenment";
 import Law from "./pages/government/Law";
 import Leader from "./pages/government/Leader";
@@ -86,6 +87,7 @@ function App() {
         <Route path="/business" element={<Business />} />
 
         <Route path="/education" element={<Education />} />
+        <Route path="/university" element={<University />} />
 
         <Route path="/science" element={<SciencePage />} />
         <Route path="/astronomy" element={<AstronomyPage />} />
