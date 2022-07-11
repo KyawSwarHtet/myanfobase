@@ -3,12 +3,9 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Header from "./components/header/Header";
 import Beauty from "./pages/beauty/Beauty";
-<<<<<<< HEAD
 import Entertainment from "./pages/entertainment/Entertainment";
-=======
 import Business from "./pages/business/Business";
 import Education from "./pages/education/Education";
->>>>>>> f60300353c8f6ec4e354b57347c9d6fed0bd6302
 import Govenment from "./pages/government/Govenment";
 import Law from "./pages/government/Law";
 import Leader from "./pages/government/Leader";
@@ -51,13 +48,14 @@ import Mountain from "./pages/travelling/Mountain";
 import Pagoda from "./pages/travelling/Pagoda";
 import Travel from "./pages/travelling/Travel";
 import Waterfall from "./pages/travelling/Waterfall";
+import Technology from "./components/technology/Technology";
 function App() {
   return (
     <div className="App">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/technology" element={<Tecnology />} />
+        
         <Route path="/travel" element={<Travel />} />
         <Route path="/beauty" element={<Beauty />} />
         <Route path="/entertainment" element={<Entertainment />} />
