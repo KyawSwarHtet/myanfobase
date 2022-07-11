@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Paginate from "./Paginate";
 import "./tecmain.css";
 export default function Tecmain() {
@@ -10,7 +11,9 @@ export default function Tecmain() {
             <p className="Catebutton cateTechnology">Technology</p>
           </div>
           <div className="postCate_info">
-            <h4>18 Top Fall Fashion Trends from New York Fashion</h4>
+            <Link to="/detail/1">
+              <h4>18 Top Fall Fashion Trends from New York Fashion</h4>
+            </Link>
             <p>
               All of the Best Looks From New York Fashion Week Fall/Winter
               2021.…

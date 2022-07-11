@@ -17,6 +17,8 @@ import Koreanpage from "./pages/entertainment/Koreanpage";
 import Moviepage from "./pages/entertainment/Moviepage";
 import Music from "./pages/entertainment/Music";
 import Myanmar from "./pages/entertainment/Myanmar";
+import Entertainment from "./pages/entertainment/Entertainment";
+import DetailPage from "./pages/detailpage/DetailPage";
 import Business from "./pages/business/Business";
 import Education from "./pages/education/Education";
 import Govenment from "./pages/government/Govenment";
@@ -40,6 +42,7 @@ import NovelPage from "./pages/literature/NovelPage";
 import PoetryPage from "./pages/literature/PoetryPage";
 import RomancePage from "./pages/literature/RomancePage";
 import ShortstoryPage from "./pages/literature/ShortstoryPage";
+import PostformPage from "./pages/post/PostformPage";
 import AstronomyPage from "./pages/science/AstronomyPage";
 import BilologyPage from "./pages/science/BilologyPage";
 import ChemistryPage from "./pages/science/ChemistryPage";
@@ -151,6 +154,10 @@ function App() {
         <Route path="/novel" element={<NovelPage />} />
         <Route path="/shortstory" element={<ShortstoryPage />} />
         <Route path="/romance" element={<RomancePage />} />
+
+        <Route path="/post" element={<PostformPage />} />
+
+        <Route path="/detail/:id" element={<DetailPage />} />
       </Routes>
     </div>
   );
