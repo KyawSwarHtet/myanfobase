@@ -52,6 +52,7 @@ export default function Artssheader() {
             Modern technology has become a total phenomenon for civilization,
             the defining force of a new social order in which efficiency is no
             longer an option but a necessity imposed on all human activity.
+            tttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt
           </p>
         </div>
       </section>
