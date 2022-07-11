@@ -5,3 +5,9 @@
 .travel {
   padding-top: 6rem;
 }
+.travel-main h1 {
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
