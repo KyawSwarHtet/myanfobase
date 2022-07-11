@@ -17,7 +17,6 @@ import Koreanpage from "./pages/entertainment/Koreanpage";
 import Moviepage from "./pages/entertainment/Moviepage";
 import Music from "./pages/entertainment/Music";
 import Myanmar from "./pages/entertainment/Myanmar";
-import Entertainment from "./pages/entertainment/Entertainment";
 import DetailPage from "./pages/detailpage/DetailPage";
 import Business from "./pages/business/Business";
 import Education from "./pages/education/Education";
