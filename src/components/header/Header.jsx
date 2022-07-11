@@ -19,13 +19,13 @@ export default function Header() {
           <li>
             <Link to="/" className="flex hoverclor">
               <i class="uil uil-home"></i>
-              <span>Home</span>
+              <span className="capitalize">Home</span>
             </Link>
           </li>
           <li>
             <Link to="/search" className="flex hoverclor">
               <i class="uil uil-search"></i>
-              <span>Search</span>
+              <span className="capitalize">Search</span>
             </Link>
           </li>
           <li
@@ -35,14 +35,14 @@ export default function Header() {
           >
             <div className="flex hoverclor">
               <i class="uil uil-list-ul"></i>
-              <span>Menu</span>
+              <span className="capitalize">Menu</span>
             </div>
             {dropdown && <Dropdown className="dropdownWrap" />}
           </li>
           <li>
-            <Link to="new" className="flex hoverclor">
+            <Link to="/post" className="flex hoverclor">
               <i class="uil uil-plus-circle"></i>
-              <span>New</span>
+              <span className="capitalize">Post</span>
             </Link>
           </li>
         </ul>
@@ -60,7 +60,7 @@ export default function Header() {
           <li>
             <Link to="/signup" className="login">
               <i class="uil uil-user loginicon"></i>
-              <span>Login</span>
+              <span className="capitalize">Login</span>
             </Link>
           </li>
         </ul>
