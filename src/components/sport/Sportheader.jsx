@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function Entermentheader() {
+export default function Sportheader() {
   return (
     <>
       <section className="container travel">
@@ -24,32 +24,26 @@ export default function Entermentheader() {
           <Link to="/Home">Home</Link>
         </li>
       </ul> */}
-          <h4>Entertainment</h4>
+          <h4>Sport</h4>
         </div>
         <div className="sectop">
-          <h1>ENTERTAINMENT</h1>
+          <h1>Sport</h1>
         </div>
         <div className="Catabutton">
-          <Link to="/korean">
-            <button className="tec">korean</button>
+          <Link to="/football">
+            <button className="tec">football</button>
           </Link>
-          <Link to="/movie">
-            <button className="tec">movie</button>
+          <Link to="/boxing">
+            <button className="tec">boxing</button>
           </Link>
-          <Link to="/cartoon">
-            <button className="tec">cartoon</button>
+          <Link to="/chess">
+            <button className="tec">chess</button>
           </Link>
-          <Link to="/cinema">
-            <button className="tec">cinema</button>
+          <Link to="/cane">
+            <button className="tec">cane ball</button>
           </Link>
-          <Link to="/music">
-            <button className="tec">music</button>
-          </Link>
-          <Link to="/asian">
-            <button className="tec">asian</button>
-          </Link>
-          <Link to="/myanmar">
-            <button className="tec">myanmar</button>
+          <Link to="/gamming">
+            <button className="tec">gamming</button>
           </Link>
         </div>
         <div className="para">
@@ -63,3 +57,6 @@ export default function Entermentheader() {
     </>
   );
 }
+
+
+

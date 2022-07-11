@@ -2,8 +2,21 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Header from "./components/header/Header";
+import Animepage from "./pages/art/Animepage";
+import Art from "./pages/art/Art";
+import Doodlepage from "./pages/art/Doodlepage";
+import Painting from "./pages/art/Painting";
+import Sketchespage from "./pages/art/Sketchespage";
+import Surreatpage from "./pages/art/Surreatpage";
 import Beauty from "./pages/beauty/Beauty";
+import Asianpage from "./pages/entertainment/Asianpage";
+import Cartoonpage from "./pages/entertainment/Cartoonpage";
+import Cinemapage from "./pages/entertainment/Cinemapage";
 import Entertainment from "./pages/entertainment/Entertainment";
+import Koreanpage from "./pages/entertainment/Koreanpage";
+import Moviepage from "./pages/entertainment/Moviepage";
+import Music from "./pages/entertainment/Music";
+import Myanmar from "./pages/entertainment/Myanmar";
 import Govenment from "./pages/government/Govenment";
 import History from "./pages/history/History";
 import Home from "./pages/home/Home";
@@ -23,6 +36,12 @@ import MammalsPage from "./pages/science/MammalsPage";
 import PhysicsPage from "./pages/science/PhysicsPage";
 import PlantsPage from "./pages/science/PlantsPage";
 import SciencePage from "./pages/science/SciencePage";
+import Boxingpage from "./pages/sport/Boxingpage";
+import Caneballpage from "./pages/sport/Caneballpage";
+import Chesspage from "./pages/sport/Chesspage";
+import Footballpage from "./pages/sport/Footballpage";
+import Gammingpage from "./pages/sport/Gammingpage";
+import Sport from "./pages/sport/Sport";
 import ComputerPage from "./pages/tecnology/ComputerPage";
 import ElectronicPage from "./pages/tecnology/ElectronicPage";
 import InnovationPage from "./pages/tecnology/InnovationPage";
@@ -42,11 +61,25 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/technology" element={<Tecnology />} />
+        <Route path="/technology" element={<TecnologyPages />} />
         <Route path="/travel" element={<Travel />} />
         <Route path="/beauty" element={<Beauty />} />
         <Route path="/entertainment" element={<Entertainment />} />
         <Route path="/technology" element={<TecnologyPages />} />
+
+        <Route path="/Sports" element={<Sport />} />
+        <Route path="/football" element={<Footballpage />} />
+        <Route path="/boxing" element={<Boxingpage />} />
+        <Route path="/chess" element={<Chesspage />} />
+        <Route path="/cane" element={<Caneballpage />} />
+        <Route path="/gamming" element={<Gammingpage/>}/>
+
+        <Route path="/arts" element={<Art />} />
+        <Route path="/anime" element={<Animepage />} />
+        <Route path="/sketches" element={<Sketchespage />} />
+        <Route path="/doodle" element={<Doodlepage />} />
+        <Route path="/surreat" element={<Surreatpage />} />
+        <Route path="/painting" element={<Painting />} />
 
         <Route path="/travel" element={<Travel />} />
         <Route path="/pagoda" element={<Pagoda />} />
@@ -59,6 +92,14 @@ function App() {
         <Route path="/innovation" element={<InnovationPage />} />
         <Route path="/smartphone" element={<SmartphonePage />} />
         <Route path="/software" element={<SoftwarePage />} />
+
+        <Route path="/korean" element={<Koreanpage />} />
+        <Route path="/movie" element={<Moviepage />} />
+        <Route path="/cartoon" element={<Cartoonpage />} />
+        <Route path="/cinema" element={<Cinemapage />} />
+        <Route path="/music" element={<Music />} />
+        <Route path="/asian" element={<Asianpage />} />
+        <Route path="/myanmar" element={<Myanmar />} />
 
         <Route path="/beauty" element={<Beauty />} />
         <Route path="/govenment" element={<Govenment />} />

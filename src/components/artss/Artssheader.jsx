@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function Entermentheader() {
+export default function Artssheader() {
   return (
     <>
       <section className="container travel">
@@ -24,33 +24,28 @@ export default function Entermentheader() {
           <Link to="/Home">Home</Link>
         </li>
       </ul> */}
-          <h4>Entertainment</h4>
+          <h4>Art</h4>
         </div>
         <div className="sectop">
-          <h1>ENTERTAINMENT</h1>
+          <h1>Art</h1>
         </div>
         <div className="Catabutton">
-          <Link to="/korean">
-            <button className="tec">korean</button>
+          <Link to="/anime">
+            <button className="tec">anime art</button>
           </Link>
-          <Link to="/movie">
-            <button className="tec">movie</button>
+          <Link to="/sketches">
+            <button className="tec">art sketches</button>
           </Link>
-          <Link to="/cartoon">
-            <button className="tec">cartoon</button>
+          <Link to="/doodle">
+            <button className="tec">doodle art</button>
           </Link>
-          <Link to="/cinema">
-            <button className="tec">cinema</button>
+          <Link to="/surreat">
+            <button className="tec">surreat art</button>
           </Link>
-          <Link to="/music">
-            <button className="tec">music</button>
+          <Link to="/painting">
+            <button className="tec">painting</button>
           </Link>
-          <Link to="/asian">
-            <button className="tec">asian</button>
-          </Link>
-          <Link to="/myanmar">
-            <button className="tec">myanmar</button>
-          </Link>
+          
         </div>
         <div className="para">
           <p>
