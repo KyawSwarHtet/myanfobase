@@ -6,7 +6,7 @@ export default function Univerbenner() {
       <section className="catebannerImg container">
         <div className="leftBanner">
           <div className="catebanner1">
-            <img src="./images/university/uni1.jpg" alt="" />
+            <img src="./images/education/university/uni1.jpg" alt="" />
           </div>
           <article className="bannerPara">
             <button className="cateTravel ">Travel</button>
@@ -20,7 +20,7 @@ export default function Univerbenner() {
         </div>
         <div className="rightBanner">
           <div className="catebanner2">
-            <img src="./images/university/uni2.jpg" alt="" />
+            <img src="./images/education/university/uni2.jpg" alt="" />
           </div>
           <article className="bannerPara">
             <button className="cateTravel ">Travel</button>
