@@ -17,7 +17,6 @@ export default function LatestArticle() {
             <h4>Where does it come from effective from Exercise ?</h4>
             <div className="lastnewbuttondate">
               <span className="Technology2 cateTechnology">Technology</span>
-              <h5>32.4.2021</h5>
             </div>
           </div>
         </div>
