@@ -19,6 +19,7 @@
   --government-bg: rgb(159 65 136);
   --science-bg: rgb(29 210 221 / 78%);
   --travel-bg: rgb(116, 104, 213);
+  --business-bg: rgb(225, 76, 76);
   --sports-bg: rgb(36, 9, 9, 0.94);
   --arts-bg: rgb(12, 47, 105);
   --literature-bg: rgb(131 106 55);
@@ -124,6 +125,14 @@ h5 {
 }
 .cateTravel {
   background-color: var(--travel-bg);
+  font-weight: 500;
+  color: white;
+  padding: 1px 8px;
+  font-size: 0.9rem;
+  text-transform: capitalize;
+}
+.cateBusiness {
+  background-color: var(--business-bg);
   font-weight: 500;
   color: white;
   padding: 1px 8px;
