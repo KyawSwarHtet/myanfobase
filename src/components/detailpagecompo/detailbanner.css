@@ -9,6 +9,7 @@
 }
 .bannerSection {
   width: 90%;
+  max-width: 1600px;
 }
 .firstLetter::first-letter {
   font-size: 5em;
@@ -27,8 +28,9 @@
   gap: 2%;
 }
 .detailcontainer {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
+  max-width: 1600px;
 }
 .paragraph2 {
   margin-top: 1rem;

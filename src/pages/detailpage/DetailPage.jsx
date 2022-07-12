@@ -22,7 +22,7 @@ export default function DetailPage() {
       <section className="container detailbody">
         <Detailbanner detailid={detailid} />
 
-        <div className="allRightBar">
+        <div className="allRightBar detailcontainer">
           <RelatedA />
           <Latestpho />
           <Latestdetail />

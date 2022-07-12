@@ -3,7 +3,7 @@ import "./detailbanner.css";
 
 export default function Detailbanner({ detailid }) {
   return (
-    <section className="bannerSection detailcontainer">
+    <div className="bannerSection detailcontainer ">
       {/* <h1>This is the detalil page {detailid.id}</h1> */}
       <div className="detailbannerimg">
         <img src="../images/technology/techhyperx.jpg" />
@@ -138,6 +138,6 @@ export default function Detailbanner({ detailid }) {
           </p>
         </div>
       </div>
-    </section>
+    </div>
   );
 }

@@ -19,15 +19,16 @@ export default function Detailhead() {
         <div className="iconRightArrow">
           <i className="uil uil-angle-right-b"></i>
         </div>
-
-        <h4>Technology</h4>
+        <Link to="/technology" className="link1">
+          <h4>Technology</h4>
+        </Link>
       </div>
       <div>
-        <button className="cateTechnology">Technology</button>
+        <button className="cateTechnology detailcategory">Technology</button>
         <h1>How My Phone’s Most Annoying Feature Saved My Life</h1>
       </div>
       <div className="para">
-        <p>
+        <p className="detailpara">
           Modern technology has become a total phenomenon for civilization, the
           defining force of a new social order in which efficiency is no longer
           an option but a necessity imposed on all human activity.
