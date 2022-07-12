@@ -1,34 +1,21 @@
 import React from "react";
-import "./latestbar.css";
 
-export default function LatestArticle() {
+export default function RelatedA() {
   return (
-    <div className="lastArt">
+    <div>
       <div className="lastnewbar-title">
-        <h2>Latest Articles</h2>
-        <span className="lasttitleline"></span>
+        <h2 className="capitalize">Most Popular Technology News</h2>
+        <span className="lasttitleline travel-line"></span>
       </div>
       <div className="lastnewbar-body sidebar1">
         <div className="article-lastest">
           <div className="lastnewimg">
-            <img src="./images/technology/robothand.jpg" alt="" />
+            <img src="../images/science/scienceinfo3.jpg" alt="" />
           </div>
           <div className="lastnewinfo">
             <h4>Where does it come from effective from Exercise ?</h4>
             <div className="lastnewbuttondate">
-              <span className="Technology2 cateTechnology">Technology</span>
-            </div>
-          </div>
-        </div>
-
-        <div className="article-lastest">
-          <div className="lastnewimg">
-            <img src="./images/technology/smarttech.jpg" alt="" />
-          </div>
-          <div className="lastnewinfo">
-            <h4>Where does it come from effective from Exercise ?</h4>
-            <div className="lastnewbuttondate">
-              <span className="Technology2 cateScience">Science</span>
+              <span className="Catebutton2 cateTechnology">Technology</span>
               <h5>32.4.2021</h5>
             </div>
           </div>
@@ -36,14 +23,12 @@ export default function LatestArticle() {
 
         <div className="article-lastest">
           <div className="lastnewimg">
-            <img src="./images/technology/techvideoimg.png" alt="" />
+            <img src="../images/science/scienceinfo1.jpg" alt="" />
           </div>
           <div className="lastnewinfo">
             <h4>Where does it come from effective from Exercise ?</h4>
             <div className="lastnewbuttondate">
-              <span className="Technology2 cateEntertainment">
-                entertainment
-              </span>
+              <span className="Catebutton2 cateTechnology">Technology</span>
               <h5>32.4.2021</h5>
             </div>
           </div>
@@ -51,12 +36,12 @@ export default function LatestArticle() {
 
         <div className="article-lastest">
           <div className="lastnewimg">
-            <img src="./images/technology/techcamera.jpg" alt="" />
+            <img src="../images/technology/techvideoimg.png" alt="" />
           </div>
           <div className="lastnewinfo">
             <h4>Where does it come from effective from Exercise ?</h4>
             <div className="lastnewbuttondate">
-              <span className="Technology2 cateBeauty">beauty</span>
+              <span className="Catebutton2 cateTechnology">Technology</span>
               <h5>32.4.2021</h5>
             </div>
           </div>
@@ -64,12 +49,24 @@ export default function LatestArticle() {
 
         <div className="article-lastest">
           <div className="lastnewimg">
-            <img src="./images/technology/samsung.jpg" alt="" />
+            <img src="../images/science/scienceinfo4.jpg" alt="" />
           </div>
           <div className="lastnewinfo">
             <h4>Where does it come from effective from Exercise ?</h4>
             <div className="lastnewbuttondate">
-              <span className="Technology2 cateHistory">history</span>
+              <span className="Catebutton2 cateTechnology">Technology</span>
+              <h5>32.4.2021</h5>
+            </div>
+          </div>
+        </div>
+        <div className="article-lastest">
+          <div className="lastnewimg">
+            <img src="../images/science/scienceinfo1.jpg" alt="" />
+          </div>
+          <div className="lastnewinfo">
+            <h4>Where does it come from effective from Exercise ?</h4>
+            <div className="lastnewbuttondate">
+              <span className="Catebutton2 cateTechnology">Technology</span>
               <h5>32.4.2021</h5>
             </div>
           </div>
@@ -77,51 +74,60 @@ export default function LatestArticle() {
 
         <div className="article-lastest">
           <div className="lastnewimg">
-            <img src="./images/technology/computer3.jpg" alt="" />
+            <img src="../images/science/scienceinfo5.jpg" alt="" />
           </div>
           <div className="lastnewinfo">
             <h4>Where does it come from effective from Exercise ?</h4>
             <div className="lastnewbuttondate">
-              <span className="Technology2 cateTravel">Travel</span>
+              <span className="Catebutton2 cateTechnology">Technology</span>
               <h5>32.4.2021</h5>
             </div>
           </div>
         </div>
-
         <div className="article-lastest">
           <div className="lastnewimg">
-            <img src="./images/technology/newspaperad.jpg" alt="" />
+            <img src="../images/science/scienceinfo1.jpg" alt="" />
           </div>
           <div className="lastnewinfo">
             <h4>Where does it come from effective from Exercise ?</h4>
             <div className="lastnewbuttondate">
-              <span className="Technology2 cateGovernment">Government</span>
+              <span className="Catebutton2 cateTechnology">Technology</span>
               <h5>32.4.2021</h5>
             </div>
           </div>
         </div>
-
         <div className="article-lastest">
           <div className="lastnewimg">
-            <img src="./images/technology/robothand.jpg" alt="" />
+            <img src="../images/science/scienceinfo1.jpg" alt="" />
           </div>
           <div className="lastnewinfo">
             <h4>Where does it come from effective from Exercise ?</h4>
             <div className="lastnewbuttondate">
-              <span className="Technology2 cateHealth">Heal</span>
+              <span className="Catebutton2 cateTechnology">Technology</span>
               <h5>32.4.2021</h5>
             </div>
           </div>
         </div>
-
         <div className="article-lastest">
           <div className="lastnewimg">
-            <img src="./images/technology/phone2.jpg" alt="" />
+            <img src="../images/science/scienceinfo1.jpg" alt="" />
           </div>
           <div className="lastnewinfo">
             <h4>Where does it come from effective from Exercise ?</h4>
             <div className="lastnewbuttondate">
-              <span className="Technology2 cateLiterature">literature</span>
+              <span className="Catebutton2 cateTechnology">Technology</span>
+              <h5>32.4.2021</h5>
+            </div>
+          </div>
+        </div>
+        <div className="article-lastest">
+          <div className="lastnewimg">
+            <img src="../images/science/scienceinfo1.jpg" alt="" />
+          </div>
+          <div className="lastnewinfo">
+            <h4>Where does it come from effective from Exercise ?</h4>
+            <div className="lastnewbuttondate">
+              <span className="Catebutton2 cateTechnology">Technology</span>
               <h5>32.4.2021</h5>
             </div>
           </div>
@@ -130,3 +136,4 @@ export default function LatestArticle() {
     </div>
   );
 }
+
