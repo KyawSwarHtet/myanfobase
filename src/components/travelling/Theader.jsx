@@ -19,7 +19,7 @@ const Theader = () => {
         <div className="travel-main">
           <h1>Travel</h1>
         </div>
-        <div className="button">
+        <div className="Catabutton">
           <Link to="/pagoda">
             <button className="tec">Pagoda</button>
           </Link>
