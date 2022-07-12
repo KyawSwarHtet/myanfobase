@@ -4,10 +4,10 @@ img {
   display: block;
   object-fit: cover;
 }
-.container {
+/* .container {
   width: var(--container-width-lg);
   margin: 0 auto;
-}
+} */
 
 .classTop {
   display: grid;
@@ -27,6 +27,9 @@ img {
 .homeclass1 h4,
 .homeclass2 h4 {
   margin-top: 0.5rem;
+}
+.homeclass2 h4{
+  margin-top: .5rem;
 }
 /* .classTop h2:hover {
   color: #00a79d;

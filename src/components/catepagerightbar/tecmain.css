@@ -21,6 +21,9 @@
 .postCate_info h4 {
   margin-bottom: 0;
 }
+.postCate_info h4:hover{
+  color: var(--technology-bg);
+}
 .postCate_info p {
   margin-bottom: 0;
 }
