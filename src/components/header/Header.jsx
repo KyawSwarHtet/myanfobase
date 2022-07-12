@@ -58,7 +58,7 @@ export default function Header() {
             <Language label="choose an language" />
           </li>
           <li>
-            <Link to="/signup" className="login">
+            <Link to="/login" className="login">
               <i class="uil uil-user loginicon"></i>
               <span className="capitalize">Login</span>
             </Link>
