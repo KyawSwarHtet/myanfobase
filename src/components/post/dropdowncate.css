@@ -1,8 +1,14 @@
 .dropdown {
-  width: 400px;
+  width: 80%;
   margin: 100px auto;
+  margin-bottom: 50px;
   user-select: none;
   position: relative;
+}
+.cateflex {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  /* gap: 2rem; */
 }
 .dropdown .dropdown-btn {
   padding: 10px;
@@ -13,18 +19,19 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-radius: 5px;
 }
 
 .dropdown .dropdown-content {
   position: absolute;
   top: 110%;
-  left: 0;
+  /* left: 0; */
   padding: 10px;
   background: #fff;
   box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
   font-weight: 500;
   color: black;
-  width: 100%;
+  width: 70%;
 }
 
 .dropdown .dropdown-content .dropdown-item {
@@ -34,4 +41,8 @@
 }
 .dropdown .dropdown-content .dropdown-item:hover {
   background-color: #f1ecec;
+}
+
+.catechoose {
+  width: fit-content;
 }
