@@ -24,7 +24,16 @@ export default function Postform() {
         <DropdownCate selected={selected} setSelected={setSelected} />
         <div className="formDiv">
           <form className="postForm">
-            <textarea placeholder="Type title here..."></textarea>
+            <textarea
+              className="titleArea"
+              placeholder="Type title here..."
+            ></textarea>
+
+            <textarea
+              className="descArea"
+              placeholder="Description here..."
+              required
+            ></textarea>
           </form>
         </div>
       </div>

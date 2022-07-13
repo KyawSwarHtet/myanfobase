@@ -7,3 +7,29 @@
   margin: auto;
   background-color: aqua;
 }
+.postForm {
+  padding: 2rem 0;
+}
+.postForm .titleArea {
+  width: 80%;
+  height: 59px;
+  display: block;
+  margin: auto;
+  padding: 1rem;
+  border-radius: 5px;
+  outline: none;
+  resize: none;
+  font-size: 16px;
+  border-color: #bfbfbf;
+  margin-top: 20px;
+}
+
+textarea:is(:focus, :valid) {
+  border-width: 2px;
+  border-color: #4671ea;
+  padding: 14px;
+}
+
+textarea::-webkit-scrollbar {
+  width: 0px;
+}
